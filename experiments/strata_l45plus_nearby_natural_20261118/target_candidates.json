@@ -1,0 +1,160 @@
+{
+  "source": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45plus_nearby_natural_20261118/all_layer_target_map.json",
+  "coverage": {
+    "shared_matrices_exact_svd": 48,
+    "routers": 48,
+    "routed_experts_sampled": 192,
+    "total_routed_experts": 24576,
+    "sampled_expert_ids": [
+      0,
+      127,
+      255,
+      511
+    ],
+    "live_activations": false,
+    "attention_and_state_space_weights": false
+  },
+  "layer_numbering": "zero-based 0..47",
+  "ranked_shared_targets": [
+    {
+      "priority": 1,
+      "layer": 46,
+      "tensor": "blk.46.ffn_down_shexp.weight",
+      "reason": "Strongest recurrence of the removed layer45 direction across all shared matrices; cumulative candidate already prepared.",
+      "leading_mode_energy_pct": 2.3762523318913065,
+      "removed_l45_energy_pct": 1.146059036309603,
+      "leading_mode_l45_abs_cosine": 0.6159018238844745,
+      "l45_top4_subspace_squared_overlap": 0.518388123186905,
+      "state": "prepared_not_deployed_at_list_creation"
+    },
+    {
+      "priority": 2,
+      "layer": 44,
+      "tensor": "blk.44.ffn_down_shexp.weight",
+      "reason": "Second-highest energy along removed layer45 direction; overlap spans several leading modes, making a direction-aligned edit a distinct candidate from deleting only its top singular mode.",
+      "leading_mode_energy_pct": 2.889901117257682,
+      "removed_l45_energy_pct": 1.0374795533690753,
+      "leading_mode_l45_abs_cosine": 0.22646987016591055,
+      "l45_top4_subspace_squared_overlap": 0.5462270946309129,
+      "state": "candidate_only"
+    },
+    {
+      "priority": 3,
+      "layer": 43,
+      "tensor": "blk.43.ffn_down_shexp.weight",
+      "reason": "Next highest shared-matrix energy along the removed direction, with leading-mode cosine 0.464.",
+      "leading_mode_energy_pct": 1.5922231753469296,
+      "removed_l45_energy_pct": 0.47529067670684505,
+      "leading_mode_l45_abs_cosine": 0.4635968655627367,
+      "l45_top4_subspace_squared_overlap": 0.24596092320607438,
+      "state": "candidate_only"
+    },
+    {
+      "priority": 4,
+      "layer": 41,
+      "tensor": "blk.41.ffn_down_shexp.weight",
+      "reason": "Strong late leading mode and measurable recurrence, weaker match than layers46/44/43.",
+      "leading_mode_energy_pct": 2.3065127810338675,
+      "removed_l45_energy_pct": 0.27622857736052137,
+      "leading_mode_l45_abs_cosine": 0.136916656942553,
+      "l45_top4_subspace_squared_overlap": 0.1306225235468076,
+      "state": "candidate_only"
+    },
+    {
+      "priority": 5,
+      "layer": 42,
+      "tensor": "blk.42.ffn_down_shexp.weight",
+      "reason": "Additional late recurrence; lower structural concentration and lower priority.",
+      "leading_mode_energy_pct": 1.336792930154048,
+      "removed_l45_energy_pct": 0.2294827888900799,
+      "leading_mode_l45_abs_cosine": 0.1923275117927693,
+      "l45_top4_subspace_squared_overlap": 0.08434056294505711,
+      "state": "candidate_only"
+    }
+  ],
+  "current_baseline_edit": {
+    "layer": 45,
+    "original_direction_energy_remaining": 2.8934965350698222e-08
+  },
+  "independent_structural_candidates": [
+    {
+      "layer": 31,
+      "tensor": "blk.31.ffn_down_shexp.weight",
+      "leading_mode_energy_pct": 1.9904422301221636,
+      "removed_l45_energy_pct": 0.0480054604587844,
+      "reason": "Independent structural-outlier comparison, not a strong recurrence of the layer45 direction."
+    },
+    {
+      "layer": 33,
+      "tensor": "blk.33.ffn_down_shexp.weight",
+      "leading_mode_energy_pct": 1.8539518388766618,
+      "removed_l45_energy_pct": 0.05019090350880018,
+      "reason": "Independent structural-outlier comparison, not a strong recurrence of the layer45 direction."
+    },
+    {
+      "layer": 28,
+      "tensor": "blk.28.ffn_down_shexp.weight",
+      "leading_mode_energy_pct": 1.8505751202825635,
+      "removed_l45_energy_pct": 0.04664767814528999,
+      "reason": "Independent structural-outlier comparison, not a strong recurrence of the layer45 direction."
+    },
+    {
+      "layer": 2,
+      "tensor": "blk.2.ffn_down_shexp.weight",
+      "leading_mode_energy_pct": 3.2278008702477488,
+      "removed_l45_energy_pct": 0.04861480499118972,
+      "reason": "Independent structural-outlier comparison, not a strong recurrence of the layer45 direction.",
+      "state": "restored original weights; prior full and partial edits preserved"
+    }
+  ],
+  "routed_followup": {
+    "layer": 46,
+    "expert": 127,
+    "reason": "Strongest sampled routed overlap; exact verification and routing usage still unmeasured. Investigate before making routed-expert edits."
+  },
+  "deprioritized": {
+    "layer": 47,
+    "reason": "Leading mode has only 0.006 absolute cosine to removed layer45 direction; depth alone does not make it a matching target."
+  },
+  "interpretation": "Numerical recurrence map and experimental priority list, not established locations of a causal looping signal.",
+  "layer2_quantization_check": {
+    "source": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45plus_nearby_natural_20261118/layer2_quant_check.json",
+    "q8_top_energy_pct": 3.227800870247749,
+    "iq4_nl_top_energy_pct": 3.2130057331476545,
+    "direction_absolute_cosine": 0.9997064069744571,
+    "conclusion": "The same dominant mode exists in official BF16 weights; it was not created by this Q8 or IQ4 quantization.",
+    "official_bf16_source": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45plus_nearby_natural_20261118/upstream_layer2_comparison.json",
+    "bf16_leading_energy_pct": 3.227934217835787,
+    "q8_bf16_direction_cosine": 0.9999987362783221
+  },
+  "shortlist_scope": "Additional targets relative to the already edited layer45 baseline. Layer45 is part of the primary cluster and deliberately omitted from rankings for new edits.",
+  "primary_cluster_status": [
+    {
+      "layer": 44,
+      "status": "selected production and reboot default"
+    },
+    {
+      "layer": 45,
+      "status": "selected production and reboot default"
+    },
+    {
+      "layer": 46,
+      "status": "restored original weights"
+    }
+  ],
+  "live_model_manifest": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l44_l45_samedirection_20261118/candidate_manifest.json",
+  "layer2_upstream_origin_note": {
+    "source": "https://github.com/QwenLM/Qwen3.8-Flash-Next/blob/main/tech_report.pdf",
+    "finding": "Official report describes 125B MoE plus51B ngram parameters and pretraining. No support found in the report for the claimed quantization of a trillion-parameter model.",
+    "measured_limit": "Layer2 dominant mode occurs in original BF16 weights; upstream cause remains unlocalized."
+  },
+  "current_experiment": {
+    "applied_layers": [
+      44,
+      45
+    ],
+    "status": "experiments_stopped_by_user;44+45_live_and_reboot_default",
+    "deferred": "Further experimentation next week; no schedule created.",
+    "restoration_record": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l2a050_l44_l45_l46a025_20261118/restore_best.json"
+  }
+}

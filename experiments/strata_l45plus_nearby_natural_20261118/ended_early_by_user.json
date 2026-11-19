@@ -1,0 +1,58 @@
+{
+  "at": "2026-11-18T21:50:28.270951+00:00",
+  "stopped_client_pids": [
+    865433
+  ],
+  "finished_cases": [
+    "01",
+    "05",
+    "07",
+    "08"
+  ],
+  "current_math": {
+    "case": "05",
+    "id": "hle:6739e06f5a81384176dd28cd",
+    "subject": "Mathematics",
+    "seed": 20261118,
+    "gold_withheld": {
+      "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+      "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+      "canonical_json_bytes": 3
+    },
+    "predicted_withheld": {
+      "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+      "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+      "canonical_json_bytes": 3
+    },
+    "status": "correct",
+    "raw_answer_withheld": {
+      "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+      "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+      "canonical_json_bytes": 3
+    },
+    "completion_tokens": 35760,
+    "finish_reason": "stop",
+    "wall_s": 394.47940888500307,
+    "first_text_s": 0.7633172310306691,
+    "duplicate8_tail": 0.0,
+    "wait_count": 51,
+    "natural_completion": true,
+    "forced_wrap_marker": false
+  },
+  "next_model": "Layer44 plus Layer45, built from Layer45-only artifact, with Layer46 original weights restored.",
+  "interpretation": "Partial exploratory panel stopped by user; do not report six-case completion or fill unrun cases.",
+  "next_started_request_may_be_cancelled": "The runner can dispatch the next request before its result file is observed; any such stream is kept as an administrative interruption, not scored.",
+  "client_stop_lesson": {
+    "scope": "natural_panel.py client scheduling only",
+    "evidence": [
+      "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45plus_nearby_natural_20261118/edited.log",
+      "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45plus_nearby_natural_20261118/early_stop.log"
+    ],
+    "wound": "Two quick arithmetic requests finished after the intended last math request before the stop watcher was installed; the next economics request was administratively cancelled.",
+    "trap": "Stopping the parent sequencer did not stop its already running child benchmark; installing a later watcher left a dispatch window.",
+    "breaker": "The benchmark checks its existing output directory for STOP_AFTER_CURRENT before dispatching each request.",
+    "reflex": "Write the marker immediately on a request-boundary stop instruction; allow the active model reply to finish naturally, then dispatch nothing else.",
+    "verification": "CPU-only scheduler test requested stop after the first completed row and asserted no next inference was dispatched; passed.",
+    "status": "Locally verified for between-request dispatch. The marker does not cut off an active generation."
+  }
+}

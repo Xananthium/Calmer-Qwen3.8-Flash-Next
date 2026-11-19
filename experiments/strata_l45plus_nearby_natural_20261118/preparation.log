@@ -1,0 +1,61 @@
+{"stage": "tensor_prepared", "candidate": "l45-svd1-plus-l46-svd1-alpha1", "parent_manifest": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45_svd1_20261118/manifest.json", "source": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf", "target": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-l46-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-L46-SVD1-TQ2_0.gguf", "parent_sha256": "186e2460703e38bf190a590e4a6b1e58b0e1e36258af1c15b9e6ea8d86a1f5c2", "added_tensor": "blk.46.ffn_down_shexp.weight", "offset": 90729182784, "tensor_bytes": 1740800, "alpha": 1.0, "original_tensor_sha256": "4a0375c3811d552220aa2b55c3c5c5f741c96738fe0259be646404918d034749", "edited_tensor_sha256": "37ba76de3ed83e7bdfc3a08b4f5b5f216d963ff8d1a61ac4690cf539f523a80b", "formula": "W46_new = W46 - outer(u46, u46.T @ W46); u46 is exact leading left singular vector", "original_top_mode_energy_share": 0.023762523318913067, "relative_frobenius_change": 0.15426932751503708, "top_mode_fraction_remaining_after_q8": 0.0015019820980431266, "layer45_retained_sha256": "8974663dc1cda1ebbb63266bc82afc622f63ac3ab38d24a718dcea36539b0c38", "baseline_condition": "Existing layer45 edit, forced endings disabled for both arms", "baseline_config_name": "g4x-l45svd1-natural", "candidate_config": "/home/researcher/strata-122b/fn-iq3s/cfg-g4x-l45l46svd1-natural.json", "background_preparation_during_baseline": true, "timing_limit": "Copying may affect shared production latency; completion tokens and natural correctness are primary."}
+{"stage": "copying", "percent": 29.2}
+{"stage": "copying", "percent": 50.2}
+{"stage": "copying", "percent": 57.2}
+{"stage": "copying", "percent": 61.9}
+{"stage": "copying", "percent": 64.2}
+{"stage": "copying", "percent": 78.2}
+{"stage": "copying", "percent": 80.6}
+{"stage": "copying", "percent": 94.6}
+{"stage": "copying", "percent": 96.9}
+{"stage": "verifying_full_candidate", "copy_method": "copy_file_range"}
+{"stage": "verifying", "percent": 5.6}
+{"stage": "verifying", "percent": 11.3}
+{"stage": "verifying", "percent": 16.8}
+{"stage": "verifying", "percent": 22.3}
+{"stage": "verifying", "percent": 27.5}
+{"stage": "verifying", "percent": 33.2}
+{"stage": "verifying", "percent": 39.0}
+{"stage": "verifying", "percent": 44.8}
+{"stage": "verifying", "percent": 50.6}
+{"stage": "verifying", "percent": 56.5}
+{"stage": "verifying", "percent": 62.3}
+{"stage": "verifying", "percent": 68.2}
+{"stage": "verifying", "percent": 74.0}
+{"stage": "verifying", "percent": 79.5}
+{"stage": "verifying", "percent": 84.2}
+{"stage": "verifying", "percent": 90.0}
+{"stage": "verifying", "percent": 95.9}
+{
+  "candidate": "l45-svd1-plus-l46-svd1-alpha1",
+  "parent_manifest": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45_svd1_20261118/manifest.json",
+  "source": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf",
+  "target": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-l46-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-L46-SVD1-TQ2_0.gguf",
+  "parent_sha256": "186e2460703e38bf190a590e4a6b1e58b0e1e36258af1c15b9e6ea8d86a1f5c2",
+  "added_tensor": "blk.46.ffn_down_shexp.weight",
+  "offset": 90729182784,
+  "tensor_bytes": 1740800,
+  "alpha": 1.0,
+  "original_tensor_sha256": "4a0375c3811d552220aa2b55c3c5c5f741c96738fe0259be646404918d034749",
+  "edited_tensor_sha256": "37ba76de3ed83e7bdfc3a08b4f5b5f216d963ff8d1a61ac4690cf539f523a80b",
+  "formula": "W46_new = W46 - outer(u46, u46.T @ W46); u46 is exact leading left singular vector",
+  "original_top_mode_energy_share": 0.023762523318913067,
+  "relative_frobenius_change": 0.15426932751503708,
+  "top_mode_fraction_remaining_after_q8": 0.0015019820980431266,
+  "layer45_retained_sha256": "8974663dc1cda1ebbb63266bc82afc622f63ac3ab38d24a718dcea36539b0c38",
+  "baseline_condition": "Existing layer45 edit, forced endings disabled for both arms",
+  "baseline_config_name": "g4x-l45svd1-natural",
+  "candidate_config": "/home/researcher/strata-122b/fn-iq3s/cfg-g4x-l45l46svd1-natural.json",
+  "background_preparation_during_baseline": true,
+  "timing_limit": "Copying may affect shared production latency; completion tokens and natural correctness are primary.",
+  "candidate_sha256": "18ea5114fd7df6f995ac41d7992b761482c6d159164cd0c09a8a654545851efd",
+  "all_unchanged_bytes_verified_against_parent": true,
+  "header_and_tensor_layout_unchanged": true,
+  "preparation_seconds": 441.44694209098816,
+  "copy_method": "copy_file_range",
+  "status": "prepared_not_deployed",
+  "changed_model_references": [
+    "--native",
+"--ple-gguf"
+  ]
+}

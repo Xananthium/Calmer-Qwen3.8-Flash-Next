@@ -1,0 +1,78 @@
+{
+  "case": "07",
+  "id": "gsm8k_test:936",
+  "request_sha256": "6ba5ed91ecc7f45b031a45c48b0ef9ddad94963a48623161c89258a153c5a786",
+  "started_at": "2026-11-18T22:35:00.970751+00:00",
+  "content": "## Step-by-Step Solution\n\n**Calculate Cameron's total stay duration:**\n- Arrives: 5 pm\n- Leaves: 10 am next morning\n- Duration: 17 hours\n\n**Option 1: Pay for 24-hour stay**\n- Cost = **1600 pesos**\n\n**Option 2: Pay for 12-hour stay + additional hours**\n- First 12 hours: 1000 pesos\n- Additional hours needed: 17 − 12 = 5 hours\n- Additional cost: 5 × 70 = 350 pesos\n- Total cost: 1000 + 350 = **1350 pesos**\n\n**Calculate savings:**\n\n$$1600 - 1350 = 250 \\text{ pesos}$$\n\n$$\\boxed{250}$$",
+  "reasoning_content": "Let me work through this problem step by step.\n\nCameron arrives at 5 pm and wants to leave at 10 am the next morning.\n\nTime elapsed: 5 pm to 10 am next morning = 17 hours\n\nOption 1: 24-hour stay = 1600 pesos\n\nOption 2: 12-hour stay (1000 pesos) + additional hours after 12 hours at 70 pesos each\n\nTotal time needed: 17 hours\n- First 12 hours: 1000 pesos\n- Additional hours: 17 - 12 = 5 hours\n- Additional cost: 5 × 70 = 350 pesos\n- Total for option 2: 1000 + 350 = 1350 pesos\n\nMoney saved: 1600 - 1350 = 250 pesos\n\nLet me verify: Cameron arrives at 5 pm, leaves at 10 am next day. That's 17 hours (from 5pm to 5am = 12 hours, from 5am to 10am = 5 hours, total = 17 hours).\n\nOption 2: 1000 + 5(70) = 1000 + 350 = 1350 pesos\nOption 1: 1600 pesos\n\nSavings: 1600 - 1350 = 250 pesos\n",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 526,
+    "total_tokens": 669,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 143,
+    "prompt_ms": 888.2,
+    "prompt_per_token_ms": 6.211,
+    "prompt_per_second": 161.0,
+    "predicted_n": 526,
+    "predicted_ms": 3538.3,
+    "predicted_per_token_ms": 6.727,
+    "predicted_per_second": 148.7,
+    "draft_n": 460,
+    "draft_n_accepted": 341
+  },
+  "live_before": {
+    "state": "idle",
+    "queued": 0,
+    "phase": null,
+    "prompt_tokens": null,
+    "prompt_read": null,
+    "prompt_total": null,
+    "generated": null,
+    "max_tokens": null,
+    "elapsed_s": null,
+    "tok_s": null,
+    "tok_s_mean": null,
+    "prefill_tok_s_mean": null,
+    "tok_s_window_s": null,
+    "parallel": 4,
+    "running": 0,
+    "slots": [
+      {
+        "slot": 0,
+        "state": "idle",
+        "held_tokens": 71045
+      },
+      {
+        "slot": 1,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 2,
+        "state": "idle",
+        "held_tokens": 84938
+      },
+      {
+        "slot": 3,
+        "state": "idle",
+        "held_tokens": 0
+      }
+    ],
+    "outside_slots": 0,
+    "waiting": 0,
+    "admitting": 0
+  },
+  "http_status": 200,
+  "response_id": "chatcmpl-da946ad2535d4efdb10a1ab8",
+  "first_text_s": 0.9178498369874433,
+  "done_received": true,
+  "elapsed_s": 4.441811071999837,
+  "ended_at": "2026-11-18T22:35:05.412565+00:00"
+}

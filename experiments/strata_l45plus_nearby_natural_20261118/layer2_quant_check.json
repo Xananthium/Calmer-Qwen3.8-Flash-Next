@@ -1,0 +1,581 @@
+{
+  "at": "2026-11-18T21:38:38.089161+00:00",
+  "rows": [
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf",
+      "general_name": "Qwen3.8-Flash-Next Gyro-M",
+      "layer": 0,
+      "tensor": "blk.0.ffn_down_shexp.weight",
+      "dtype": "Q8_0",
+      "encoded_sha256": "fbceb852995394a22008c15d36f6ae0adaad88e26bf5a892120e271edd14d296",
+      "top4_energy_shares": [
+        0.014080513880007828,
+        0.010210606965852846,
+        0.008326308595453538,
+        0.006498331862079585
+      ],
+      "max_abs": 0.5314598083496094,
+      "rms": 0.009444053587344157,
+      "max_row_energy_share": 0.013184708895491306,
+      "max_column_energy_share": 0.002794636911436569,
+      "top_left_vector_max_coordinate_energy": 0.8942238502352607,
+      "q8_diagnostics": {
+        "block_count": 51200,
+        "zero_scales": 0,
+        "scale_percentiles": {
+          "0": 5.239248275756836e-05,
+          "50": 0.00016820430755615234,
+          "90": 0.00027680397033691406,
+          "99": 0.0006036758422851562,
+          "99.9": 0.001629867553711195,
+          "100": 0.004184722900390625
+        },
+        "quantized_extreme_fraction": 0.0315924072265625,
+        "negative128_fraction": 0.0,
+        "assumed_nearest_rounding_error_frobenius_bound": 0.012027134283152626,
+        "bound_assumptions": "Per-entry rounding error <= half stored scale, no clipping, excludes scale rounding and any preprocessing. Diagnostic assumption, not an observed error against source weights."
+      }
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf",
+      "general_name": "Qwen3.8-Flash-Next Gyro-M",
+      "layer": 1,
+      "tensor": "blk.1.ffn_down_shexp.weight",
+      "dtype": "Q8_0",
+      "encoded_sha256": "7fc6235fc67490beeed831e7718db5517619800a037d8deff418ddc605a3597e",
+      "top4_energy_shares": [
+        0.00936891524969529,
+        0.008268750181922658,
+        0.007215904173732356,
+        0.00687584284376105
+      ],
+      "max_abs": 0.38272857666015625,
+      "rms": 0.011939435372089573,
+      "max_row_energy_share": 0.002501384423734955,
+      "max_column_energy_share": 0.0029049161525236183,
+      "top_left_vector_max_coordinate_energy": 0.13476340938077258,
+      "q8_diagnostics": {
+        "block_count": 51200,
+        "zero_scales": 0,
+        "scale_percentiles": {
+          "0": 7.402896881103516e-05,
+          "50": 0.00021719932556152344,
+          "90": 0.0003249645233154297,
+          "99": 0.0005574226379394531,
+          "99.9": 0.0012210922241211453,
+          "100": 0.00301361083984375
+        },
+        "quantized_extreme_fraction": 0.0315997314453125,
+        "negative128_fraction": 0.0,
+        "assumed_nearest_rounding_error_frobenius_bound": 0.01056725057596518,
+        "bound_assumptions": "Per-entry rounding error <= half stored scale, no clipping, excludes scale rounding and any preprocessing. Diagnostic assumption, not an observed error against source weights."
+      }
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf",
+      "general_name": "Qwen3.8-Flash-Next Gyro-M",
+      "layer": 2,
+      "tensor": "blk.2.ffn_down_shexp.weight",
+      "dtype": "Q8_0",
+      "encoded_sha256": "61389aefa115f307db5a2f1f5436909ba40861ab6436363805fbeaaa93279602",
+      "top4_energy_shares": [
+        0.03227800870247749,
+        0.016766666369167016,
+        0.01607432274435032,
+        0.01186114486685236
+      ],
+      "max_abs": 0.5740928649902344,
+      "rms": 0.01100871680624981,
+      "max_row_energy_share": 0.0142753675504284,
+      "max_column_energy_share": 0.005243941328139311,
+      "top_left_vector_max_coordinate_energy": 0.05864249845707723,
+      "q8_diagnostics": {
+        "block_count": 51200,
+        "zero_scales": 0,
+        "scale_percentiles": {
+          "0": 5.120038986206055e-05,
+          "50": 0.00019800662994384766,
+          "90": 0.0003306865692138672,
+          "99": 0.0007114410400390625,
+          "99.9": 0.0016641855239869774,
+          "100": 0.004520416259765625
+        },
+        "quantized_extreme_fraction": 0.0315814208984375,
+        "negative128_fraction": 0.0,
+        "assumed_nearest_rounding_error_frobenius_bound": 0.01190369615787655,
+        "bound_assumptions": "Per-entry rounding error <= half stored scale, no clipping, excludes scale rounding and any preprocessing. Diagnostic assumption, not an observed error against source weights."
+      }
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf",
+      "general_name": "Qwen3.8-Flash-Next Gyro-M",
+      "layer": 3,
+      "tensor": "blk.3.ffn_down_shexp.weight",
+      "dtype": "Q8_0",
+      "encoded_sha256": "d04d563b7c853c9d4c5b7bce00ff1de0f4796c2dd9a880a6e7b75a77d71a59ad",
+      "top4_energy_shares": [
+        0.010520306787798674,
+        0.009454277562872995,
+        0.007952815494932645,
+        0.007114599384792967
+      ],
+      "max_abs": 0.2831707000732422,
+      "rms": 0.011951328299484901,
+      "max_row_energy_share": 0.0015356472635193999,
+      "max_column_energy_share": 0.0037418104107987387,
+      "top_left_vector_max_coordinate_energy": 0.03802450605301221,
+      "q8_diagnostics": {
+        "block_count": 51200,
+        "zero_scales": 0,
+        "scale_percentiles": {
+          "0": 5.549192428588867e-05,
+          "50": 0.0002200603485107422,
+          "90": 0.0003325939178466797,
+          "99": 0.0005574607849121171,
+          "99.9": 0.000980377197265625,
+          "100": 0.0022296905517578125
+        },
+        "quantized_extreme_fraction": 0.0315966796875,
+        "negative128_fraction": 0.0,
+        "assumed_nearest_rounding_error_frobenius_bound": 0.010615481721671644,
+        "bound_assumptions": "Per-entry rounding error <= half stored scale, no clipping, excludes scale rounding and any preprocessing. Diagnostic assumption, not an observed error against source weights."
+      }
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf",
+      "general_name": "Qwen3.8-Flash-Next Gyro-M",
+      "layer": 44,
+      "tensor": "blk.44.ffn_down_shexp.weight",
+      "dtype": "Q8_0",
+      "encoded_sha256": "eca71b05df1c2d66e55411e4420e09d4d6b9e96b80c04c012d0af0afcdedb1bf",
+      "top4_energy_shares": [
+        0.028899011172576816,
+        0.01748746529795803,
+        0.01523914790959569,
+        0.013608439787716744
+      ],
+      "max_abs": 0.5115966796875,
+      "rms": 0.012026118951693959,
+      "max_row_energy_share": 0.004082395997843456,
+      "max_column_energy_share": 0.008263924236733168,
+      "top_left_vector_max_coordinate_energy": 0.013509328887996877,
+      "q8_diagnostics": {
+        "block_count": 51200,
+        "zero_scales": 0,
+        "scale_percentiles": {
+          "0": 5.525350570678711e-05,
+          "50": 0.00022304058074951172,
+          "90": 0.0003478527069091797,
+          "99": 0.0006036758422851562,
+          "99.9": 0.0010368432998657806,
+          "100": 0.0040283203125
+        },
+        "quantized_extreme_fraction": 0.0316082763671875,
+        "negative128_fraction": 0.0,
+        "assumed_nearest_rounding_error_frobenius_bound": 0.011001632452661454,
+        "bound_assumptions": "Per-entry rounding error <= half stored scale, no clipping, excludes scale rounding and any preprocessing. Diagnostic assumption, not an observed error against source weights."
+      }
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf",
+      "general_name": "Qwen3.8-Flash-Next Gyro-M",
+      "layer": 46,
+      "tensor": "blk.46.ffn_down_shexp.weight",
+      "dtype": "Q8_0",
+      "encoded_sha256": "4a0375c3811d552220aa2b55c3c5c5f741c96738fe0259be646404918d034749",
+      "top4_energy_shares": [
+        0.023762523318913067,
+        0.014000205144397317,
+        0.010345642173770498,
+        0.009527187150800663
+      ],
+      "max_abs": 0.41010093688964844,
+      "rms": 0.01187814501851786,
+      "max_row_energy_share": 0.002947514272631615,
+      "max_column_energy_share": 0.011366216119915949,
+      "top_left_vector_max_coordinate_energy": 0.015160966827577026,
+      "q8_diagnostics": {
+        "block_count": 51200,
+        "zero_scales": 0,
+        "scale_percentiles": {
+          "0": 5.620718002319336e-05,
+          "50": 0.00022494792938232422,
+          "90": 0.00035953521728515625,
+          "99": 0.0006728172302246094,
+          "99.9": 0.0012104263305665608,
+          "100": 0.0032291412353515625
+        },
+        "quantized_extreme_fraction": 0.031553955078125,
+        "negative128_fraction": 0.0,
+        "assumed_nearest_rounding_error_frobenius_bound": 0.011475694993795393,
+        "bound_assumptions": "Per-entry rounding error <= half stored scale, no clipping, excludes scale rounding and any preprocessing. Diagnostic assumption, not an observed error against source weights."
+      }
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-gyro-m-abl/Qwen3.8-Flash-Next-Gyro-M-abliterated-TQ2_0.gguf",
+      "general_name": "Qwen3.8-Flash-Next Gyro-M abliterated",
+      "layer": 0,
+      "tensor": "blk.0.ffn_down_shexp.weight",
+      "dtype": "Q8_0",
+      "encoded_sha256": "ab75d8db92274a8dc2f69b22b559b8a3765c8a196d091c69b5d7b003919f5ff6",
+      "top4_energy_shares": [
+        0.01408282288685624,
+        0.010215689996505531,
+        0.00832926593767986,
+        0.00649880405673841
+      ],
+      "max_abs": 0.5314598083496094,
+      "rms": 0.009442257654801983,
+      "max_row_energy_share": 0.013184149706348866,
+      "max_column_energy_share": 0.0027948573466480484,
+      "top_left_vector_max_coordinate_energy": 0.8941193773953668,
+      "relative_weight_difference": 0.020422595100895224,
+      "top_direction_absolute_cosine_to_production": 0.9999826522556681,
+      "same_encoded_bytes_as_production": false,
+      "q8_diagnostics": {
+        "block_count": 51200,
+        "zero_scales": 0,
+        "scale_percentiles": {
+          "0": 5.239248275756836e-05,
+          "50": 0.00016808509826660156,
+          "90": 0.0002765655517578125,
+          "99": 0.0006041526794433594,
+          "99.9": 0.001618219375610519,
+          "100": 0.004184722900390625
+        },
+        "quantized_extreme_fraction": 0.0316864013671875,
+        "negative128_fraction": 0.0,
+        "assumed_nearest_rounding_error_frobenius_bound": 0.012026376946239592,
+        "bound_assumptions": "Per-entry rounding error <= half stored scale, no clipping, excludes scale rounding and any preprocessing. Diagnostic assumption, not an observed error against source weights."
+      }
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-gyro-m-abl/Qwen3.8-Flash-Next-Gyro-M-abliterated-TQ2_0.gguf",
+      "general_name": "Qwen3.8-Flash-Next Gyro-M abliterated",
+      "layer": 1,
+      "tensor": "blk.1.ffn_down_shexp.weight",
+      "dtype": "Q8_0",
+      "encoded_sha256": "24f838b6d8791407c9ede5b3df6a254fde557388c37bb57aa64475e4e67b59c6",
+      "top4_energy_shares": [
+        0.009373177030203416,
+        0.008272215798372255,
+        0.007217868868555587,
+        0.006877473409384209
+      ],
+      "max_abs": 0.38248634338378906,
+      "rms": 0.011937047831782604,
+      "max_row_energy_share": 0.0025023109512282613,
+      "max_column_energy_share": 0.002905668131962632,
+      "top_left_vector_max_coordinate_energy": 0.13475484901107418,
+      "relative_weight_difference": 0.02124624731849863,
+      "top_direction_absolute_cosine_to_production": 0.9999932312449498,
+      "same_encoded_bytes_as_production": false,
+      "q8_diagnostics": {
+        "block_count": 51200,
+        "zero_scales": 0,
+        "scale_percentiles": {
+          "0": 7.402896881103516e-05,
+          "50": 0.0002167224884033203,
+          "90": 0.000324249267578125,
+          "99": 0.0005550575256347695,
+          "99.9": 0.0012203283309936974,
+          "100": 0.0030117034912109375
+        },
+        "quantized_extreme_fraction": 0.0317010498046875,
+        "negative128_fraction": 0.0,
+        "assumed_nearest_rounding_error_frobenius_bound": 0.010566453698268207,
+        "bound_assumptions": "Per-entry rounding error <= half stored scale, no clipping, excludes scale rounding and any preprocessing. Diagnostic assumption, not an observed error against source weights."
+      }
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-gyro-m-abl/Qwen3.8-Flash-Next-Gyro-M-abliterated-TQ2_0.gguf",
+      "general_name": "Qwen3.8-Flash-Next Gyro-M abliterated",
+      "layer": 2,
+      "tensor": "blk.2.ffn_down_shexp.weight",
+      "dtype": "Q8_0",
+      "encoded_sha256": "13792dcac2468f6c0ed4a6372f73f33eac075f5bff33751c778008c29178a91e",
+      "top4_energy_shares": [
+        0.032237592150872456,
+        0.01677594222628969,
+        0.01608299816084959,
+        0.011864917764835529
+      ],
+      "max_abs": 0.5740928649902344,
+      "rms": 0.011005425740153084,
+      "max_row_energy_share": 0.014283906648125545,
+      "max_column_energy_share": 0.005242689366704134,
+      "top_left_vector_max_coordinate_energy": 0.05884157796097752,
+      "relative_weight_difference": 0.02526419471095283,
+      "top_direction_absolute_cosine_to_production": 0.9991260912351217,
+      "same_encoded_bytes_as_production": false,
+      "q8_diagnostics": {
+        "block_count": 51200,
+        "zero_scales": 0,
+        "scale_percentiles": {
+          "0": 5.1140785217285156e-05,
+          "50": 0.0001977682113647461,
+          "90": 0.00033020973205566406,
+          "99": 0.0007114458084106455,
+          "99.9": 0.001664944648742811,
+          "100": 0.004520416259765625
+        },
+        "quantized_extreme_fraction": 0.0316766357421875,
+        "negative128_fraction": 0.0,
+        "assumed_nearest_rounding_error_frobenius_bound": 0.011902796464801845,
+        "bound_assumptions": "Per-entry rounding error <= half stored scale, no clipping, excludes scale rounding and any preprocessing. Diagnostic assumption, not an observed error against source weights."
+      }
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-gyro-m-abl/Qwen3.8-Flash-Next-Gyro-M-abliterated-TQ2_0.gguf",
+      "general_name": "Qwen3.8-Flash-Next Gyro-M abliterated",
+      "layer": 3,
+      "tensor": "blk.3.ffn_down_shexp.weight",
+      "dtype": "Q8_0",
+      "encoded_sha256": "fbbc47b1cf88689897319e8b61c89496e627218ff2afe5dc1629d83220216992",
+      "top4_energy_shares": [
+        0.010520846447289076,
+        0.009457259789857144,
+        0.00795489795275623,
+        0.007115489260960141
+      ],
+      "max_abs": 0.2831707000732422,
+      "rms": 0.011948450569747427,
+      "max_row_energy_share": 0.0015357647268013392,
+      "max_column_energy_share": 0.003743576046059607,
+      "top_left_vector_max_coordinate_energy": 0.03811541146686379,
+      "relative_weight_difference": 0.022811831818998197,
+      "top_direction_absolute_cosine_to_production": 0.9996846824377642,
+      "same_encoded_bytes_as_production": false,
+      "q8_diagnostics": {
+        "block_count": 51200,
+        "zero_scales": 0,
+        "scale_percentiles": {
+          "0": 5.549192428588867e-05,
+          "50": 0.00021958351135253906,
+          "90": 0.00033283233642578125,
+          "99": 0.0005593299865722656,
+          "99.9": 0.0009801874160766666,
+          "100": 0.0022296905517578125
+        },
+        "quantized_extreme_fraction": 0.03169677734375,
+        "negative128_fraction": 0.0,
+        "assumed_nearest_rounding_error_frobenius_bound": 0.010614301514814533,
+        "bound_assumptions": "Per-entry rounding error <= half stored scale, no clipping, excludes scale rounding and any preprocessing. Diagnostic assumption, not an observed error against source weights."
+      }
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-gyro-m-abl/Qwen3.8-Flash-Next-Gyro-M-abliterated-TQ2_0.gguf",
+      "general_name": "Qwen3.8-Flash-Next Gyro-M abliterated",
+      "layer": 44,
+      "tensor": "blk.44.ffn_down_shexp.weight",
+      "dtype": "Q8_0",
+      "encoded_sha256": "133dc0e05214969aa2a6466482a4d9d206946dcdaf7ae2ccaa5387413d8637b9",
+      "top4_energy_shares": [
+        0.02890283474497436,
+        0.01749266088176116,
+        0.015243716681437525,
+        0.013610504179241329
+      ],
+      "max_abs": 0.5111122131347656,
+      "rms": 0.01202405761933187,
+      "max_row_energy_share": 0.004083951144446056,
+      "max_column_energy_share": 0.008264181615496118,
+      "top_left_vector_max_coordinate_energy": 0.013643887877511406,
+      "relative_weight_difference": 0.02002831467103637,
+      "top_direction_absolute_cosine_to_production": 0.9998600224052476,
+      "same_encoded_bytes_as_production": false,
+      "q8_diagnostics": {
+        "block_count": 51200,
+        "zero_scales": 0,
+        "scale_percentiles": {
+          "0": 5.4776668548583984e-05,
+          "50": 0.00022339820861816406,
+          "90": 0.0003476142883300781,
+          "99": 0.0006032085418701191,
+          "99.9": 0.0010376071929932285,
+          "100": 0.004024505615234375
+        },
+        "quantized_extreme_fraction": 0.0316790771484375,
+        "negative128_fraction": 0.0,
+        "assumed_nearest_rounding_error_frobenius_bound": 0.011000853153442434,
+        "bound_assumptions": "Per-entry rounding error <= half stored scale, no clipping, excludes scale rounding and any preprocessing. Diagnostic assumption, not an observed error against source weights."
+      }
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-gyro-m-abl/Qwen3.8-Flash-Next-Gyro-M-abliterated-TQ2_0.gguf",
+      "general_name": "Qwen3.8-Flash-Next Gyro-M abliterated",
+      "layer": 46,
+      "tensor": "blk.46.ffn_down_shexp.weight",
+      "dtype": "Q8_0",
+      "encoded_sha256": "868bf23c1451f60347cb7af473e2ee843515c4db64ddd977e34b301631da74b4",
+      "top4_energy_shares": [
+        0.02377059065055008,
+        0.014005370977341463,
+        0.010341296193317992,
+        0.009527430111550059
+      ],
+      "max_abs": 0.40985870361328125,
+      "rms": 0.011876261640968933,
+      "max_row_energy_share": 0.002946367743957571,
+      "max_column_energy_share": 0.011370521198477139,
+      "top_left_vector_max_coordinate_energy": 0.01517317252120268,
+      "relative_weight_difference": 0.019515245964982563,
+      "top_direction_absolute_cosine_to_production": 0.9999988772958794,
+      "same_encoded_bytes_as_production": false,
+      "q8_diagnostics": {
+        "block_count": 51200,
+        "zero_scales": 0,
+        "scale_percentiles": {
+          "0": 5.644559860229492e-05,
+          "50": 0.00022482872009277344,
+          "90": 0.0003592967987060547,
+          "99": 0.000675201416015625,
+          "99.9": 0.0012085189819337483,
+          "100": 0.00322723388671875
+        },
+        "quantized_extreme_fraction": 0.03162109375,
+        "negative128_fraction": 0.0,
+        "assumed_nearest_rounding_error_frobenius_bound": 0.011475278242468074,
+        "bound_assumptions": "Per-entry rounding error <= half stored scale, no clipping, excludes scale rounding and any preprocessing. Diagnostic assumption, not an observed error against source weights."
+      }
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-iq3s/IQ3_S/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00001-of-00002.gguf",
+      "general_name": "Qwen3.8-Flash-Next GSQ-RCO",
+      "layer": 0,
+      "tensor": "blk.0.ffn_down_shexp.weight",
+      "dtype": "IQ4_NL",
+      "encoded_sha256": "634c46c6a27728331d5752b5633d0a631901dfea3380db04e45475bae1538fc8",
+      "top4_energy_shares": [
+        0.014630479409738759,
+        0.010402611858530182,
+        0.008489852371479388,
+        0.006578925665052419
+      ],
+      "max_abs": 0.5237083435058594,
+      "rms": 0.009281720192795532,
+      "max_row_energy_share": 0.013692511585996018,
+      "max_column_energy_share": 0.002887976064752452,
+      "top_left_vector_max_coordinate_energy": 0.8966485965143731,
+      "relative_weight_difference": 0.10666607047586657,
+      "top_direction_absolute_cosine_to_production": 0.9987729666607343,
+      "same_encoded_bytes_as_production": false
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-iq3s/IQ3_S/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00001-of-00002.gguf",
+      "general_name": "Qwen3.8-Flash-Next GSQ-RCO",
+      "layer": 1,
+      "tensor": "blk.1.ffn_down_shexp.weight",
+      "dtype": "IQ4_NL",
+      "encoded_sha256": "b5b5fc266c2fdc2777ebdba9b2394e55d063af2f2836d5f97c24f3e65ef00d83",
+      "top4_energy_shares": [
+        0.009350307795623094,
+        0.008224513439198528,
+        0.007178672516607887,
+        0.006856837481649423
+      ],
+      "max_abs": 0.38272857666015625,
+      "rms": 0.011908941707268592,
+      "max_row_energy_share": 0.0025285828457583394,
+      "max_column_energy_share": 0.0029020873447834763,
+      "top_left_vector_max_coordinate_energy": 0.1343698649999352,
+      "relative_weight_difference": 0.08332940633466096,
+      "top_direction_absolute_cosine_to_production": 0.9990704002551067,
+      "same_encoded_bytes_as_production": false
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-iq3s/IQ3_S/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00001-of-00002.gguf",
+      "general_name": "Qwen3.8-Flash-Next GSQ-RCO",
+      "layer": 2,
+      "tensor": "blk.2.ffn_down_shexp.weight",
+      "dtype": "IQ4_NL",
+      "encoded_sha256": "3b170465c0a55e2a4254d05e89aab05a6ae8ed49c97ad58b643618a9a2870439",
+      "top4_energy_shares": [
+        0.032130057331476544,
+        0.01663900621755375,
+        0.01616765883877737,
+        0.011808261384966831
+      ],
+      "max_abs": 0.5711555480957031,
+      "rms": 0.010892168627474372,
+      "max_row_energy_share": 0.014076349640197324,
+      "max_column_energy_share": 0.0048911256970277095,
+      "top_left_vector_max_coordinate_energy": 0.05844782410882243,
+      "relative_weight_difference": 0.09913141829770905,
+      "top_direction_absolute_cosine_to_production": 0.9997064069744571,
+      "same_encoded_bytes_as_production": false
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-iq3s/IQ3_S/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00001-of-00002.gguf",
+      "general_name": "Qwen3.8-Flash-Next GSQ-RCO",
+      "layer": 3,
+      "tensor": "blk.3.ffn_down_shexp.weight",
+      "dtype": "IQ4_NL",
+      "encoded_sha256": "65b3644424476f8a8a0e3197fede70dbcdc415135635b6412cca3248797f0a40",
+      "top4_energy_shares": [
+        0.010475181562447589,
+        0.00947972729169198,
+        0.007937692355006722,
+        0.0070909694666156506
+      ],
+      "max_abs": 0.27977943420410156,
+      "rms": 0.01192661795341531,
+      "max_row_energy_share": 0.0015815759879375993,
+      "max_column_energy_share": 0.003753620767926515,
+      "top_left_vector_max_coordinate_energy": 0.037650719161337214,
+      "relative_weight_difference": 0.08272014753280435,
+      "top_direction_absolute_cosine_to_production": 0.9993177286943629,
+      "same_encoded_bytes_as_production": false
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-iq3s/IQ3_S/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00001-of-00002.gguf",
+      "general_name": "Qwen3.8-Flash-Next GSQ-RCO",
+      "layer": 44,
+      "tensor": "blk.44.ffn_down_shexp.weight",
+      "dtype": "IQ4_NL",
+      "encoded_sha256": "7620b52a073c5b60be72c71a7cca891634db4b86c996245af91a5a07a4601945",
+      "top4_energy_shares": [
+        0.028777511609701652,
+        0.017453746522733425,
+        0.015255528576962388,
+        0.013517672452188299
+      ],
+      "max_abs": 0.5116691589355469,
+      "rms": 0.011989141220334967,
+      "max_row_energy_share": 0.00409048490336782,
+      "max_column_energy_share": 0.008291182957885425,
+      "top_left_vector_max_coordinate_energy": 0.01347626954422728,
+      "relative_weight_difference": 0.08532810196280237,
+      "top_direction_absolute_cosine_to_production": 0.9997882002618409,
+      "same_encoded_bytes_as_production": false
+    },
+    {
+      "path": "/home/researcher/models/qwen38-flash-next-iq3s/IQ3_S/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00001-of-00002.gguf",
+      "general_name": "Qwen3.8-Flash-Next GSQ-RCO",
+      "layer": 46,
+      "tensor": "blk.46.ffn_down_shexp.weight",
+      "dtype": "IQ4_NL",
+      "encoded_sha256": "1760f06e486666a36ea41989d9255bcb5897c439e70b186893cac662fb840bd8",
+      "top4_energy_shares": [
+        0.023747100662782784,
+        0.013985450643474817,
+        0.010048887094505674,
+        0.009458785773910452
+      ],
+      "max_abs": 0.3895111083984375,
+      "rms": 0.011833493512806386,
+      "max_row_energy_share": 0.0028801003615859613,
+      "max_column_energy_share": 0.011359416343458382,
+      "top_left_vector_max_coordinate_energy": 0.015240658841863793,
+      "relative_weight_difference": 0.08857153245766834,
+      "top_direction_absolute_cosine_to_production": 0.9998002047547092,
+      "same_encoded_bytes_as_production": false
+    }
+  ],
+  "scope": "Read-only CPU tensor comparison; no model loading or inference.",
+  "limitations": [
+    "No original BF16/FP16 tensor has been compared.",
+    "Alternate artifacts may differ in preprocessing or ablation as well as quantization.",
+    "Matching Q8 bytes across files is not an independent unquantized reference."
+  ]
+}

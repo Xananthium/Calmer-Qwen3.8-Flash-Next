@@ -1,0 +1,21 @@
+{
+  "model": "qwen3.8-27b-hauhau-q4",
+  "messages_withheld": {
+    "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+    "sha256": "817faeaf2c1ec3f1400374d41f0256863fa704c612487c0969d76897ca83d2b8",
+    "canonical_json_bytes": 955
+  },
+  "temperature": 1.3,
+  "top_p": 0.95,
+  "top_k": 20,
+  "min_p": 0.0,
+  "presence_penalty": 0.0,
+  "repetition_penalty": 1.0,
+  "seed": 20261118,
+  "reasoning_effort": "medium",
+  "max_tokens": 32768,
+  "stream": true,
+  "stream_options": {
+    "include_usage": true
+  }
+}

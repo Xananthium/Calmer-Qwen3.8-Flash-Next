@@ -1,0 +1,65 @@
+{
+  "groups": {
+    "long_cases": {
+      "n": 2,
+      "baseline_counts": {
+        "correct": 2
+      },
+      "edited_counts": {
+        "correct": 2
+      },
+      "baseline_tokens": 47545,
+      "edited_tokens": 84466,
+      "token_change_pct": 77.65485329687665,
+      "edited_tokens_are_lower_bound": false,
+      "baseline_natural_completions": 2,
+      "edited_natural_completions": 2,
+      "baseline_waits": 53,
+      "edited_waits": 109
+    },
+    "arithmetic_controls": {
+      "n": 2,
+      "baseline_counts": {
+        "correct": 2
+      },
+      "edited_counts": {
+        "correct": 2
+      },
+      "baseline_tokens": 1296,
+      "edited_tokens": 1291,
+      "token_change_pct": -0.38580246913579863,
+      "edited_tokens_are_lower_bound": false,
+      "baseline_natural_completions": 2,
+      "edited_natural_completions": 2,
+      "baseline_waits": 1,
+      "edited_waits": 2
+    },
+    "all": {
+      "n": 4,
+      "baseline_counts": {
+        "correct": 4
+      },
+      "edited_counts": {
+        "correct": 4
+      },
+      "baseline_tokens": 48841,
+      "edited_tokens": 85757,
+      "token_change_pct": 75.58403800085993,
+      "edited_tokens_are_lower_bound": false,
+      "baseline_natural_completions": 4,
+      "edited_natural_completions": 4,
+      "baseline_waits": 54,
+      "edited_waits": 111
+    }
+  },
+  "health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "qwen3.8-27b-hauhau-q4",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  }
+}

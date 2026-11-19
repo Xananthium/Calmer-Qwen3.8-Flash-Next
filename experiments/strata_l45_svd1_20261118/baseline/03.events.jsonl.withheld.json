@@ -1,0 +1,6 @@
+{
+  "source_path": "strata_l45_svd1_20261118/baseline/03.events.jsonl",
+  "source_bytes": 352058,
+  "source_sha256": "7e71c56c4be749ee5890c7d0fb116786fbc0cce2092ef52104d13e0b174e7ef1",
+  "withheld": "Full HLE stream retained locally; public measurements and hashes accompany this run."
+}

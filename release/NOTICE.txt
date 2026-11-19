@@ -1,0 +1,6 @@
+Calmer Qwen3.8 Flash Next
+Experimental derivative by Xananthium, 2026, with AI assistance.
+Base model: Qwen/Qwen3.8-Flash-Next, copyright (c) 2026 Qwen.
+Quantization: agentionai/Qwen3.8-Flash-Next-Gyro-GGUF, AgentionAI.
+Model weights and derived tensor payloads: Qwen Community License 1.0 (LICENSE).
+Research archive: https://github.com/Xananthium/Calmer-Qwen3.8-Flash-Next

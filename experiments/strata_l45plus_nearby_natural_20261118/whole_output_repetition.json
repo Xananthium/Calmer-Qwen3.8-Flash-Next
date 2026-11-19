@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-18T21:41:18.104062+00:00",
+  "rows": [
+    {
+      "case": "01",
+      "subject": "Economics",
+      "baseline": {
+        "generated_words": 8185,
+        "wait_count": 23,
+        "duplicate8_full": 0.007948153582783113,
+        "max_8gram_occurrences": 8,
+        "duplicate20_full": 0.0017144256674014313,
+        "max_20gram_occurrences": 3,
+        "exact_repeated_paragraphs": 0
+      }
+    },
+    {
+      "case": "05",
+      "subject": "Mathematics",
+      "baseline": {
+        "generated_words": 38502,
+        "wait_count": 79,
+        "duplicate8_full": 0.0009092089881802545,
+        "max_8gram_occurrences": 7,
+        "duplicate20_full": 0.0,
+        "max_20gram_occurrences": 1,
+        "exact_repeated_paragraphs": 0
+      }
+    },
+    {
+      "case": "07",
+      "subject": "Arithmetic",
+      "baseline": {
+        "generated_words": 255,
+        "wait_count": 0,
+        "duplicate8_full": 0.0040322580645161255,
+        "max_8gram_occurrences": 2,
+        "duplicate20_full": 0.0,
+        "max_20gram_occurrences": 1,
+        "exact_repeated_paragraphs": 0
+      }
+    },
+    {
+      "case": "08",
+      "subject": "Arithmetic",
+      "baseline": {
+        "generated_words": 473,
+        "wait_count": 2,
+        "duplicate8_full": 0.02145922746781115,
+        "max_8gram_occurrences": 3,
+        "duplicate20_full": 0.0,
+        "max_20gram_occurrences": 1,
+        "exact_repeated_paragraphs": 0
+      }
+    },
+    {
+      "case": "09",
+      "subject": "Economics",
+      "baseline": {
+        "generated_words": 3376,
+        "wait_count": 16,
+        "duplicate8_full": 0.005936479667557171,
+        "max_8gram_occurrences": 2,
+        "duplicate20_full": 0.0,
+        "max_20gram_occurrences": 1,
+        "exact_repeated_paragraphs": 0
+      }
+    },
+    {
+      "case": "10",
+      "subject": "Mathematics",
+      "baseline": {
+        "generated_words": 31735,
+        "wait_count": 44,
+        "duplicate8_full": 0.0016704488149268393,
+        "max_8gram_occurrences": 8,
+        "duplicate20_full": 0.0,
+        "max_20gram_occurrences": 1,
+        "exact_repeated_paragraphs": 0
+      }
+    }
+  ],
+  "scope": "Descriptive supplemental analysis over emitted output only, excluding prompt repetitions. Added after baseline, before long edited-panel results.",
+  "limitations": [
+    "Repeated mathematical notation and valid rechecking can raise exact phrase metrics.",
+    "This does not classify reasoning usefulness or diagnose a looping mechanism."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "state": "restored_live_and_reboot_default",
+  "started_at": "2026-11-18T23:41:14.669671+00:00",
+  "model": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l44-l45/Qwen3.8-Flash-Next-Gyro-M-Calmer-L44-L45-TQ2_0.gguf",
+  "config": "/home/researcher/strata-122b/fn-iq3s/cfg-g4x-l44l45-natural.json",
+  "expected_tensor_hashes": {
+    "2": "61389aefa115f307db5a2f1f5436909ba40861ab6436363805fbeaaa93279602",
+    "44": "2b334b07c863def21e915ae55d2c14e8f888fc8743ef10a85f7b53b2347f30ec",
+    "45": "8974663dc1cda1ebbb63266bc82afc622f63ac3ab38d24a718dcea36539b0c38",
+    "46": "4a0375c3811d552220aa2b55c3c5c5f741c96738fe0259be646404918d034749"
+  },
+  "ready_at": "2026-11-18T23:42:20.488068+00:00",
+  "health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "qwen3.8-27b-hauhau-q4",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  },
+  "boot_env": "STRATA_CFG=/home/researcher/strata-122b/fn-iq3s/cfg-g4x-l44l45-natural.json",
+  "service_enabled": "enabled",
+  "router_enabled": "enabled",
+  "user_linger": "Linger=yes",
+  "engine_pids": [
+957465
+  ],
+  "reboot_performed": false
+}

@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-11-18T22:13:18.274141+00:00",
+  "state": "live",
+  "from_model": "Layer44+45",
+  "to_model": "Layer44+45+46",
+  "ready_at": "2026-11-18T22:14:23.801821+00:00",
+  "health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "qwen3.8-27b-hauhau-q4",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  }
+}

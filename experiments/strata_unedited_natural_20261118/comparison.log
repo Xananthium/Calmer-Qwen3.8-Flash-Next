@@ -1,0 +1,63 @@
+{
+  "core": {
+    "Unedited": {
+      "completion_tokens": 75535,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 4
+      },
+      "natural_completions": 4
+    },
+    "45 only": {
+      "completion_tokens": 79987,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 4
+      },
+      "natural_completions": 4
+    },
+    "45+46": {
+      "completion_tokens": 60474,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 4
+      },
+      "natural_completions": 4
+    },
+    "44+45": {
+      "completion_tokens": 48841,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 4
+      },
+      "natural_completions": 4
+    },
+    "44+45+46": {
+      "completion_tokens": 90207,
+      "completion_tokens_are_lower_bound": true,
+      "counts": {
+        "interrupted": 1,
+        "correct": 3
+      },
+      "natural_completions": 3
+    },
+    "2+44+45": {
+      "completion_tokens": 85757,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 4
+      },
+      "natural_completions": 4
+    }
+  },
+  "health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "qwen3.8-27b-hauhau-q4",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  }
+}

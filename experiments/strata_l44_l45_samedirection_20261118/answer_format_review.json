@@ -1,0 +1,16 @@
+{
+  "case": "09",
+  "automatic_status": "unparsed",
+  "reviewed_status": "correct",
+  "gold_withheld": {
+    "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+    "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+    "canonical_json_bytes": 3
+  },
+  "explicit_final_answer_withheld": {
+    "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+    "sha256": "2f9501ac1b31520f4a0556c11026fa0e3b3dd1fa23d2169abd4443753834d3f4",
+    "canonical_json_bytes": 6
+  },
+  "basis": "Explicit final answer was correct; the automatic parser missed its Markdown format. Outside the common four-case panel."
+}

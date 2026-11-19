@@ -1,0 +1,9 @@
+{
+  "directory": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45_svd1_20261118/baseline",
+  "request_max_tokens": 8192,
+  "forced_wrap_marker_observed_in_cases": [
+    "01",
+    "05"
+  ],
+  "comparable_to_natural_stop_panel": false
+}

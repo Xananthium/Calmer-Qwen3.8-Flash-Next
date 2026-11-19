@@ -1,0 +1,4 @@
+*.q8 binary
+*.bf16 binary
+*.npz binary
+*.gz binary

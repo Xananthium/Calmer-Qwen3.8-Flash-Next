@@ -1,0 +1,78 @@
+{
+  "case": "07",
+  "id": "gsm8k_test:936",
+  "request_sha256": "e010c1ab20b2904970ac0745ea500e4d36fdd182f3178e7fe4db1156530898ac",
+  "started_at": "2026-11-18T19:49:31.087426+00:00",
+  "content": "# Finding Cameron's Savings\n\n## Step 1: Determine total stay duration\n\nCameron arrives at **5:00 pm** and leaves at **10:00 am** the next morning.\n\nTotal stay = 17 hours (5 pm to 12 am = 7 hours, plus midnight to 10 am = 10 hours)\n\n## Step 2: Cost of the 24-hour option\n\nThe 24-hour stay costs **1,600 pesos**.\n\n## Step 3: Cost of the add-on option\n\n- First 12 hours: **1,000 pesos**\n- Remaining hours beyond 12: 17 - 12 = **5 extra hours**\n- Extra hours cost: 5 × 70 = **350 pesos**\n\nTotal with add-on option = 1,000 + 350 = **1,350 pesos**\n\n## Step 4: Calculate savings\n\nCameron chose the add-on option instead of paying for 24 hours.\n\nSavings = 1,600 - 1,350 = **250 pesos**\n\n$$\\boxed{250}$$",
+  "reasoning_content": "Let me work through this problem step by step.\n\nCameron arrives at 5 pm and wants to leave at 10 am the next morning.\n\nFirst, let me calculate the total hours: 5 pm to 10 am next day = 17 hours.\n\nOption 1: Pay 1600 pesos for a 24-hour stay.\n\nOption 2: Pay 1000 pesos for the first 12 hours, then 70 pesos per hour for the remaining hours.\n\nThe remaining hours after the 12-hour mark: 17 - 12 = 5 hours.\n\nSo Option 2 cost: 1000 + (5 × 70) = 1000 + 350 = 1350 pesos.\n\nCameron chose Option 2 instead of paying for 24 hours.\n\nThe 24-hour option would cost 1600 pesos.\nOption 2 costs 1350 pesos.\n\nCameron saves: 1600 - 1350 = 250 pesos.\n\nWait, let me re-read the problem. \"He decides to go with the option of adding on 70 pesos for every hour after the 12-hour mark instead of paying for 24 hours. How much money would Cameron save?\"\n\nSo Cameron saves money by choosing the add-on option instead of the 24-hour package.\n\nCameron saves: 1600 - 1350 = 250 pesos.\n\nThe answer is 250 pesos.\n",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 608,
+    "total_tokens": 751,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 143,
+    "prompt_ms": 480.3,
+    "prompt_per_token_ms": 3.359,
+    "prompt_per_second": 297.7,
+    "predicted_n": 608,
+    "predicted_ms": 4235.5,
+    "predicted_per_token_ms": 6.966,
+    "predicted_per_second": 143.5,
+    "draft_n": 535,
+    "draft_n_accepted": 372
+  },
+  "live_before": {
+    "state": "idle",
+    "queued": 0,
+    "phase": null,
+    "prompt_tokens": null,
+    "prompt_read": null,
+    "prompt_total": null,
+    "generated": null,
+    "max_tokens": null,
+    "elapsed_s": null,
+    "tok_s": null,
+    "tok_s_mean": null,
+    "prefill_tok_s_mean": null,
+    "tok_s_window_s": null,
+    "parallel": 4,
+    "running": 0,
+    "slots": [
+      {
+        "slot": 0,
+        "state": "idle",
+        "held_tokens": 24898
+      },
+      {
+        "slot": 1,
+        "state": "idle",
+        "held_tokens": 36271
+      },
+      {
+        "slot": 2,
+        "state": "idle",
+        "held_tokens": 24918
+      },
+      {
+        "slot": 3,
+        "state": "idle",
+        "held_tokens": 16070
+      }
+    ],
+    "outside_slots": 0,
+    "waiting": 0,
+    "admitting": 0
+  },
+  "http_status": 200,
+  "response_id": "chatcmpl-50d45ac2d4844a95a2528846",
+  "first_text_s": 0.4989628149778582,
+  "done_received": true,
+  "elapsed_s": 4.721854886971414,
+  "ended_at": "2026-11-18T19:49:35.809281+00:00"
+}

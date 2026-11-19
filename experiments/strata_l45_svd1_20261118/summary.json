@@ -1,0 +1,434 @@
+{
+  "completed_at": "2026-11-18T20:00:14.574749+00:00",
+  "deployment": "Edited layer-45 model left running, as requested.",
+  "health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "qwen3.8-27b-hauhau-q4",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  },
+  "engine_pid": 797277,
+  "configuration_matches_original_except_model_references": true,
+  "production_request_budget": 32768,
+  "production_thinking_allowance": 24576,
+  "production_router_effort": "medium",
+  "server_default_output_cap": -1,
+  "production_budget_results": {
+    "hle_primary": {
+      "n": 6,
+      "counts": {
+        "correct": 3,
+        "wrong": 3
+      },
+      "completion_tokens": 75914,
+      "wait_occurrences": 123,
+      "reasoning_budget_wraps": 2,
+      "wall_seconds_sum": 885.0355509720393
+    },
+    "arithmetic_controls": {
+      "n": 2,
+      "counts": {
+        "correct": 2
+      },
+      "completion_tokens": 1163,
+      "wait_occurrences": 2,
+      "reasoning_budget_wraps": 0,
+      "wall_seconds_sum": 8.612103687948547
+    },
+    "hle_second_seed": {
+      "n": 2,
+      "counts": {
+        "correct": 1,
+        "wrong": 1
+      },
+      "completion_tokens": 47258,
+      "wait_occurrences": 79,
+      "reasoning_budget_wraps": 1,
+      "wall_seconds_sum": 613.0175257210503
+    },
+    "all": {
+      "n": 10,
+      "counts": {
+        "correct": 6,
+        "wrong": 4
+      },
+      "completion_tokens": 124335,
+      "wait_occurrences": 204,
+      "reasoning_budget_wraps": 3,
+      "wall_seconds_sum": 1506.6651803810382
+    }
+  },
+  "production_budget_rows": [
+    {
+      "case": "01",
+      "id": "hle:673722c82bfc8ab579ed111f",
+      "subject": "Economics",
+      "seed": 20261118,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "status": "correct",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "completion_tokens": 25134,
+      "finish_reason": "stop",
+      "wall_s": 265.55327002197737,
+      "first_text_s": 0.5440524829900824,
+      "duplicate8_tail": 0.001980198019801982,
+      "wait_count": 45,
+      "reasoning_budget_wrap": true
+    },
+    {
+      "case": "02",
+      "id": "hle:66ef3de8b8a1ba6e0ba23498",
+      "subject": "Biology",
+      "seed": 20261118,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "c2e8c0cc2e73b9bd1ba9ef1979e73169b471e25b0e9909efe98fde462c0bf55f",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "43e6e2bebb3774311cf0c867d2fae5da733792224e8bac1d455eff172ff6af27",
+        "canonical_json_bytes": 3
+      },
+      "status": "wrong",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "2d589b89da7462ff1441cbd49d4c25e20d37baad28378e359d46bd700b08070d",
+        "canonical_json_bytes": 22
+      },
+      "completion_tokens": 13131,
+      "finish_reason": "stop",
+      "wall_s": 189.0206897329772,
+      "first_text_s": 0.9083993999520317,
+      "duplicate8_tail": 0.011881188118811892,
+      "wait_count": 18,
+      "reasoning_budget_wrap": false
+    },
+    {
+      "case": "03",
+      "id": "hle:67162253433b031688b08f47",
+      "subject": "Trivia",
+      "seed": 20261118,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "aa61870c76b8f6f57889888fbf24c006487753f3139494f7790353cf5a998492",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "aa61870c76b8f6f57889888fbf24c006487753f3139494f7790353cf5a998492",
+        "canonical_json_bytes": 3
+      },
+      "status": "correct",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "b84e72fd69ee64af76cebb9714c9fbcea1dfee1075e24df3854868a5fa7fc6d5",
+        "canonical_json_bytes": 21
+      },
+      "completion_tokens": 2314,
+      "finish_reason": "stop",
+      "wall_s": 20.2927164810244,
+      "first_text_s": 0.6494517810060643,
+      "duplicate8_tail": 0.003960396039603964,
+      "wait_count": 5,
+      "reasoning_budget_wrap": false
+    },
+    {
+      "case": "04",
+      "id": "hle:672e1ba8e62456d8519fb95b",
+      "subject": "Computer Science",
+      "seed": 20261118,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "43e6e2bebb3774311cf0c867d2fae5da733792224e8bac1d455eff172ff6af27",
+        "canonical_json_bytes": 3
+      },
+      "status": "wrong",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "43e6e2bebb3774311cf0c867d2fae5da733792224e8bac1d455eff172ff6af27",
+        "canonical_json_bytes": 3
+      },
+      "completion_tokens": 8804,
+      "finish_reason": "stop",
+      "wall_s": 88.0211367449956,
+      "first_text_s": 1.235892386001069,
+      "duplicate8_tail": 0.0,
+      "wait_count": 13,
+      "reasoning_budget_wrap": false
+    },
+    {
+      "case": "05",
+      "id": "hle:6739e06f5a81384176dd28cd",
+      "subject": "Mathematics",
+      "seed": 20261118,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "status": "correct",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "completion_tokens": 25367,
+      "finish_reason": "stop",
+      "wall_s": 312.08456367003964,
+      "first_text_s": 0.7223959430120885,
+      "duplicate8_tail": 0.0,
+      "wait_count": 41,
+      "reasoning_budget_wrap": true
+    },
+    {
+      "case": "06",
+      "id": "hle:672de1afed6de72b75b8c7e6",
+      "subject": "Physics",
+      "seed": 20261118,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "c2e8c0cc2e73b9bd1ba9ef1979e73169b471e25b0e9909efe98fde462c0bf55f",
+        "canonical_json_bytes": 3
+      },
+      "status": "wrong",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "c2e8c0cc2e73b9bd1ba9ef1979e73169b471e25b0e9909efe98fde462c0bf55f",
+        "canonical_json_bytes": 3
+      },
+      "completion_tokens": 1164,
+      "finish_reason": "stop",
+      "wall_s": 10.063174321025144,
+      "first_text_s": 0.6114714100258425,
+      "duplicate8_tail": 0.0,
+      "wait_count": 1,
+      "reasoning_budget_wrap": false
+    },
+    {
+      "case": "07",
+      "id": "gsm8k_test:936",
+      "subject": "Arithmetic",
+      "seed": 20261118,
+      "gold": "250",
+      "predicted": "250",
+      "status": "correct",
+      "raw_answer": "250",
+      "completion_tokens": 608,
+      "finish_reason": "stop",
+      "wall_s": 4.721854886971414,
+      "first_text_s": 0.4989628149778582,
+      "duplicate8_tail": 0.0031645569620253333,
+      "wait_count": 1,
+      "reasoning_budget_wrap": false
+    },
+    {
+      "case": "08",
+      "id": "gsm8k_test:236",
+      "subject": "Arithmetic",
+      "seed": 20261118,
+      "gold": "31",
+      "predicted": "31",
+      "status": "correct",
+      "raw_answer": "31",
+      "completion_tokens": 555,
+      "finish_reason": "stop",
+      "wall_s": 3.890248800977133,
+      "first_text_s": 0.4114916470134631,
+      "duplicate8_tail": 0.0,
+      "wait_count": 1,
+      "reasoning_budget_wrap": false
+    },
+    {
+      "case": "09",
+      "id": "hle:673722c82bfc8ab579ed111f",
+      "subject": "Economics",
+      "seed": 20261119,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "status": "correct",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "completion_tokens": 22010,
+      "finish_reason": "stop",
+      "wall_s": 307.29050617699977,
+      "first_text_s": 0.4147047160076909,
+      "duplicate8_tail": 0.001980198019801982,
+      "wait_count": 37,
+      "reasoning_budget_wrap": false
+    },
+    {
+      "case": "10",
+      "id": "hle:6739e06f5a81384176dd28cd",
+      "subject": "Mathematics",
+      "seed": 20261119,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "c2e8c0cc2e73b9bd1ba9ef1979e73169b471e25b0e9909efe98fde462c0bf55f",
+        "canonical_json_bytes": 3
+      },
+      "status": "wrong",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "c2e8c0cc2e73b9bd1ba9ef1979e73169b471e25b0e9909efe98fde462c0bf55f",
+        "canonical_json_bytes": 3
+      },
+      "completion_tokens": 25248,
+      "finish_reason": "stop",
+      "wall_s": 305.72701954405056,
+      "first_text_s": 0.7465816430049017,
+      "duplicate8_tail": 0.0,
+      "wait_count": 42,
+      "reasoning_budget_wrap": true
+    }
+  ],
+  "earlier_matched_8192_comparison": {
+    "hle_primary": {
+      "n": 6,
+      "baseline_counts": {
+        "wrong": 3,
+        "correct": 3
+      },
+      "edited_counts": {
+        "correct": 3,
+        "wrong": 3
+      },
+      "correctness_changes": {
+        "gain": 1,
+        "unchanged": 4,
+        "loss": 1
+      },
+      "baseline_completion_tokens": 29141,
+      "edited_completion_tokens": 30386,
+      "completion_token_change_pct": 4.272331079921754,
+      "baseline_reasoning_budget_wraps": 3,
+      "edited_reasoning_budget_wraps": 4,
+      "baseline_wait_count": 55,
+      "edited_wait_count": 49
+    },
+    "arithmetic_controls": {
+      "n": 2,
+      "baseline_counts": {
+        "correct": 2
+      },
+      "edited_counts": {
+        "correct": 2
+      },
+      "correctness_changes": {
+        "unchanged": 2
+      },
+      "baseline_completion_tokens": 1283,
+      "edited_completion_tokens": 1157,
+      "completion_token_change_pct": -9.820732657833208,
+      "baseline_reasoning_budget_wraps": 0,
+      "edited_reasoning_budget_wraps": 0,
+      "baseline_wait_count": 1,
+      "edited_wait_count": 2
+    },
+    "hle_second_seed": {
+      "n": 2,
+      "baseline_counts": {
+        "correct": 2
+      },
+      "edited_counts": {
+        "wrong": 1,
+        "correct": 1
+      },
+      "correctness_changes": {
+        "loss": 1,
+        "unchanged": 1
+      },
+      "baseline_completion_tokens": 13330,
+      "edited_completion_tokens": 13190,
+      "completion_token_change_pct": -1.0502625656414133,
+      "baseline_reasoning_budget_wraps": 2,
+      "edited_reasoning_budget_wraps": 2,
+      "baseline_wait_count": 17,
+      "edited_wait_count": 19
+    },
+    "all": {
+      "n": 10,
+      "baseline_counts": {
+        "wrong": 3,
+        "correct": 7
+      },
+      "edited_counts": {
+        "correct": 6,
+        "wrong": 4
+      },
+      "correctness_changes": {
+        "gain": 1,
+        "unchanged": 7,
+        "loss": 2
+      },
+      "baseline_completion_tokens": 43754,
+      "edited_completion_tokens": 44733,
+      "completion_token_change_pct": 2.237509713397623,
+      "baseline_reasoning_budget_wraps": 5,
+      "edited_reasoning_budget_wraps": 6,
+      "baseline_wait_count": 73,
+      "edited_wait_count": 70
+    }
+  },
+  "interpretation": [
+    "The matched 8192-token experiment did not demonstrate an overall improvement: baseline 7/10 correct, edited 6/10, and edited used more completion tokens.",
+    "The production-budget rerun evaluates the edited model at the observed user request budget. There is no matched unedited 32768-token run, so it cannot establish a weight-edit improvement at that budget.",
+    "Production server configuration was preserved. The mistaken 8192-token cap was in the initial evaluation requests only; changing it to 32768 required no restart.",
+    "Shared production traffic and speculative decoding mean timing and same-seed outputs are not guaranteed deterministic."
+  ],
+  "artifacts": {
+    "paired_8192": "comparison.json",
+    "production_protocol": "production_budget_32768/protocol.json",
+    "production_results": "production_budget_32768/edited",
+    "weight_manifest": "manifest.json",
+    "runtime_proof": "production_settings_verified.json"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-11-18T21:58:39.865833+00:00",
+  "state": "live",
+  "from_model": "Layer45+46",
+  "to_model": "Layer44+45",
+  "layer46": "original weights restored",
+  "ready_at": "2026-11-18T22:00:02.442763+00:00",
+  "health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "qwen3.8-27b-hauhau-q4",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  },
+  "engine_pid": 879935
+}

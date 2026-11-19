@@ -1,0 +1,77 @@
+{"stage": "tensor_prepared", "candidate": "l45-shared-svd1-alpha1-q8", "source": "/home/researcher/models/qwen38-flash-next-gyro-m/Qwen3.8-Flash-Next-Gyro-M-TQ2_0.gguf", "target": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf", "tensor": "blk.45.ffn_down_shexp.weight", "offset": 89974442688, "tensor_bytes": 1740800, "shape": [2560, 640], "formula": "W_new = W - outer(u, u.T @ W); u is the exact leading left singular vector of decoded W", "alpha": 1.0, "scope": "Only layer 45 shared-expert down projection; original Q8_0 encoding retained", "hypothesis": "Strong spectral deflation trial, not a fitted repetition-specific direction", "original_tensor_sha256": "39ddadd3fdd10fd58b32f6e8d8433feb987406eb96535445f0c8eb8346ca2c3b", "edited_tensor_sha256": "8974663dc1cda1ebbb63266bc82afc622f63ac3ab38d24a718dcea36539b0c38", "original_top_singular_value": 2.5975882302244004, "original_top_mode_energy_share": 0.0280049167869004, "relative_frobenius_change": 0.16746112849554157, "top_mode_fraction_remaining_after_q8": 0.001002149222302693, "q8_rounding_relative_to_ideal": 0.006316700858282184, "baseline_config": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45_svd1_20261118/baseline_config.json", "candidate_config": "/home/researcher/strata-122b/fn-iq3s/cfg-g4x-l45svd1.json", "changed_runtime_arguments": ["--native"], "other_settings_unchanged": true, "rollback_config_name": "g4x", "baseline_generation_run": true, "baseline_scores": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45_svd1_20261118/baseline/scores.json", "protocol_sha256": "34cb331ac3537f352cf9f92a9170cca30a24ea9ad6bf840c53d49592397cfaee"}
+{"stage": "copying", "GiB": 2.53, "percent": 3.0}
+{"stage": "copying", "GiB": 5.16, "percent": 6.0}
+{"stage": "copying", "GiB": 7.78, "percent": 9.1}
+{"stage": "copying", "GiB": 10.34, "percent": 12.1}
+{"stage": "copying", "GiB": 12.94, "percent": 15.1}
+{"stage": "copying", "GiB": 15.56, "percent": 18.2}
+{"stage": "copying", "GiB": 18.09, "percent": 21.1}
+{"stage": "copying", "GiB": 20.72, "percent": 24.2}
+{"stage": "copying", "GiB": 23.22, "percent": 27.1}
+{"stage": "copying", "GiB": 25.75, "percent": 30.1}
+{"stage": "copying", "GiB": 28.34, "percent": 33.1}
+{"stage": "copying", "GiB": 30.91, "percent": 36.1}
+{"stage": "copying", "GiB": 33.5, "percent": 39.1}
+{"stage": "copying", "GiB": 36.12, "percent": 42.2}
+{"stage": "copying", "GiB": 38.69, "percent": 45.2}
+{"stage": "copying", "GiB": 41.28, "percent": 48.2}
+{"stage": "copying", "GiB": 43.88, "percent": 51.2}
+{"stage": "copying", "GiB": 46.41, "percent": 54.2}
+{"stage": "copying", "GiB": 49.0, "percent": 57.2}
+{"stage": "copying", "GiB": 51.56, "percent": 60.2}
+{"stage": "copying", "GiB": 54.0, "percent": 63.0}
+{"stage": "copying", "GiB": 56.5, "percent": 66.0}
+{"stage": "copying", "GiB": 59.03, "percent": 68.9}
+{"stage": "copying", "GiB": 61.5, "percent": 71.8}
+{"stage": "copying", "GiB": 64.06, "percent": 74.8}
+{"stage": "copying", "GiB": 66.56, "percent": 77.7}
+{"stage": "copying", "GiB": 69.03, "percent": 80.6}
+{"stage": "copying", "GiB": 71.16, "percent": 83.1}
+{"stage": "copying", "GiB": 73.22, "percent": 85.5}
+{"stage": "copying", "GiB": 75.25, "percent": 87.9}
+{"stage": "copying", "GiB": 77.38, "percent": 90.3}
+{"stage": "copying", "GiB": 79.38, "percent": 92.7}
+{"stage": "copying", "GiB": 81.44, "percent": 95.1}
+{"stage": "copying", "GiB": 83.56, "percent": 97.6}
+{"stage": "copying", "GiB": 85.56, "percent": 99.9}
+{"stage": "verifying_full_candidate"}
+{
+  "candidate": "l45-shared-svd1-alpha1-q8",
+  "source": "/home/researcher/models/qwen38-flash-next-gyro-m/Qwen3.8-Flash-Next-Gyro-M-TQ2_0.gguf",
+  "target": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf",
+  "tensor": "blk.45.ffn_down_shexp.weight",
+  "offset": 89974442688,
+  "tensor_bytes": 1740800,
+  "shape": [
+    2560,
+640
+  ],
+  "formula": "W_new = W - outer(u, u.T @ W); u is the exact leading left singular vector of decoded W",
+  "alpha": 1.0,
+  "scope": "Only layer 45 shared-expert down projection; original Q8_0 encoding retained",
+  "hypothesis": "Strong spectral deflation trial, not a fitted repetition-specific direction",
+  "original_tensor_sha256": "39ddadd3fdd10fd58b32f6e8d8433feb987406eb96535445f0c8eb8346ca2c3b",
+  "edited_tensor_sha256": "8974663dc1cda1ebbb63266bc82afc622f63ac3ab38d24a718dcea36539b0c38",
+  "original_top_singular_value": 2.5975882302244004,
+  "original_top_mode_energy_share": 0.0280049167869004,
+  "relative_frobenius_change": 0.16746112849554157,
+  "top_mode_fraction_remaining_after_q8": 0.001002149222302693,
+  "q8_rounding_relative_to_ideal": 0.006316700858282184,
+  "baseline_config": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45_svd1_20261118/baseline_config.json",
+  "candidate_config": "/home/researcher/strata-122b/fn-iq3s/cfg-g4x-l45svd1.json",
+  "changed_runtime_arguments": [
+"--native"
+  ],
+  "other_settings_unchanged": true,
+  "rollback_config_name": "g4x",
+  "baseline_generation_run": true,
+  "baseline_scores": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45_svd1_20261118/baseline/scores.json",
+  "protocol_sha256": "34cb331ac3537f352cf9f92a9170cca30a24ea9ad6bf840c53d49592397cfaee",
+  "source_sha256": "7aa36d15131d255179ab6c87fa9c9f81a0b541fc9e81e959d4c3e29eb20feb5f",
+  "candidate_sha256": "186e2460703e38bf190a590e4a6b1e58b0e1e36258af1c15b9e6ea8d86a1f5c2",
+  "full_candidate_hash_verified": true,
+  "header_and_tensor_layout_unchanged": true,
+  "unchanged_bytes_copied": 91964033472,
+  "preparation_seconds": 640.3325667381287,
+  "status": "prepared_not_deployed"
+}

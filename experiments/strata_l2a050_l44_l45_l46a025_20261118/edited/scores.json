@@ -1,0 +1,48 @@
+{
+  "arm": "edited",
+  "protocol_sha256": "b3d4a5ea04a462f59640fe82a3a684b159d6c2a3c45a38ece9018d25b6c8c864",
+  "rows": [
+    {
+      "case": "05",
+      "id": "hle:6739e06f5a81384176dd28cd",
+      "subject": "Mathematics",
+      "seed": 20261118,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "canonical_json_bytes": 4
+      },
+      "status": "interrupted",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "canonical_json_bytes": 4
+      },
+      "completion_tokens": 71551,
+      "finish_reason": null,
+      "wall_s": 778.3792859920068,
+      "first_text_s": 0.6839056159951724,
+      "duplicate8_tail": 0.0,
+      "wait_count": 116,
+      "natural_completion": false,
+      "forced_wrap_marker": false,
+      "token_count_is_lower_bound": true,
+      "token_count_source": "Live engine counter immediately before client cancellation; final API usage unavailable."
+    }
+  ],
+  "counts": {
+    "interrupted": 1
+  },
+  "complete": false,
+  "stopped_by_user": true,
+  "not_run": [
+    "01",
+    "07",
+    "08"
+  ]
+}

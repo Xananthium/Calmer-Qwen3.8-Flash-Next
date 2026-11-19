@@ -1,0 +1,5 @@
+{
+  "directory": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l44_l45_samedirection_20261118/edited",
+  "loop_directory": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l44_l45_samedirection_20261118/loop_probe/edited",
+  "model": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l44-l45/Qwen3.8-Flash-Next-Gyro-M-Calmer-L44-L45-TQ2_0.gguf"
+}

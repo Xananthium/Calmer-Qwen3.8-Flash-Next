@@ -1,0 +1,6 @@
+{"stage": "experiment_layer2.py", "args": ["loops"], "state": "starting"}
+{"stage": "experiment_layer2.py", "args": ["loops"], "state": "complete"}
+{"stage": "experiment_layer2.py", "args": ["edited"], "state": "starting"}
+{"stage": "experiment_layer2.py", "args": ["edited"], "state": "complete"}
+{"stage": "compare_layer2.py", "args": [], "state": "starting"}
+{"stage": "compare_layer2.py", "args": [], "state": "complete"}

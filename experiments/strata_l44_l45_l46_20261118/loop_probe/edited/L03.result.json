@@ -1,0 +1,78 @@
+{
+  "case": "L03",
+  "id": "tool_npm",
+  "request_sha256": "928292105b5423d482aada0c16bd6d3d793dff1e4cc83fb12901cf4199fe6494",
+  "started_at": "2026-11-18T22:15:39.118346+00:00",
+  "content": "<tool_call>\n<function=shell>\n<parameter=command>\nnpm run test:unit\n</parameter>\n</function>\n</tool_call>",
+  "reasoning_content": "The system suggests using `npm run test:unit`. Let me run that.\n",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 314,
+    "completion_tokens": 49,
+    "total_tokens": 363,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 314,
+    "prompt_ms": 602.9,
+    "prompt_per_token_ms": 1.92,
+    "prompt_per_second": 520.8,
+    "predicted_n": 49,
+    "predicted_ms": 365.8,
+    "predicted_per_token_ms": 7.465,
+    "predicted_per_second": 134.0,
+    "draft_n": 33,
+    "draft_n_accepted": 26
+  },
+  "live_before": {
+    "state": "idle",
+    "queued": 0,
+    "phase": null,
+    "prompt_tokens": null,
+    "prompt_read": null,
+    "prompt_total": null,
+    "generated": null,
+    "max_tokens": null,
+    "elapsed_s": null,
+    "tok_s": null,
+    "tok_s_mean": null,
+    "prefill_tok_s_mean": null,
+    "tok_s_window_s": null,
+    "parallel": 4,
+    "running": 0,
+    "slots": [
+      {
+        "slot": 0,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 1,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 2,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 3,
+        "state": "idle",
+        "held_tokens": 0
+      }
+    ],
+    "outside_slots": 0,
+    "waiting": 0,
+    "admitting": 0
+  },
+  "http_status": 200,
+  "response_id": "chatcmpl-a60a4508931244d2a7e01358",
+  "first_text_s": 0.6237563730101101,
+  "done_received": true,
+  "elapsed_s": 0.9778336580493487,
+  "ended_at": "2026-11-18T22:15:40.096183+00:00"
+}

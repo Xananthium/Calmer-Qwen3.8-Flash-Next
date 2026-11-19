@@ -1,0 +1,17 @@
+{
+  "state": "live",
+  "started_at": "2026-11-18T23:04:52.205541+00:00",
+  "to_model": "original unedited weights",
+  "restart_at": "2026-11-18T23:04:52.231313+00:00",
+  "ready_at": "2026-11-18T23:06:38.021769+00:00",
+  "health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "qwen3.8-27b-hauhau-q4",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  }
+}

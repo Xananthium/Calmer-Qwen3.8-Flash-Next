@@ -1,0 +1,78 @@
+{
+  "case": "C05",
+  "id": "primed_gsm8k_train:2079:clean",
+  "request_sha256": "4d0afeb28e3cb002def157de8056fe134fce3b71daf729feeab43aebfd251df6",
+  "started_at": "2026-11-18T23:06:50.898284+00:00",
+  "content": "Let me work through this step by step by tracking the cookies taken at each stage.\n\nLet **x** be the total number of cookies Kristy baked.\n\n1. **Kristy ate 2 cookies:** x − 2 remaining\n2. **She gave her brother 1 cookie:** x − 2 − 1 = x − 3 remaining\n3. **First friend took 3 cookies:** x − 3 − 3 = x − 6 remaining\n4. **Second friend took 5 cookies:** x − 6 − 5 = x − 11 remaining\n5. **Third friend took 5 cookies:** x − 11 − 5 = x − 16 remaining\n\nAfter all of these, **6 cookies are left**, so:\n\nx − 16 = 6\n\nx = **22**\n\n**Verification:** 22 → eat 2 (20) → give brother 1 (19) → friend 1 takes 3 (16) → friend 2 takes 5 (11) → friend 3 takes 5 (6) ✓\n\n$$\\boxed{22}$$",
+  "reasoning_content": "Let me work through this step by step.\n\nKristy baked some cookies. Let me call the total number she baked x.\n\n- She ate 2 cookies: x - 2 remaining\n- She gave her brother 1 cookie: x - 2 - 1 = x - 3 remaining\n- First friend took 3 cookies: x - 3 - 3 = x - 6 remaining\n- Second friend took 5 cookies: x - 6 - 5 = x - 11 remaining\n- Third friend took 5 cookies: x - 11 - 5 = x - 16 remaining\n\nAfter all of this, there are 6 cookies left.\n\nSo x - 16 = 6\nx = 22\n\nLet me verify: 22 cookies baked\n- Kristy ate 2: 20 left\n- Gave brother 1: 19 left\n- First friend took 3: 16 left\n- Second friend took 5: 11 left\n- Third friend took 5: 6 left ✓\n",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 93,
+    "completion_tokens": 478,
+    "total_tokens": 571,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 93,
+    "prompt_ms": 379.5,
+    "prompt_per_token_ms": 4.081,
+    "prompt_per_second": 245.1,
+    "predicted_n": 478,
+    "predicted_ms": 2815.1,
+    "predicted_per_token_ms": 5.889,
+    "predicted_per_second": 169.8,
+    "draft_n": 394,
+    "draft_n_accepted": 315
+  },
+  "live_before": {
+    "state": "idle",
+    "queued": 0,
+    "phase": null,
+    "prompt_tokens": null,
+    "prompt_read": null,
+    "prompt_total": null,
+    "generated": null,
+    "max_tokens": null,
+    "elapsed_s": null,
+    "tok_s": null,
+    "tok_s_mean": null,
+    "prefill_tok_s_mean": null,
+    "tok_s_window_s": null,
+    "parallel": 4,
+    "running": 0,
+    "slots": [
+      {
+        "slot": 0,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 1,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 2,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 3,
+        "state": "idle",
+        "held_tokens": 0
+      }
+    ],
+    "outside_slots": 0,
+    "waiting": 0,
+    "admitting": 0
+  },
+  "http_status": 200,
+  "response_id": "chatcmpl-24ff794f9c4b449c80da09d0",
+  "first_text_s": 0.3993412379641086,
+  "done_received": true,
+  "elapsed_s": 3.2025937819853425,
+  "ended_at": "2026-11-18T23:06:54.100880+00:00"
+}

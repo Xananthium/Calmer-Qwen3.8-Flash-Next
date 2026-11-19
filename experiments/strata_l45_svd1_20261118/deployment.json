@@ -1,0 +1,28 @@
+{
+  "started_at": "2026-11-18T19:23:13.546497+00:00",
+  "old_config": "g4x",
+  "new_config": "g4x-l45svd1",
+  "state": "live",
+  "startup_correction": {
+    "error": "native dense: duplicate split shard number",
+    "cause": "Strata adds the full --ple-gguf to native dense shards when its path differs from --native. Copies retain identical split.no metadata.",
+    "fix": "Point --native and --ple-gguf at the same edited GGUF. All PLE tensors are byte-identical to the original.",
+    "source_evidence": [
+      "src/src/program/generate.cpp:4445-4456",
+      "src/src/core/native_dense.cpp:321-322"
+    ]
+  },
+  "ready_at": "2026-11-18T19:25:41.974796+00:00",
+  "engine_pid": 797277,
+  "tensor_sha256": "8974663dc1cda1ebbb63266bc82afc622f63ac3ab38d24a718dcea36539b0c38",
+  "health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "qwen3.8-27b-hauhau-q4",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  }
+}

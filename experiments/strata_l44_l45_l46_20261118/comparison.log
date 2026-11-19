@@ -1,0 +1,102 @@
+{
+  "groups": {
+    "long_cases": {
+      "n": 2,
+      "baseline_counts": {
+        "correct": 2
+      },
+      "edited_counts": {
+        "correct": 1,
+        "interrupted": 1
+      },
+      "baseline_tokens": 47545,
+      "edited_tokens": 89111,
+      "token_change_pct": null,
+      "edited_tokens_are_lower_bound": true,
+      "baseline_natural_completions": 2,
+      "edited_natural_completions": 1,
+      "baseline_waits": 53,
+      "edited_waits": 121
+    },
+    "arithmetic_controls": {
+      "n": 2,
+      "baseline_counts": {
+        "correct": 2
+      },
+      "edited_counts": {
+        "correct": 2
+      },
+      "baseline_tokens": 1296,
+      "edited_tokens": 1096,
+      "token_change_pct": -15.432098765432102,
+      "edited_tokens_are_lower_bound": false,
+      "baseline_natural_completions": 2,
+      "edited_natural_completions": 2,
+      "baseline_waits": 1,
+      "edited_waits": 1
+    },
+    "all": {
+      "n": 4,
+      "baseline_counts": {
+        "correct": 4
+      },
+      "edited_counts": {
+        "correct": 3,
+        "interrupted": 1
+      },
+      "baseline_tokens": 48841,
+      "edited_tokens": 90207,
+      "token_change_pct": null,
+      "edited_tokens_are_lower_bound": true,
+      "baseline_natural_completions": 4,
+      "edited_natural_completions": 3,
+      "baseline_waits": 54,
+      "edited_waits": 122
+    }
+  },
+  "common_case_variants": {
+    "45 only": {
+      "completion_tokens": 79987,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 4
+      },
+      "natural_completions": 4
+    },
+    "45+46": {
+      "completion_tokens": 60474,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 4
+      },
+      "natural_completions": 4
+    },
+    "44+45": {
+      "completion_tokens": 48841,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 4
+      },
+      "natural_completions": 4
+    },
+    "44+45+46": {
+      "completion_tokens": 90207,
+      "completion_tokens_are_lower_bound": true,
+      "counts": {
+        "correct": 3,
+        "interrupted": 1
+      },
+      "natural_completions": 3
+    }
+  },
+  "health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "qwen3.8-27b-hauhau-q4",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  }
+}

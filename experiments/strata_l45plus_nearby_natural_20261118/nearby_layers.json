@@ -1,0 +1,131 @@
+{
+  "source": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf",
+  "baseline_parent_manifest": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45_svd1_20261118/manifest.json",
+  "method": "Exact CPU SVD on current shared-expert matrices, no activation capture or inference changes",
+  "rows": [
+    {
+      "layer": 41,
+      "tensor": "blk.41.ffn_down_shexp.weight",
+      "encoded_sha256": "6f5e835ee2d309ad40eedc8766334fb68ac9d0b21158bf6a2febac89fc0c0d6b",
+      "top4_energy_shares": [
+        0.023065127810338676,
+        0.014381286791092362,
+        0.011975554225249438,
+        0.010945297192805943
+      ],
+      "top_singular_value": 2.3305336789823126,
+      "top_direction_alignment_to_original_l45": 0.136916656942553,
+      "original_l45_energy_share": 0.0027622857736052152,
+      "top_direction_alignment_to_control_vector": 0.013122289367284797,
+      "leading_direction_energy_surviving_control_projection": 0.9998278055217612,
+      "rank1_removal_relative_norm": 0.1518720771252526
+    },
+    {
+      "layer": 43,
+      "tensor": "blk.43.ffn_down_shexp.weight",
+      "encoded_sha256": "e1c8883a76261d8e9a144940d9e43ef794784ca226642a502e80eff4f8b88e7e",
+      "top4_energy_shares": [
+        0.015922231753469296,
+        0.010208219525527232,
+        0.00930460020538928,
+        0.008638004335690074
+      ],
+      "top_singular_value": 1.9761410671092687,
+      "top_direction_alignment_to_original_l45": 0.4635968655627368,
+      "original_l45_energy_share": 0.0047529067670684525,
+      "top_direction_alignment_to_control_vector": 0.014196699567057883,
+      "leading_direction_energy_surviving_control_projection": 0.9997984537214027,
+      "rank1_removal_relative_norm": 0.1261833259724489
+    },
+    {
+      "layer": 44,
+      "tensor": "blk.44.ffn_down_shexp.weight",
+      "encoded_sha256": "eca71b05df1c2d66e55411e4420e09d4d6b9e96b80c04c012d0af0afcdedb1bf",
+      "top4_energy_shares": [
+        0.028899011172576816,
+        0.01748746529795803,
+        0.01523914790959569,
+        0.013608439787716744
+      ],
+      "top_singular_value": 2.616838714541081,
+      "top_direction_alignment_to_original_l45": 0.22646987016591053,
+      "original_l45_energy_share": 0.010374795533690756,
+      "top_direction_alignment_to_control_vector": 0.016586190302599592,
+      "leading_direction_energy_surviving_control_projection": 0.999724898291246,
+      "rank1_removal_relative_norm": 0.16999709165917168
+    },
+    {
+      "layer": 45,
+      "tensor": "blk.45.ffn_down_shexp.weight",
+      "encoded_sha256": "8974663dc1cda1ebbb63266bc82afc622f63ac3ab38d24a718dcea36539b0c38",
+      "top4_energy_shares": [
+        0.020894617722839525,
+        0.012749927132952737,
+        0.010292318428119398,
+        0.010124017090215619
+      ],
+      "top_singular_value": 2.212118731551292,
+      "top_direction_alignment_to_original_l45": 6.204741837391621e-05,
+      "original_l45_energy_share": 2.893496535069803e-08,
+      "top_direction_alignment_to_control_vector": 0.008643929618799173,
+      "leading_direction_energy_surviving_control_projection": 0.9999252824807452,
+      "rank1_removal_relative_norm": 0.14454970675459541
+    },
+    {
+      "layer": 46,
+      "tensor": "blk.46.ffn_down_shexp.weight",
+      "encoded_sha256": "4a0375c3811d552220aa2b55c3c5c5f741c96738fe0259be646404918d034749",
+      "top4_energy_shares": [
+        0.023762523318913067,
+        0.014000205144397317,
+        0.010345642173770498,
+        0.009527187150800663
+      ],
+      "top_singular_value": 2.3437153849375436,
+      "top_direction_alignment_to_original_l45": 0.6159018238844746,
+      "original_l45_energy_share": 0.011460590363096034,
+      "top_direction_alignment_to_control_vector": 0.0008134261845174776,
+      "leading_direction_energy_surviving_control_projection": 0.9999993383378424,
+      "rank1_removal_relative_norm": 0.15415097573130399
+    },
+    {
+      "layer": 47,
+      "tensor": "blk.47.ffn_down_shexp.weight",
+      "encoded_sha256": "6195954c077e243a2205cabcd00cef420dbcdab2f684ed0c6d6f04156fc71656",
+      "top4_energy_shares": [
+        0.015258220147484505,
+        0.014491504226494261,
+        0.013103127556258665,
+        0.012374124134405627
+      ],
+      "top_singular_value": 1.6697019256599346,
+      "top_direction_alignment_to_original_l45": 0.00605100030768391,
+      "original_l45_energy_share": 0.0014455222101802648,
+      "top_direction_alignment_to_control_vector": 0.0042796676182718435,
+      "leading_direction_energy_surviving_control_projection": 0.9999816844450771,
+      "rank1_removal_relative_norm": 0.12352416827278986
+    }
+  ],
+  "top_direction_pair_alignments": [
+    {
+      "a": 44,
+      "b": 46,
+      "absolute_cosine": 0.27545734298362046
+    },
+    {
+      "a": 44,
+      "b": 47,
+      "absolute_cosine": 0.017648872694669637
+    },
+    {
+      "a": 46,
+      "b": 47,
+      "absolute_cosine": 0.009215837025303713
+    },
+    {
+      "a": 43,
+      "b": 44,
+      "absolute_cosine": 0.4692273263172497
+    }
+  ]
+}

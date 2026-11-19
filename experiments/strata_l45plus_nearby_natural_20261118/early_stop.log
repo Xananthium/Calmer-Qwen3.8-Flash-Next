@@ -1,0 +1,33 @@
+{
+  "at": "2026-11-18T21:50:28.270951+00:00",
+  "stopped_client_pids": [
+865433
+  ],
+  "finished_cases": [
+    "01",
+    "05",
+    "07",
+"08"
+  ],
+  "current_math": {
+    "case": "05",
+    "id": "hle:6739e06f5a81384176dd28cd",
+    "subject": "Mathematics",
+    "seed": 20261118,
+    "gold": "A",
+    "predicted": "A",
+    "status": "correct",
+    "raw_answer": "A",
+    "completion_tokens": 35760,
+    "finish_reason": "stop",
+    "wall_s": 394.47940888500307,
+    "first_text_s": 0.7633172310306691,
+    "duplicate8_tail": 0.0,
+    "wait_count": 51,
+    "natural_completion": true,
+    "forced_wrap_marker": false
+  },
+  "next_model": "Layer44 plus Layer45, built from Layer45-only artifact, with Layer46 original weights restored.",
+  "interpretation": "Partial exploratory panel stopped by user; do not report six-case completion or fill unrun cases.",
+  "next_started_request_may_be_cancelled": "The runner can dispatch the next request before its result file is observed; any such stream is kept as an administrative interruption, not scored."
+}

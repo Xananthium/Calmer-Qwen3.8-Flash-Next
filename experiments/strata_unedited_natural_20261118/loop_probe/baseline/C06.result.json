@@ -1,0 +1,78 @@
+{
+  "case": "C06",
+  "id": "primed_gsm8k_train:2451:clean",
+  "request_sha256": "bbba5ff6a2c09d2a5d9eef65e33972f9dbcbd1a94b34e6cf3492a327893063ad",
+  "started_at": "2026-11-18T23:06:54.102006+00:00",
+  "content": "## Step-by-Step Solution\n\n**Step 1: Determine how many washes Sanya can do per day.**\nEach wash takes 1 hour, and she has 2 hours available per day.\n$$\\text{Washes per day} = \\frac{2 \\text{ hours}}{1 \\text{ hour per wash}} = 2 \\text{ washes}$$\n\n**Step 2: Determine how many towels she can wash per day.**\nEach wash handles 7 towels, and she can do 2 washes per day.\n$$\\text{Towals per day} = 2 \\times 7 = 14 \\text{ towels}$$\n\n**Step 3: Determine how many days she needs for 98 towels.**\n$$\\text{Days needed} = \\frac{98}{14} = 7 \\text{ days}$$\n\n## Final Answer\n\n$$\\boxed{7}$$",
+  "reasoning_content": "Let me work through this problem step by step.\n\nSanya can wash 7 bath towels in one wash, which takes 1 hour.\nShe has 2 hours in a day to do this task.\nShe has 98 bath towels total.\n\nFirst, let me figure out how many washes she can do in one day:\n- Each wash takes 1 hour\n- She has 2 hours per day\n- So she can do 2 washes per day\n- Each wash cleans 7 towels\n- So in one day, she can wash 2 × 7 = 14 towels\n\nNow, how many days does she need to wash all 98 towels?\n- 98 ÷ 14 = 7 days\n\nSo she needs 7 days.\n",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 82,
+    "completion_tokens": 371,
+    "total_tokens": 453,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 82,
+    "prompt_ms": 384.6,
+    "prompt_per_token_ms": 4.69,
+    "prompt_per_second": 213.2,
+    "predicted_n": 371,
+    "predicted_ms": 2223.2,
+    "predicted_per_token_ms": 5.992,
+    "predicted_per_second": 166.9,
+    "draft_n": 320,
+    "draft_n_accepted": 242
+  },
+  "live_before": {
+    "state": "idle",
+    "queued": 0,
+    "phase": null,
+    "prompt_tokens": null,
+    "prompt_read": null,
+    "prompt_total": null,
+    "generated": null,
+    "max_tokens": null,
+    "elapsed_s": null,
+    "tok_s": null,
+    "tok_s_mean": null,
+    "prefill_tok_s_mean": null,
+    "tok_s_window_s": null,
+    "parallel": 4,
+    "running": 0,
+    "slots": [
+      {
+        "slot": 0,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 1,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 2,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 3,
+        "state": "idle",
+        "held_tokens": 0
+      }
+    ],
+    "outside_slots": 0,
+    "waiting": 0,
+    "admitting": 0
+  },
+  "http_status": 200,
+  "response_id": "chatcmpl-13c6f4bc23bb4929b0c2225f",
+  "first_text_s": 0.4044225729885511,
+  "done_received": true,
+  "elapsed_s": 2.615894156973809,
+  "ended_at": "2026-11-18T23:06:56.717903+00:00"
+}

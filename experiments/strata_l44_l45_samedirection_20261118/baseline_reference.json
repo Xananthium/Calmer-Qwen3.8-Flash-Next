@@ -1,0 +1,6 @@
+{
+  "directory": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45plus_nearby_natural_20261118/baseline",
+  "loop_directory": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45plus_nearby_natural_20261118/loop_probe/baseline",
+  "model": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf",
+  "policy": "Reuse completed layer45-only baseline. No results from the layer45+46 candidate are pooled into this baseline."
+}

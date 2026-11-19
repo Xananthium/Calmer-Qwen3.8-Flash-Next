@@ -1,0 +1,21 @@
+{
+  "at": "2026-11-18T21:46:58.128427+00:00",
+  "state": "prepared_patch_only_not_applied",
+  "parent_model": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-l46-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-L46-SVD1-TQ2_0.gguf",
+  "parent_manifest": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45plus_nearby_natural_20261118/candidate_manifest.json",
+  "tensor": "blk.44.ffn_down_shexp.weight",
+  "offset": 89219702592,
+  "tensor_bytes": 1740800,
+  "alpha": 1.0,
+  "formula": "W44_new = W44 - outer(d45, d45.T @ W44)",
+  "direction_source": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45_svd1_20261118/edit.npz",
+  "reason": "Remove the mapped recurrence of the original layer45 direction from layer44; it is spread across multiple leading layer44 modes.",
+  "original_sha256": "eca71b05df1c2d66e55411e4420e09d4d6b9e96b80c04c012d0af0afcdedb1bf",
+  "candidate_sha256": "2b334b07c863def21e915ae55d2c14e8f888fc8743ef10a85f7b53b2347f30ec",
+  "removed_direction_energy_share": 0.010374795533690752,
+  "actual_relative_weight_change": 0.10202818627334515,
+  "removed_direction_amplitude_remaining_after_q8": 0.0019455525636429094,
+  "model_files_modified": false,
+  "production_restarted": false,
+  "evaluation_status": "Not tested. Current production remains the 45+46 candidate during its matched comparison."
+}

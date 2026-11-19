@@ -1,0 +1,9 @@
+{"stage": "experiment_triplet.py", "args": ["loops"], "state": "starting"}
+{"stage": "experiment_triplet.py", "args": ["loops"], "state": "complete"}
+{"stage": "experiment_triplet.py", "args": ["edited"], "state": "starting"}
+{"stage": "experiment_triplet.py", "args": ["loops"], "state": "starting"}
+{"stage": "experiment_triplet.py", "args": ["loops"], "state": "complete"}
+{"stage": "experiment_triplet.py", "args": ["edited"], "state": "starting"}
+{"stage": "experiment_triplet.py", "args": ["edited"], "state": "complete"}
+{"stage": "compare_triplet.py", "args": [], "state": "starting"}
+{"stage": "compare_triplet.py", "args": [], "state": "complete"}

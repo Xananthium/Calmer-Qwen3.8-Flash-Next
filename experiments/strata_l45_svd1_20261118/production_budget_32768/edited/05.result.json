@@ -1,0 +1,90 @@
+{
+  "case": "05",
+  "id": "hle:6739e06f5a81384176dd28cd",
+  "request_sha256": "35e9db0f41cd9fd5a7ac2f2d4b01adb65c4f215ebdf3a188c33af9b14caf9c2f",
+  "started_at": "2026-11-18T19:44:08.928381+00:00",
+  "content_withheld": {
+    "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+    "sha256": "99ff4114fa2e5eaf4ab016227bfd2efb0384a4bc408763f9e920ab32c143be9c",
+    "canonical_json_bytes": 2217
+  },
+  "reasoning_content_withheld": {
+    "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+    "sha256": "7422f0611286d11c8cdeb2af8279ccf05f80d363935d2401311f5bddeb06c2b3",
+    "canonical_json_bytes": 93502
+  },
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 322,
+    "completion_tokens": 25367,
+    "total_tokens": 25689,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 322,
+    "prompt_ms": 890.2,
+    "prompt_per_token_ms": 2.765,
+    "prompt_per_second": 361.7,
+    "predicted_n": 25367,
+    "predicted_ms": null,
+    "predicted_per_token_ms": null,
+    "predicted_per_second": null,
+    "draft_n": 581,
+    "draft_n_accepted": 452
+  },
+  "live_before": {
+    "state": "generating",
+    "queued": 0,
+    "phase": "writing a tool call: Edit",
+    "prompt_tokens": 33554,
+    "prompt_read": null,
+    "prompt_total": null,
+    "generated": 1304,
+    "max_tokens": 32768,
+    "elapsed_s": 26.2,
+    "tok_s": 59.6,
+    "tok_s_mean": 59.7,
+    "prefill_tok_s_mean": 1132.6,
+    "tok_s_window_s": 2.0,
+    "parallel": 4,
+    "running": 1,
+    "slots": [
+      {
+        "slot": 0,
+        "state": "idle",
+        "held_tokens": 9917
+      },
+      {
+        "slot": 1,
+        "state": "decoding",
+        "prompt_tokens": 33554,
+        "prompt_read": null,
+        "generated": 1304,
+        "elapsed_s": 23.4,
+        "tok_s": 59.7
+      },
+      {
+        "slot": 2,
+        "state": "idle",
+        "held_tokens": 4820
+      },
+      {
+        "slot": 3,
+        "state": "idle",
+        "held_tokens": 16070
+      }
+    ],
+    "outside_slots": 0,
+    "waiting": 0,
+    "admitting": 0
+  },
+  "http_status": 200,
+  "response_id": "chatcmpl-3a1b2001d66b4096b720ca2b",
+  "first_text_s": 0.7223959430120885,
+  "done_received": true,
+  "elapsed_s": 312.08456367003964,
+  "ended_at": "2026-11-18T19:49:21.012946+00:00"
+}

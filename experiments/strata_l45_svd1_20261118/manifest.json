@@ -1,0 +1,69 @@
+{
+  "candidate": "l45-shared-svd1-alpha1-q8",
+  "source": "/home/researcher/models/qwen38-flash-next-gyro-m/Qwen3.8-Flash-Next-Gyro-M-TQ2_0.gguf",
+  "target": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf",
+  "tensor": "blk.45.ffn_down_shexp.weight",
+  "offset": 89974442688,
+  "tensor_bytes": 1740800,
+  "shape": [
+    2560,
+    640
+  ],
+  "formula": "W_new = W - outer(u, u.T @ W); u is the exact leading left singular vector of decoded W",
+  "alpha": 1.0,
+  "scope": "Only layer 45 shared-expert down projection; original Q8_0 encoding retained",
+  "hypothesis": "Strong spectral deflation trial, not a fitted repetition-specific direction",
+  "original_tensor_sha256": "39ddadd3fdd10fd58b32f6e8d8433feb987406eb96535445f0c8eb8346ca2c3b",
+  "edited_tensor_sha256": "8974663dc1cda1ebbb63266bc82afc622f63ac3ab38d24a718dcea36539b0c38",
+  "original_top_singular_value": 2.5975882302244004,
+  "original_top_mode_energy_share": 0.0280049167869004,
+  "relative_frobenius_change": 0.16746112849554157,
+  "top_mode_fraction_remaining_after_q8": 0.001002149222302693,
+  "q8_rounding_relative_to_ideal": 0.006316700858282184,
+  "baseline_config": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45_svd1_20261118/baseline_config.json",
+  "candidate_config": "/home/researcher/strata-122b/fn-iq3s/cfg-g4x-l45svd1.json",
+  "changed_runtime_arguments": [
+    "--native",
+    "--ple-gguf"
+  ],
+  "other_settings_unchanged": true,
+  "rollback_config_name": "g4x",
+  "baseline_generation_run": true,
+  "baseline_scores": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45_svd1_20261118/baseline/scores.json",
+  "protocol_sha256": "34cb331ac3537f352cf9f92a9170cca30a24ea9ad6bf840c53d49592397cfaee",
+  "source_sha256": "7aa36d15131d255179ab6c87fa9c9f81a0b541fc9e81e959d4c3e29eb20feb5f",
+  "candidate_sha256": "186e2460703e38bf190a590e4a6b1e58b0e1e36258af1c15b9e6ea8d86a1f5c2",
+  "full_candidate_hash_verified": true,
+  "header_and_tensor_layout_unchanged": true,
+  "unchanged_bytes_copied": 91964033472,
+  "preparation_seconds": 640.3325667381287,
+  "status": "deployed_evaluated_left_running",
+  "startup_correction": {
+    "error": "native dense: duplicate split shard number",
+    "cause": "Strata adds the full --ple-gguf to native dense shards when its path differs from --native. Copies retain identical split.no metadata.",
+    "fix": "Point --native and --ple-gguf at the same edited GGUF. All PLE tensors are byte-identical to the original.",
+    "source_evidence": [
+      "src/src/program/generate.cpp:4445-4456",
+      "src/src/core/native_dense.cpp:321-322"
+    ],
+    "scope": "Strata 0.1.59.1 native loader, full copied GGUF with unchanged split metadata",
+    "verification": "Both references aligned; production health loaded:true; edited tensor SHA matched; GPU engine PID 797277",
+    "guard": "Before restart, both full-model paths must refer to the same candidate; normalize both references when comparing configuration.",
+    "status": "locally_confirmed"
+  },
+  "comparison_8192": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45_svd1_20261118/comparison.json",
+  "production_budget_run": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45_svd1_20261118/production_budget_32768",
+  "summary": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45_svd1_20261118/summary.json",
+  "final_health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "qwen3.8-27b-hauhau-q4",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  },
+  "final_engine_pid": 797277,
+  "user_requested_leave_running": true
+}

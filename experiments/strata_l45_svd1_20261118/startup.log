@@ -1,0 +1,159 @@
+2026-11-18T14:23:13-05:00 research-host serve-fn-iq3s-run.sh[2924]: [strata] stopping (Ctrl+C again to end the engine at once) ...
+2026-11-18T14:23:13-05:00 research-host systemd[2094]: Stopping strata-fn-serve.service - Strata inference server (Qwen3.8-Flash-Next, config named in fn-iq3s/boot.env) on 127.0.0.1:8001...
+2026-11-18T14:23:16-05:00 research-host serve-fn-iq3s-run.sh[2924]: [strata] stopped
+2026-11-18T14:23:17-05:00 research-host systemd[2094]: Stopped strata-fn-serve.service - Strata inference server (Qwen3.8-Flash-Next, config named in fn-iq3s/boot.env) on 127.0.0.1:8001.
+2026-11-18T14:23:17-05:00 research-host systemd[2094]: strata-fn-serve.service: Consumed 6d 7h 23min 30.988s CPU time, 105.8G memory peak, 0B memory swap peak.
+2026-11-18T14:23:17-05:00 research-host systemd[2094]: Starting strata-fn-serve.service - Strata inference server (Qwen3.8-Flash-Next, config named in fn-iq3s/boot.env) on 127.0.0.1:8001...
+2026-11-18T14:23:17-05:00 research-host systemd[2094]: Started strata-fn-serve.service - Strata inference server (Qwen3.8-Flash-Next, config named in fn-iq3s/boot.env) on 127.0.0.1:8001.
+2026-11-18T14:23:18-05:00 research-host serve-fn-iq3s-run.sh[796644]: [strata] sampling defaults from the config: temperature=1.3, top_p=0.95, top_k=20, min_p=0.0, presence_penalty=0.0, repetition_penalty=1.0
+2026-11-18T14:23:18-05:00 research-host serve-fn-iq3s-run.sh[796644]: loading the vision encoder ...
+2026-11-18T14:23:19-05:00 research-host serve-fn-iq3s-run.sh[796644]: loading the model (the first start takes a minute or two) ...
+2026-11-18T14:23:19-05:00 research-host serve-fn-iq3s-run.sh[796644]: [strata] layer split across GPUs [0, 1] (24)
+2026-11-18T14:23:19-05:00 research-host serve-fn-iq3s-run.sh[796644]: [strata] starting the engine: reading the model's weights ...
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]: Traceback (most recent call last):
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   File "/home/researcher/strata-122b/src/serve/server.py", line 10671, in <module>
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:     sys.exit(main())
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:              ^^^^^^
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   File "/home/researcher/strata-122b/src/serve/server.py", line 10026, in main
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:     return _main(argv, lifecycle_event=lifecycle_event, interrupt_exit_code=interrupt_exit_code)
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   File "/home/researcher/strata-122b/src/serve/server.py", line 10362, in _main
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:     engine = start_engine_or_fallback(cfg, exe, effort_end, env, lazy, tok, offline=a.offline, batch_telemetry=a.batch_telemetry)
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   File "/home/researcher/strata-122b/src/serve/server.py", line 9621, in start_engine_or_fallback
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:     return StrataEngine(exe, engine_args(cfg, exe) + (effort_end or []), cwd=cfg.get("cwd"), log=cfg.get("log"), env=env, lazy=lazy,
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   File "/home/researcher/strata-122b/src/serve/server.py", line 1316, in __init__
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:     raise EngineDied(why + (f" (see {log})" if log else "") + note +
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]: EngineDied: the engine exited before it was ready (see /home/researcher/strata-122b/logs/strata-fn-iq3s-g4x-engine.log)
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]: the engine process ended: exit code 1
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]: the engine log's last lines:
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   [strata] 2026-11-18 14:23:19 engine started: /home/researcher/strata-122b/build/strata --serve --pack /home/researcher/strata-122b/fn-gyro-m/pack --native /home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf --ple-gguf /home/researcher/models/qwen38-flash-next-gyro-m/Qwen3.8-Flash-Next-Gyro-M-TQ2_0.gguf --expert-profile /home/researcher/strata-122b/fn-iq3s/expert-profile.bin --expert-cache auto --resident-experts --prefill auto --spec 4 --spec-min-p 0.7 --mtp /home/researcher/strata-122b/fn-iq3s/mtp/rt --max-context 262144 --kv q4_0 --ple-io ram --vision --vram-reserve-mib 620 --vram-reserve-later-mib 740 --trim-stage-weights --control-vector-scaled /home/researcher/models/qwen38-flash-next-iq3s/Huihui-Qwen3.8-Flash-Next-refusal-direction-r.gguf:1.0 --control-vector-layer-range 4 44 --cvec-mode project --cvec-dir per-layer --pipeline-windows 2 --batch-groups auto --layer-split 24 --batch 4
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   strata: sm_86 (Ampere): 9 exact speed switches on by default (STRATA_SM86_PERF=0 turns them off; a switch you set is kept): ADAPT_NOWAIT ADAPT_LAG CPU_IQ_ALL_EXACT1 SIDE_MIXER ATTN_DAILY GR_UP75 GU_SWIGLU QSA_ROWS B6_MMVQ_ROWS
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   strata: a model with K-quant experts (Unsloth UD-Q4/Q5/Q6_K_XL) reads its prompt on llama.cpp's MMQ kernels (STRATA_MMQ_KQ=0 or STRATA_NV_KQ_DEFAULT=0 turns it off)
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   strata generate: NVIDIA: --prefill auto may take chunks up to 32768 (STRATA_NV_CHUNK=0 keeps 8192, =16 keeps 16384)
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   strata generate: memory guard: limit 125.5 GiB (source: meminfo), current 3.9 GiB, reclaimable cache credited 0.0 GiB; available 121.6 GiB (MemAvailable 121.6 GiB), floor 2560 MiB
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   strata generate: layer split across 2 GPUs: CUDA0, then CUDA1 (split 24)
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   strata generate: APR pack: Hadamard-folded experts (block 128)
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   strata generate: PCIe probe: 12.3 GB/s host->device (best of 12.3 12.3 12.3 12.3) -> pcie_frac 0.34 (default 0.55)
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   strata generate: CPU expert kernels: AVX-2
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   strata generate: native pack: /home/researcher/strata-122b/fn-gyro-m/pack experts (largest blob 1.31 MB), token embedding Q8_0 in mapped host memory (644 MiB, 0.5 s)
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   strata generate: layer split: CUDA0 loads the dense weights of layers 0-23 only
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   strata generate: 781 MiB of weights loaded from /home/researcher/strata-122b/fn-gyro-m/pack in 0.6 s (663 canonical tensors skipped: served natively)
+2026-11-18T14:23:23-05:00 research-host serve-fn-iq3s-run.sh[796644]:   strata generate: native dense projections: native dense: duplicate split shard number
+2026-11-18T14:23:23-05:00 research-host systemd[2094]: strata-fn-serve.service: Main process exited, code=exited, status=1/FAILURE
+2026-11-18T14:23:23-05:00 research-host systemd[2094]: strata-fn-serve.service: Failed with result 'exit-code'.
+2026-11-18T14:23:23-05:00 research-host systemd[2094]: strata-fn-serve.service: Consumed 5.619s CPU time, 2.1G memory peak, 0B memory swap peak.
+2026-11-18T14:23:43-05:00 research-host systemd[2094]: strata-fn-serve.service: Scheduled restart job, restart counter is at 1.
+2026-11-18T14:23:43-05:00 research-host systemd[2094]: Starting strata-fn-serve.service - Strata inference server (Qwen3.8-Flash-Next, config named in fn-iq3s/boot.env) on 127.0.0.1:8001...
+2026-11-18T14:23:43-05:00 research-host systemd[2094]: Started strata-fn-serve.service - Strata inference server (Qwen3.8-Flash-Next, config named in fn-iq3s/boot.env) on 127.0.0.1:8001.
+2026-11-18T14:23:44-05:00 research-host serve-fn-iq3s-run.sh[796811]: [strata] sampling defaults from the config: temperature=1.3, top_p=0.95, top_k=20, min_p=0.0, presence_penalty=0.0, repetition_penalty=1.0
+2026-11-18T14:23:44-05:00 research-host serve-fn-iq3s-run.sh[796811]: loading the vision encoder ...
+2026-11-18T14:23:45-05:00 research-host serve-fn-iq3s-run.sh[796811]: loading the model (the first start takes a minute or two) ...
+2026-11-18T14:23:45-05:00 research-host serve-fn-iq3s-run.sh[796811]: [strata] layer split across GPUs [0, 1] (24)
+2026-11-18T14:23:45-05:00 research-host serve-fn-iq3s-run.sh[796811]: [strata] starting the engine: reading the model's weights ...
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]: Traceback (most recent call last):
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   File "/home/researcher/strata-122b/src/serve/server.py", line 10671, in <module>
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:     sys.exit(main())
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:              ^^^^^^
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   File "/home/researcher/strata-122b/src/serve/server.py", line 10026, in main
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:     return _main(argv, lifecycle_event=lifecycle_event, interrupt_exit_code=interrupt_exit_code)
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   File "/home/researcher/strata-122b/src/serve/server.py", line 10362, in _main
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:     engine = start_engine_or_fallback(cfg, exe, effort_end, env, lazy, tok, offline=a.offline, batch_telemetry=a.batch_telemetry)
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   File "/home/researcher/strata-122b/src/serve/server.py", line 9621, in start_engine_or_fallback
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:     return StrataEngine(exe, engine_args(cfg, exe) + (effort_end or []), cwd=cfg.get("cwd"), log=cfg.get("log"), env=env, lazy=lazy,
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   File "/home/researcher/strata-122b/src/serve/server.py", line 1316, in __init__
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:     raise EngineDied(why + (f" (see {log})" if log else "") + note +
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]: EngineDied: the engine exited before it was ready (see /home/researcher/strata-122b/logs/strata-fn-iq3s-g4x-engine.log)
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]: the engine process ended: exit code 1
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]: the engine log's last lines:
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   [strata] 2026-11-18 14:23:45 engine started: /home/researcher/strata-122b/build/strata --serve --pack /home/researcher/strata-122b/fn-gyro-m/pack --native /home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf --ple-gguf /home/researcher/models/qwen38-flash-next-gyro-m/Qwen3.8-Flash-Next-Gyro-M-TQ2_0.gguf --expert-profile /home/researcher/strata-122b/fn-iq3s/expert-profile.bin --expert-cache auto --resident-experts --prefill auto --spec 4 --spec-min-p 0.7 --mtp /home/researcher/strata-122b/fn-iq3s/mtp/rt --max-context 262144 --kv q4_0 --ple-io ram --vision --vram-reserve-mib 620 --vram-reserve-later-mib 740 --trim-stage-weights --control-vector-scaled /home/researcher/models/qwen38-flash-next-iq3s/Huihui-Qwen3.8-Flash-Next-refusal-direction-r.gguf:1.0 --control-vector-layer-range 4 44 --cvec-mode project --cvec-dir per-layer --pipeline-windows 2 --batch-groups auto --layer-split 24 --batch 4
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   strata: sm_86 (Ampere): 9 exact speed switches on by default (STRATA_SM86_PERF=0 turns them off; a switch you set is kept): ADAPT_NOWAIT ADAPT_LAG CPU_IQ_ALL_EXACT1 SIDE_MIXER ATTN_DAILY GR_UP75 GU_SWIGLU QSA_ROWS B6_MMVQ_ROWS
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   strata: a model with K-quant experts (Unsloth UD-Q4/Q5/Q6_K_XL) reads its prompt on llama.cpp's MMQ kernels (STRATA_MMQ_KQ=0 or STRATA_NV_KQ_DEFAULT=0 turns it off)
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   strata generate: NVIDIA: --prefill auto may take chunks up to 32768 (STRATA_NV_CHUNK=0 keeps 8192, =16 keeps 16384)
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   strata generate: memory guard: limit 125.5 GiB (source: meminfo), current 4.1 GiB, reclaimable cache credited 0.0 GiB; available 121.3 GiB (MemAvailable 121.3 GiB), floor 2560 MiB
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   strata generate: layer split across 2 GPUs: CUDA0, then CUDA1 (split 24)
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   strata generate: APR pack: Hadamard-folded experts (block 128)
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   strata generate: PCIe probe: 12.3 GB/s host->device (best of 12.3 12.3 12.3 12.3) -> pcie_frac 0.34 (default 0.55)
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   strata generate: CPU expert kernels: AVX-2
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   strata generate: native pack: /home/researcher/strata-122b/fn-gyro-m/pack experts (largest blob 1.31 MB), token embedding Q8_0 in mapped host memory (644 MiB, 0.3 s)
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   strata generate: layer split: CUDA0 loads the dense weights of layers 0-23 only
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   strata generate: 781 MiB of weights loaded from /home/researcher/strata-122b/fn-gyro-m/pack in 0.2 s (663 canonical tensors skipped: served natively)
+2026-11-18T14:23:47-05:00 research-host serve-fn-iq3s-run.sh[796811]:   strata generate: native dense projections: native dense: duplicate split shard number
+2026-11-18T14:23:47-05:00 research-host systemd[2094]: strata-fn-serve.service: Main process exited, code=exited, status=1/FAILURE
+2026-11-18T14:23:47-05:00 research-host systemd[2094]: strata-fn-serve.service: Failed with result 'exit-code'.
+2026-11-18T14:23:47-05:00 research-host systemd[2094]: strata-fn-serve.service: Consumed 3.902s CPU time.
+2026-11-18T14:24:07-05:00 research-host systemd[2094]: strata-fn-serve.service: Scheduled restart job, restart counter is at 2.
+2026-11-18T14:24:07-05:00 research-host systemd[2094]: Starting strata-fn-serve.service - Strata inference server (Qwen3.8-Flash-Next, config named in fn-iq3s/boot.env) on 127.0.0.1:8001...
+2026-11-18T14:24:07-05:00 research-host systemd[2094]: Started strata-fn-serve.service - Strata inference server (Qwen3.8-Flash-Next, config named in fn-iq3s/boot.env) on 127.0.0.1:8001.
+2026-11-18T14:24:08-05:00 research-host serve-fn-iq3s-run.sh[797071]: [strata] sampling defaults from the config: temperature=1.3, top_p=0.95, top_k=20, min_p=0.0, presence_penalty=0.0, repetition_penalty=1.0
+2026-11-18T14:24:08-05:00 research-host serve-fn-iq3s-run.sh[797071]: loading the vision encoder ...
+2026-11-18T14:24:09-05:00 research-host serve-fn-iq3s-run.sh[797071]: loading the model (the first start takes a minute or two) ...
+2026-11-18T14:24:09-05:00 research-host serve-fn-iq3s-run.sh[797071]: [strata] layer split across GPUs [0, 1] (24)
+2026-11-18T14:24:09-05:00 research-host serve-fn-iq3s-run.sh[797071]: [strata] starting the engine: reading the model's weights ...
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]: Traceback (most recent call last):
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   File "/home/researcher/strata-122b/src/serve/server.py", line 10671, in <module>
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:     sys.exit(main())
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:              ^^^^^^
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   File "/home/researcher/strata-122b/src/serve/server.py", line 10026, in main
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:     return _main(argv, lifecycle_event=lifecycle_event, interrupt_exit_code=interrupt_exit_code)
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   File "/home/researcher/strata-122b/src/serve/server.py", line 10362, in _main
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:     engine = start_engine_or_fallback(cfg, exe, effort_end, env, lazy, tok, offline=a.offline, batch_telemetry=a.batch_telemetry)
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   File "/home/researcher/strata-122b/src/serve/server.py", line 9621, in start_engine_or_fallback
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:     return StrataEngine(exe, engine_args(cfg, exe) + (effort_end or []), cwd=cfg.get("cwd"), log=cfg.get("log"), env=env, lazy=lazy,
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   File "/home/researcher/strata-122b/src/serve/server.py", line 1316, in __init__
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:     raise EngineDied(why + (f" (see {log})" if log else "") + note +
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]: EngineDied: the engine exited before it was ready (see /home/researcher/strata-122b/logs/strata-fn-iq3s-g4x-engine.log)
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]: the engine process ended: exit code 1
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]: the engine log's last lines:
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   [strata] 2026-11-18 14:24:09 engine started: /home/researcher/strata-122b/build/strata --serve --pack /home/researcher/strata-122b/fn-gyro-m/pack --native /home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf --ple-gguf /home/researcher/models/qwen38-flash-next-gyro-m/Qwen3.8-Flash-Next-Gyro-M-TQ2_0.gguf --expert-profile /home/researcher/strata-122b/fn-iq3s/expert-profile.bin --expert-cache auto --resident-experts --prefill auto --spec 4 --spec-min-p 0.7 --mtp /home/researcher/strata-122b/fn-iq3s/mtp/rt --max-context 262144 --kv q4_0 --ple-io ram --vision --vram-reserve-mib 620 --vram-reserve-later-mib 740 --trim-stage-weights --control-vector-scaled /home/researcher/models/qwen38-flash-next-iq3s/Huihui-Qwen3.8-Flash-Next-refusal-direction-r.gguf:1.0 --control-vector-layer-range 4 44 --cvec-mode project --cvec-dir per-layer --pipeline-windows 2 --batch-groups auto --layer-split 24 --batch 4
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   strata: sm_86 (Ampere): 9 exact speed switches on by default (STRATA_SM86_PERF=0 turns them off; a switch you set is kept): ADAPT_NOWAIT ADAPT_LAG CPU_IQ_ALL_EXACT1 SIDE_MIXER ATTN_DAILY GR_UP75 GU_SWIGLU QSA_ROWS B6_MMVQ_ROWS
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   strata: a model with K-quant experts (Unsloth UD-Q4/Q5/Q6_K_XL) reads its prompt on llama.cpp's MMQ kernels (STRATA_MMQ_KQ=0 or STRATA_NV_KQ_DEFAULT=0 turns it off)
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   strata generate: NVIDIA: --prefill auto may take chunks up to 32768 (STRATA_NV_CHUNK=0 keeps 8192, =16 keeps 16384)
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   strata generate: memory guard: limit 125.5 GiB (source: meminfo), current 4.0 GiB, reclaimable cache credited 0.0 GiB; available 121.5 GiB (MemAvailable 121.5 GiB), floor 2560 MiB
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   strata generate: layer split across 2 GPUs: CUDA0, then CUDA1 (split 24)
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   strata generate: APR pack: Hadamard-folded experts (block 128)
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   strata generate: PCIe probe: 12.3 GB/s host->device (best of 12.3 12.3 12.3 12.3) -> pcie_frac 0.34 (default 0.55)
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   strata generate: CPU expert kernels: AVX-2
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   strata generate: native pack: /home/researcher/strata-122b/fn-gyro-m/pack experts (largest blob 1.31 MB), token embedding Q8_0 in mapped host memory (644 MiB, 0.3 s)
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   strata generate: layer split: CUDA0 loads the dense weights of layers 0-23 only
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   strata generate: 781 MiB of weights loaded from /home/researcher/strata-122b/fn-gyro-m/pack in 0.2 s (663 canonical tensors skipped: served natively)
+2026-11-18T14:24:11-05:00 research-host serve-fn-iq3s-run.sh[797071]:   strata generate: native dense projections: native dense: duplicate split shard number
+2026-11-18T14:24:11-05:00 research-host systemd[2094]: strata-fn-serve.service: Main process exited, code=exited, status=1/FAILURE
+2026-11-18T14:24:11-05:00 research-host systemd[2094]: strata-fn-serve.service: Failed with result 'exit-code'.
+2026-11-18T14:24:11-05:00 research-host systemd[2094]: strata-fn-serve.service: Consumed 3.908s CPU time.
+2026-11-18T14:24:14-05:00 research-host systemd[2094]: Stopped strata-fn-serve.service - Strata inference server (Qwen3.8-Flash-Next, config named in fn-iq3s/boot.env) on 127.0.0.1:8001.
+2026-11-18T14:24:14-05:00 research-host systemd[2094]: strata-fn-serve.service: Consumed 3.908s CPU time.
+2026-11-18T14:24:44-05:00 research-host systemd[2094]: Starting strata-fn-serve.service - Strata inference server (Qwen3.8-Flash-Next, config named in fn-iq3s/boot.env) on 127.0.0.1:8001...
+2026-11-18T14:24:44-05:00 research-host systemd[2094]: Started strata-fn-serve.service - Strata inference server (Qwen3.8-Flash-Next, config named in fn-iq3s/boot.env) on 127.0.0.1:8001.
+2026-11-18T14:24:45-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] sampling defaults from the config: temperature=1.3, top_p=0.95, top_k=20, min_p=0.0, presence_penalty=0.0, repetition_penalty=1.0
+2026-11-18T14:24:45-05:00 research-host serve-fn-iq3s-run.sh[797265]: loading the vision encoder ...
+2026-11-18T14:24:46-05:00 research-host serve-fn-iq3s-run.sh[797265]: loading the model (the first start takes a minute or two) ...
+2026-11-18T14:24:46-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] layer split across GPUs [0, 1] (24)
+2026-11-18T14:24:46-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] starting the engine: reading the model's weights ...
+2026-11-18T14:25:06-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] still starting (20 s) - please wait ...
+2026-11-18T14:25:08-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] loading the experts the GPU does not hold into RAM (of about 92 GB) and locking part of them for the GPU.
+2026-11-18T14:25:08-05:00 research-host serve-fn-iq3s-run.sh[797265]:          YOUR PC CAN BE SLOW OR STOP RESPONDING FOR 1-3 MINUTES NOW - this is normal.
+2026-11-18T14:25:08-05:00 research-host serve-fn-iq3s-run.sh[797265]:          Please wait and don't close this window; the server says when it is ready.
+2026-11-18T14:25:12-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] filling the GPU's expert cache (11373 experts, 13.83 GiB of VRAM) ...
+2026-11-18T14:25:26-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] almost ready ...
+2026-11-18T14:25:39-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] model aliases: qwen3.6-35b-hauhau-w4a16-vision
+2026-11-18T14:25:39-05:00 research-host serve-fn-iq3s-run.sh[797265]: ready: http://127.0.0.1:8001/v1  (OpenAI: /v1/chat/completions, Anthropic: /v1/messages, context 262144 tokens, images on)
+2026-11-18T14:25:39-05:00 research-host serve-fn-iq3s-run.sh[797265]:        open http://127.0.0.1:8001/ in a browser to chat; close this window to stop the model
+2026-11-18T14:25:49-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] thinking limited to 6144 of max_tokens 8192 so the answer has room ("answer_room": false in the config turns this off)
+2026-11-18T14:25:50-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] thinking: 26 of budget 6144 (max 8192) tokens, 104.0 tok/s, 1 s
+2026-11-18T14:25:51-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] thinking: 149 of budget 6144 (max 8192) tokens, 119.1 tok/s, 2 s
+2026-11-18T14:25:52-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] thinking: 254 of budget 6144 (max 8192) tokens, 112.0 tok/s, 3 s
+2026-11-18T14:25:53-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] thinking: 356 of budget 6144 (max 8192) tokens, 108.6 tok/s, 4 s
+2026-11-18T14:25:54-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] thinking: 443 of budget 6144 (max 8192) tokens, 103.2 tok/s, 5 s
+2026-11-18T14:25:55-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] thinking: 541 of budget 6144 (max 8192) tokens, 102.0 tok/s, 6 s
+2026-11-18T14:25:56-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] thinking: 660 of budget 6144 (max 8192) tokens, 104.5 tok/s, 7 s
+2026-11-18T14:25:57-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] thinking: 761 of budget 6144 (max 8192) tokens, 104.0 tok/s, 8 s
+2026-11-18T14:25:58-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] thinking: 851 of budget 6144 (max 8192) tokens, 102.3 tok/s, 9 s
+2026-11-18T14:25:59-05:00 research-host serve-fn-iq3s-run.sh[797265]: [strata] thinking: 950 of budget 6144 (max 8192) tokens, 101.8 tok/s, 10 s

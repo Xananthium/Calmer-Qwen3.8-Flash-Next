@@ -1,0 +1,16 @@
+{
+  "at": "2026-11-18T21:03:04.238597+00:00",
+  "condition": "layer45 baseline, natural completion",
+  "health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "qwen3.8-27b-hauhau-q4",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  },
+  "config": "g4x-l45svd1-natural",
+  "reload_requested": true
+}

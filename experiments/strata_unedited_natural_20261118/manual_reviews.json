@@ -1,0 +1,13 @@
+[
+  {
+    "case": "L04",
+    "panel": "short_loops",
+    "automatic_status": "wrong",
+    "reviewed_status": "wrong",
+    "repeated_failed_operation": true,
+    "actual_command": "git diff",
+    "required_correction": "git -C /app/project diff",
+    "basis": "The response reasoning names the correct working-directory fix, but the emitted command repeats the same failed git diff operation without changing directory.",
+    "commands_executed": false
+  }
+]

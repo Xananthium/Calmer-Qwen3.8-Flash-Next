@@ -1,0 +1,36 @@
+{
+  "template_sha256": "12827f24b742ea4e80cdc12dbcf9622227056b9f797252a3149263d4f9aaadce",
+  "rows": [
+    {
+      "case": "L01",
+      "raw_prompt_identical": true,
+      "rendered_sha256": "0d55c9fbdae8ea8739eba3b3366d27d67659a849725b26d5a554f4a0091c5163"
+    },
+    {
+      "case": "L02",
+      "raw_prompt_identical": true,
+      "rendered_sha256": "4f462d13f1973669265036b3bb1949c37bd7d6c0f05c522f6c17c33e0d9177e7"
+    },
+    {
+      "case": "L03",
+      "raw_prompt_identical": true,
+      "rendered_sha256": "1d68dfc7913f074dfbbc79eb6d12d6be24605a39b9f176fa5e49dba2e600d303"
+    },
+    {
+      "case": "L04",
+      "raw_prompt_identical": true,
+      "rendered_sha256": "885eb5fe1e7baa4383948a9feefe7629db95015bf5c354f857825ca5816fbe20"
+    },
+    {
+      "case": "L05",
+      "raw_prompt_identical": false,
+      "rendered_sha256": "7f6d3ffc32577fec5242256e1c4402a4b83e5eefac45391c34c092d5c10a62fd"
+    },
+    {
+      "case": "L06",
+      "raw_prompt_identical": false,
+      "rendered_sha256": "b214594d9f21d5aa1c72908e7a24eddf6f4f2b058858e4ea1f19ca0a93b08e51"
+    }
+  ],
+  "scope": "Production frontend/template CPU render, before literal-token escaping; no inference executed."
+}

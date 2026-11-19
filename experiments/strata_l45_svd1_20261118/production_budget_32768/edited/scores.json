@@ -1,0 +1,267 @@
+{
+  "arm": "edited",
+  "protocol_sha256": "39299641fc4bbdacc94c13cda3446bad5f77df2a8ac623d011649a63eb839b13",
+  "rows": [
+    {
+      "case": "01",
+      "id": "hle:673722c82bfc8ab579ed111f",
+      "subject": "Economics",
+      "seed": 20261118,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "status": "correct",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "completion_tokens": 25134,
+      "finish_reason": "stop",
+      "wall_s": 265.55327002197737,
+      "first_text_s": 0.5440524829900824,
+      "duplicate8_tail": 0.001980198019801982,
+      "wait_count": 45
+    },
+    {
+      "case": "02",
+      "id": "hle:66ef3de8b8a1ba6e0ba23498",
+      "subject": "Biology",
+      "seed": 20261118,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "c2e8c0cc2e73b9bd1ba9ef1979e73169b471e25b0e9909efe98fde462c0bf55f",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "43e6e2bebb3774311cf0c867d2fae5da733792224e8bac1d455eff172ff6af27",
+        "canonical_json_bytes": 3
+      },
+      "status": "wrong",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "2d589b89da7462ff1441cbd49d4c25e20d37baad28378e359d46bd700b08070d",
+        "canonical_json_bytes": 22
+      },
+      "completion_tokens": 13131,
+      "finish_reason": "stop",
+      "wall_s": 189.0206897329772,
+      "first_text_s": 0.9083993999520317,
+      "duplicate8_tail": 0.011881188118811892,
+      "wait_count": 18
+    },
+    {
+      "case": "03",
+      "id": "hle:67162253433b031688b08f47",
+      "subject": "Trivia",
+      "seed": 20261118,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "aa61870c76b8f6f57889888fbf24c006487753f3139494f7790353cf5a998492",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "aa61870c76b8f6f57889888fbf24c006487753f3139494f7790353cf5a998492",
+        "canonical_json_bytes": 3
+      },
+      "status": "correct",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "b84e72fd69ee64af76cebb9714c9fbcea1dfee1075e24df3854868a5fa7fc6d5",
+        "canonical_json_bytes": 21
+      },
+      "completion_tokens": 2314,
+      "finish_reason": "stop",
+      "wall_s": 20.2927164810244,
+      "first_text_s": 0.6494517810060643,
+      "duplicate8_tail": 0.003960396039603964,
+      "wait_count": 5
+    },
+    {
+      "case": "04",
+      "id": "hle:672e1ba8e62456d8519fb95b",
+      "subject": "Computer Science",
+      "seed": 20261118,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "43e6e2bebb3774311cf0c867d2fae5da733792224e8bac1d455eff172ff6af27",
+        "canonical_json_bytes": 3
+      },
+      "status": "wrong",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "43e6e2bebb3774311cf0c867d2fae5da733792224e8bac1d455eff172ff6af27",
+        "canonical_json_bytes": 3
+      },
+      "completion_tokens": 8804,
+      "finish_reason": "stop",
+      "wall_s": 88.0211367449956,
+      "first_text_s": 1.235892386001069,
+      "duplicate8_tail": 0.0,
+      "wait_count": 13
+    },
+    {
+      "case": "05",
+      "id": "hle:6739e06f5a81384176dd28cd",
+      "subject": "Mathematics",
+      "seed": 20261118,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "status": "correct",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "completion_tokens": 25367,
+      "finish_reason": "stop",
+      "wall_s": 312.08456367003964,
+      "first_text_s": 0.7223959430120885,
+      "duplicate8_tail": 0.0,
+      "wait_count": 41
+    },
+    {
+      "case": "06",
+      "id": "hle:672de1afed6de72b75b8c7e6",
+      "subject": "Physics",
+      "seed": 20261118,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "c2e8c0cc2e73b9bd1ba9ef1979e73169b471e25b0e9909efe98fde462c0bf55f",
+        "canonical_json_bytes": 3
+      },
+      "status": "wrong",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "c2e8c0cc2e73b9bd1ba9ef1979e73169b471e25b0e9909efe98fde462c0bf55f",
+        "canonical_json_bytes": 3
+      },
+      "completion_tokens": 1164,
+      "finish_reason": "stop",
+      "wall_s": 10.063174321025144,
+      "first_text_s": 0.6114714100258425,
+      "duplicate8_tail": 0.0,
+      "wait_count": 1
+    },
+    {
+      "case": "07",
+      "id": "gsm8k_test:936",
+      "subject": "Arithmetic",
+      "seed": 20261118,
+      "gold": "250",
+      "predicted": "250",
+      "status": "correct",
+      "raw_answer": "250",
+      "completion_tokens": 608,
+      "finish_reason": "stop",
+      "wall_s": 4.721854886971414,
+      "first_text_s": 0.4989628149778582,
+      "duplicate8_tail": 0.0031645569620253333,
+      "wait_count": 1
+    },
+    {
+      "case": "08",
+      "id": "gsm8k_test:236",
+      "subject": "Arithmetic",
+      "seed": 20261118,
+      "gold": "31",
+      "predicted": "31",
+      "status": "correct",
+      "raw_answer": "31",
+      "completion_tokens": 555,
+      "finish_reason": "stop",
+      "wall_s": 3.890248800977133,
+      "first_text_s": 0.4114916470134631,
+      "duplicate8_tail": 0.0,
+      "wait_count": 1
+    },
+    {
+      "case": "09",
+      "id": "hle:673722c82bfc8ab579ed111f",
+      "subject": "Economics",
+      "seed": 20261119,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "status": "correct",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "completion_tokens": 22010,
+      "finish_reason": "stop",
+      "wall_s": 307.29050617699977,
+      "first_text_s": 0.4147047160076909,
+      "duplicate8_tail": 0.001980198019801982,
+      "wait_count": 37
+    },
+    {
+      "case": "10",
+      "id": "hle:6739e06f5a81384176dd28cd",
+      "subject": "Mathematics",
+      "seed": 20261119,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "c2e8c0cc2e73b9bd1ba9ef1979e73169b471e25b0e9909efe98fde462c0bf55f",
+        "canonical_json_bytes": 3
+      },
+      "status": "wrong",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "c2e8c0cc2e73b9bd1ba9ef1979e73169b471e25b0e9909efe98fde462c0bf55f",
+        "canonical_json_bytes": 3
+      },
+      "completion_tokens": 25248,
+      "finish_reason": "stop",
+      "wall_s": 305.72701954405056,
+      "first_text_s": 0.7465816430049017,
+      "duplicate8_tail": 0.0,
+      "wait_count": 42
+    }
+  ],
+  "counts": {
+    "correct": 6,
+    "wrong": 4
+  },
+  "complete": true
+}

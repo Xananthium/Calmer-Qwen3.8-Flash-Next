@@ -1,0 +1,7 @@
+{"shared_layers_mapped": 8, "seconds": 3.56}
+{"shared_layers_mapped": 16, "seconds": 6.49}
+{"shared_layers_mapped": 24, "seconds": 9.4}
+{"shared_layers_mapped": 32, "seconds": 12.35}
+{"shared_layers_mapped": 40, "seconds": 15.24}
+{"shared_layers_mapped": 48, "seconds": 18.17}
+{"coverage": {"shared_matrices_exact_svd": 48, "routers": 48, "routed_experts_sampled": 192, "total_routed_experts": 24576, "sampled_expert_ids": [0, 127, 255, 511], "live_activations": false, "attention_and_state_space_weights": false}, "top_l45_overlap": {"by_top_direction_alignment": [46, 43, 44, 42, 41, 23, 38, 3, 37, 10, 14, 22, 21, 9, 4, 0, 7, 36, 30, 13, 19, 20, 33, 5, 17, 35, 26, 25, 11, 18, 27, 34, 2, 39, 28, 16, 24, 8, 31, 15, 47, 6, 32, 12, 29, 1, 40, 45], "by_matrix_energy": [46, 44, 43, 41, 42, 40, 47, 39, 23, 38, 37, 22, 35, 21, 36, 20, 19, 34, 18, 33, 32, 10, 26, 2, 7, 24, 8, 31, 12, 5, 30, 27, 28, 15, 3, 17, 25, 14, 11, 4, 6, 9, 29, 0, 13, 16, 1, 45]}, "seconds": 18.26345055102138}

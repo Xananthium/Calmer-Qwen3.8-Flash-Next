@@ -1,0 +1,92 @@
+{
+  "candidate": "l44-l45-plus-l2-alpha0.50-l46-alpha0.25",
+  "source": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l2-l44-l45/Qwen3.8-Flash-Next-Gyro-M-Calmer-L2-L44-L45-TQ2_0.gguf",
+  "target": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l2a050-l44-l45-l46a025/Qwen3.8-Flash-Next-Gyro-M-Calmer-L2A050-L44-L45-L46A025-TQ2_0.gguf",
+  "applied_layers": [
+    2,
+    44,
+    45,
+    46
+  ],
+  "edits": {
+    "2": {
+      "alpha": 0.5,
+      "original_tensor_sha256": "61389aefa115f307db5a2f1f5436909ba40861ab6436363805fbeaaa93279602",
+      "edited_tensor_sha256": "af0263c5552750c9f8cc52cd076f469368c099649c11f63e48a694ac67083144",
+      "direction_source": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l2_l44_l45_20261118/layer2_edit.npz",
+      "original_top_mode_energy_share": 0.03227800870247742,
+      "relative_frobenius_change": 0.0899622959993702,
+      "top_mode_fraction_remaining_after_q8": 0.5002201878815674
+    },
+    "46": {
+      "alpha": 0.25,
+      "original_tensor_sha256": "4a0375c3811d552220aa2b55c3c5c5f741c96738fe0259be646404918d034749",
+      "edited_tensor_sha256": "3c90840b965bf15540a5617c547e6603b4ecb2d75bc7c8683c41b74afdf8d46f",
+      "direction_source": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45plus_nearby_natural_20261118/layer46_edit.npz",
+      "original_top_mode_energy_share": 0.02376252331891299,
+      "relative_frobenius_change": 0.03885164402430163,
+      "top_mode_fraction_remaining_after_q8": 0.7506248991708855
+    }
+  },
+  "expected_tensor_hashes": {
+    "2": "af0263c5552750c9f8cc52cd076f469368c099649c11f63e48a694ac67083144",
+    "44": "2b334b07c863def21e915ae55d2c14e8f888fc8743ef10a85f7b53b2347f30ec",
+    "45": "8974663dc1cda1ebbb63266bc82afc622f63ac3ab38d24a718dcea36539b0c38",
+    "46": "3c90840b965bf15540a5617c547e6603b4ecb2d75bc7c8683c41b74afdf8d46f"
+  },
+  "source_spans": {
+    "2": {
+      "offset": 57581138624,
+      "size": 1740800,
+      "sha256": "7575164cc338c3cfc85b7363cd38a2db5664cd7a4fa01a54f43d103830d2c28e"
+    },
+    "44": {
+      "offset": 89219702592,
+      "size": 1740800,
+      "sha256": "2b334b07c863def21e915ae55d2c14e8f888fc8743ef10a85f7b53b2347f30ec"
+    },
+    "45": {
+      "offset": 89974442688,
+      "size": 1740800,
+      "sha256": "8974663dc1cda1ebbb63266bc82afc622f63ac3ab38d24a718dcea36539b0c38"
+    },
+    "46": {
+      "offset": 90729182784,
+      "size": 1740800,
+      "sha256": "4a0375c3811d552220aa2b55c3c5c5f741c96738fe0259be646404918d034749"
+    }
+  },
+  "source_file_size": 91965774272,
+  "candidate_config": "/home/researcher/strata-122b/fn-iq3s/cfg-g4x-l2a050-l44l45-l46a025-natural.json",
+  "baseline_44_45": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l44_l45_samedirection_20261118/edited",
+  "baseline_unedited": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_unedited_natural_20261118/baseline",
+  "status": "experiment_stopped_best44_45_restored",
+  "full_file_reread": false,
+  "test_output_ceiling": 75000,
+  "formula": "W_layer_new = W_layer_original - alpha * outer(saved_original_direction, saved_original_coeff).",
+  "rollback_previous": {
+    "model": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l2-l44-l45/Qwen3.8-Flash-Next-Gyro-M-Calmer-L2-L44-L45-TQ2_0.gguf",
+    "config": "/home/researcher/strata-122b/fn-iq3s/cfg-g4x-l2l44l45-natural.json",
+    "tensors": {
+      "2": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l2a050_l44_l45_l46a025_20261118/layer2_previous.q8",
+      "46": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l2a050_l44_l45_l46a025_20261118/layer46_previous.q8"
+    }
+  },
+  "rollback_44_45": {
+    "model": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l44-l45/Qwen3.8-Flash-Next-Gyro-M-Calmer-L44-L45-TQ2_0.gguf",
+    "config": "/home/researcher/strata-122b/fn-iq3s/cfg-g4x-l44l45-natural.json",
+    "tensors": {
+      "2": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l2a050_l44_l45_l46a025_20261118/layer2_original.q8",
+      "46": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l2a050_l44_l45_l46a025_20261118/layer46_original.q8"
+    }
+  },
+  "working_notes": [
+    "Original model remains live while the separate experimental file is patched offline.",
+    "Retain exact layer44/45 bytes; rebuild2/46 from saved original weights and directions.",
+    "Only targeted tensor checks and file-size checks; no full-file reread.",
+    "Native and ple-gguf references must match the same full model."
+  ],
+  "targeted_integrity_verified": true,
+  "working_file_moved_to": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l44-l45/Qwen3.8-Flash-Next-Gyro-M-Calmer-L44-L45-TQ2_0.gguf",
+  "restoration_record": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l2a050_l44_l45_l46a025_20261118/restore_best.json"
+}

@@ -1,0 +1,66 @@
+{
+  "release": "Calmer-Qwen3.8-Flash-Next",
+  "selected_layers_zero_based": [
+    44,
+    45
+  ],
+  "filename": "Calmer-Qwen3.8-Flash-Next-Gyro-M-TQ2_0.gguf",
+  "bytes": 91965774272,
+  "full_sha256": "60f5dd9fb65eb9997de6b3879a23482615d8a51689f091de0f4b8e9a749dfe16",
+  "full_sha256_note": "Hugging Face upload SHA256 matches the published LFS file identity; no extra full-model hash pass.",
+  "source": {
+    "repo": "agentionai/Qwen3.8-Flash-Next-Gyro-GGUF",
+    "revision": "8efdc41d092da63763f39173b0fff80eac1c0898",
+    "filename": "Qwen3.8-Flash-Next-Gyro-M-TQ2_0.gguf",
+    "sha256": "7aa36d15131d255179ab6c87fa9c9f81a0b541fc9e81e959d4c3e29eb20feb5f"
+  },
+  "base": {
+    "repo": "Qwen/Qwen3.8-Flash-Next",
+    "revision": "812d96e10a0dd82b69d749e68693698cf6c36daa"
+  },
+  "license": "Qwen Community License 1.0",
+  "edits": [
+    {
+      "layer": 44,
+      "tensor": "blk.44.ffn_down_shexp.weight",
+      "offset": 89219702592,
+      "bytes": 1740800,
+      "shape": [
+        2560,
+        640
+      ],
+      "type": "Q8_0",
+      "alpha": 1.0,
+      "formula": "W44_new = W44 - outer(d45, d45.T @ W44)",
+      "original_sha256": "eca71b05df1c2d66e55411e4420e09d4d6b9e96b80c04c012d0af0afcdedb1bf",
+      "edited_sha256": "2b334b07c863def21e915ae55d2c14e8f888fc8743ef10a85f7b53b2347f30ec",
+      "patch": "patches/layer44_edited.q8"
+    },
+    {
+      "layer": 45,
+      "tensor": "blk.45.ffn_down_shexp.weight",
+      "offset": 89974442688,
+      "bytes": 1740800,
+      "shape": [
+        2560,
+        640
+      ],
+      "type": "Q8_0",
+      "alpha": 1.0,
+      "formula": "W_new = W - outer(u, u.T @ W); u is the exact leading left singular vector of decoded W",
+      "original_sha256": "39ddadd3fdd10fd58b32f6e8d8433feb987406eb96535445f0c8eb8346ca2c3b",
+      "edited_sha256": "8974663dc1cda1ebbb63266bc82afc622f63ac3ab38d24a718dcea36539b0c38",
+      "patch": "patches/layer45_edited.q8"
+    }
+  ],
+  "direction": "Original layer45 leading left singular vector, reused at layer44",
+  "untouched_restored_layers": {
+    "2": "61389aefa115f307db5a2f1f5436909ba40861ab6436363805fbeaaa93279602",
+    "46": "4a0375c3811d552220aa2b55c3c5c5f741c96738fe0259be646404918d034749"
+  },
+  "evaluation": "Same materialized GGUF representation in Strata with separate runtime control vector enabled in both comparison arms",
+  "research_url": "https://github.com/Xananthium/Calmer-Qwen3.8-Flash-Next",
+  "verification_scope": "Completed copy; unchanged size/header/layout; selected and restored tensor hashes. No claim of a full byte-by-byte comparison to the source.",
+  "created_at": "2026-11-18T23:53:23.671196+00:00",
+  "huggingface_weight_commit": "902314c08825b6993a5fda5bd620c223ba7e00f7"
+}

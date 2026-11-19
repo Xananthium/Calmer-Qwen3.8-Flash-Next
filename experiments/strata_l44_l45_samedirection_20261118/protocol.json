@@ -1,0 +1,268 @@
+{
+  "created_at": "2026-11-18T21:03:32.793313+00:00",
+  "endpoint": "http://127.0.0.1:8003/v1/chat/completions",
+  "cases": [
+    {
+      "case": "01",
+      "id": "hle:673722c82bfc8ab579ed111f",
+      "kind": "hle_mcq",
+      "subject": "Economics",
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "choices_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "62106b9c5cb2462dccbbbb12fd717208d0e28639a9ed13b25409ca783ea02621",
+        "canonical_json_bytes": 21
+      },
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "05793f233d755275a2b3cfe3dffa8a85cedc7c2307151f969942f5f33392c13d",
+          "canonical_json_bytes": 494
+        },
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 75000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "reasoning_budget_tokens": 0
+      },
+      "request_sha256": "9a58d32f1d58cbde850e7f124864a12e51f613e61b28b21c256566f7be966106"
+    },
+    {
+      "case": "05",
+      "id": "hle:6739e06f5a81384176dd28cd",
+      "kind": "hle_mcq",
+      "subject": "Mathematics",
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "choices_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "62106b9c5cb2462dccbbbb12fd717208d0e28639a9ed13b25409ca783ea02621",
+        "canonical_json_bytes": 21
+      },
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "817faeaf2c1ec3f1400374d41f0256863fa704c612487c0969d76897ca83d2b8",
+          "canonical_json_bytes": 955
+        },
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 75000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "reasoning_budget_tokens": 0
+      },
+      "request_sha256": "8dd6e2a298f36be23fd4ce78655ce85acbd8965bc977e285b9a914e4d4d44ea1"
+    },
+    {
+      "case": "07",
+      "id": "gsm8k_test:936",
+      "kind": "gsm8k",
+      "subject": "Arithmetic",
+      "gold": "250",
+      "choices": null,
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages": [
+          {
+            "role": "user",
+            "content": "A hotel in the Philippines charges 1000 pesos for a 12-hour stay or 1600 pesos for a 24-hour stay. After 12 hours, visitors have the option to add 70 pesos for every additional hour. Cameron arrives at 5 pm at the hotel and wants to leave at 10 am the next morning. He decides to go with the option of adding on 70 pesos for every hour after the 12-hour mark instead of paying for 24 hours. How much money would Cameron save?\nPlease reason step by step, and put your final answer within \\boxed{}."
+          }
+        ],
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 75000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "reasoning_budget_tokens": 0
+      },
+      "request_sha256": "6ba5ed91ecc7f45b031a45c48b0ef9ddad94963a48623161c89258a153c5a786"
+    },
+    {
+      "case": "08",
+      "id": "gsm8k_test:236",
+      "kind": "gsm8k",
+      "subject": "Arithmetic",
+      "gold": "31",
+      "choices": null,
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Ram uses a lot of pens. He discovered that he can save money by mixing the ink from five empty pens to make one full pen. If he buys 25 pens and then uses them to make new pens when the ink runs low, how many total pens does he get to have?\nPlease reason step by step, and put your final answer within \\boxed{}."
+          }
+        ],
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 75000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "reasoning_budget_tokens": 0
+      },
+      "request_sha256": "338227ef07c39f1e608f97f13881b4e67a26a8c5a80e1afcebaa1e46e60c5d1e"
+    },
+    {
+      "case": "09",
+      "id": "hle:673722c82bfc8ab579ed111f",
+      "kind": "hle_mcq",
+      "subject": "Economics",
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "choices_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "62106b9c5cb2462dccbbbb12fd717208d0e28639a9ed13b25409ca783ea02621",
+        "canonical_json_bytes": 21
+      },
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "05793f233d755275a2b3cfe3dffa8a85cedc7c2307151f969942f5f33392c13d",
+          "canonical_json_bytes": 494
+        },
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261119,
+        "reasoning_effort": "medium",
+        "max_tokens": 75000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "reasoning_budget_tokens": 0
+      },
+      "request_sha256": "1a4d1105f4dff72365a030c2dc3fd7622875b245e5878ce78e29028361f0bae1"
+    },
+    {
+      "case": "10",
+      "id": "hle:6739e06f5a81384176dd28cd",
+      "kind": "hle_mcq",
+      "subject": "Mathematics",
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "choices_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "62106b9c5cb2462dccbbbb12fd717208d0e28639a9ed13b25409ca783ea02621",
+        "canonical_json_bytes": 21
+      },
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "817faeaf2c1ec3f1400374d41f0256863fa704c612487c0969d76897ca83d2b8",
+          "canonical_json_bytes": 955
+        },
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261119,
+        "reasoning_effort": "medium",
+        "max_tokens": 75000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "reasoning_budget_tokens": 0
+      },
+      "request_sha256": "b948d47e4c0b1747b8b763b0187e7e81e4dc7a9838403ca0cc242340a51f771f"
+    }
+  ],
+  "objective": "Layer44 removal of the original layer45 direction, retaining layer45 edit; layer46 restored to original.",
+  "selection": "Economics and math with both previously frozen seeds, plus both arithmetic controls; chosen before either natural-completion arm.",
+  "baseline_model": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l45-svd1/Qwen3.8-Flash-Next-Gyro-M-Calmer-L45-SVD1-TQ2_0.gguf",
+  "edited_model": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l44-l45/Qwen3.8-Flash-Next-Gyro-M-Calmer-L44-L45-TQ2_0.gguf",
+  "output_limit": "75000 generated tokens, including reasoning and final answer. No forced reasoning closure; a length stop is unfinished.",
+  "forced_interventions_disabled": [
+    "answer_room",
+    "reasoning_budget_tokens",
+    "reasoning_close_retry",
+    "reasoning_loop_recovery",
+    "repeat_stop_tokens"
+  ],
+  "success": "Correct final answer with model stop and no server-inserted wrap-up. Context exhaustion is unfinished, not a successful shortening.",
+  "primary_metrics": [
+    "natural completion",
+    "official-key correctness",
+    "completion tokens",
+    "wait occurrences",
+    "duplicate8_tail"
+  ],
+  "concurrent_evaluation_requests": 1,
+  "limitations": [
+    "Six requests over two long problems and two arithmetic controls; exploratory, not a benchmark-wide score.",
+    "Current layer45 edit is the baseline; results measure adding the layer44 edit.",
+    "Shared production traffic and speculative decoding permit same-seed variation.",
+    "Medium reasoning instruction remains the existing production policy; it is not a token deadline.",
+    "Five carried baseline requests used max_tokens=-1 and stopped naturally below 75000. Candidate requests use 75000; these payloads differ only in the inactive output ceiling."
+  ],
+  "revision": {
+    "at": "2026-11-18T21:27:23.556350+00:00",
+    "reason": "User requested a 75000-token failure ceiling.",
+    "previous_sha256": "13f96fbb6b658f9f163748cf9c83da0d2aaddcebf6d72ea2fd4173b52201f4e4",
+    "carried_baseline_cases": [
+      "01",
+      "05",
+      "07",
+      "08",
+      "09"
+    ],
+    "policy": "Preserve completed natural stops below 75000. Their original requests used max_tokens=-1; all new requests use 75000. Interrupted attempts remain separate, unscored evidence."
+  },
+  "reused_protocol_source": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45plus_nearby_natural_20261118/protocol.json"
+}

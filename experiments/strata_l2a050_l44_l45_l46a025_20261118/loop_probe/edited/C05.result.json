@@ -1,0 +1,78 @@
+{
+  "case": "C05",
+  "id": "primed_gsm8k_train:2079:clean",
+  "request_sha256": "4d0afeb28e3cb002def157de8056fe134fce3b71daf729feeab43aebfd251df6",
+  "started_at": "2026-11-18T23:26:20.509133+00:00",
+  "content": "## Step-by-Step Solution\n\nLet me define the total number of cookies Kristy baked as **x**.\n\nI'll track the cookies as they are taken away:\n\n1. **Kristy eats 2 cookies:** x − 2 remaining\n2. **She gives her brother 1 cookie:** x − 3 remaining\n3. **First friend takes 3 cookies:** x − 6 remaining\n4. **Second friend takes 5 cookies:** x − 11 remaining\n5. **Third friend takes 5 cookies:** x − 16 remaining\n\nAfter all the cookies are distributed, there are **6 cookies left**.\n\nSo I set up the equation:\n\n$$x - 16 = 6$$\n\n$$x = 22$$\n\n**Verification:** 22 − 2 − 1 − 3 − 5 − 5 = 6 ✓\n\n$$\\boxed{22}$$",
+  "reasoning_content": "Let me work through this step by step.\n\nKristy baked some cookies. Let me call the total number she baked x.\n\n- She ate 2 cookies: x - 2 remaining\n- She gave her brother 1 cookie: x - 2 - 1 = x - 3 remaining\n- First friend took 3 cookies: x - 3 - 3 = x - 6 remaining\n- Second friend took 5 cookies: x - 6 - 5 = x - 11 remaining\n- Third friend took 5 cookies: x - 11 - 5 = x - 16 remaining\n\nAfter all of this, there are 6 cookies left.\n\nSo x - 16 = 6\nx = 22\n\nLet me verify: 22 - 2 - 1 - 3 - 5 - 5 = 22 - 16 = 6. ✓\n\nThe answer is 22.\n",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 93,
+    "completion_tokens": 402,
+    "total_tokens": 495,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 93,
+    "prompt_ms": 385.0,
+    "prompt_per_token_ms": 4.14,
+    "prompt_per_second": 241.6,
+    "predicted_n": 402,
+    "predicted_ms": 2457.8,
+    "predicted_per_token_ms": 6.114,
+    "predicted_per_second": 163.6,
+    "draft_n": 339,
+    "draft_n_accepted": 264
+  },
+  "live_before": {
+    "state": "idle",
+    "queued": 0,
+    "phase": null,
+    "prompt_tokens": null,
+    "prompt_read": null,
+    "prompt_total": null,
+    "generated": null,
+    "max_tokens": null,
+    "elapsed_s": null,
+    "tok_s": null,
+    "tok_s_mean": null,
+    "prefill_tok_s_mean": null,
+    "tok_s_window_s": null,
+    "parallel": 4,
+    "running": 0,
+    "slots": [
+      {
+        "slot": 0,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 1,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 2,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 3,
+        "state": "idle",
+        "held_tokens": 0
+      }
+    ],
+    "outside_slots": 0,
+    "waiting": 0,
+    "admitting": 0
+  },
+  "http_status": 200,
+  "response_id": "chatcmpl-75edc3b1420842ac86b53437",
+  "first_text_s": 0.4048119959770702,
+  "done_received": true,
+  "elapsed_s": 2.850682494987268,
+  "ended_at": "2026-11-18T23:26:23.359818+00:00"
+}

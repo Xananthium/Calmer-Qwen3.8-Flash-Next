@@ -1,0 +1,10 @@
+[
+  {
+    "case": "L04",
+    "automatic_status": "wrong",
+    "reviewed_corrective_action": true,
+    "command": "cd /app/project && git status && git diff --stat",
+    "basis": "Changes to the correct repository, then inspects Git changes. This corrects the supplied working-directory failure; the literal grader required the git -C spelling. Original automatic score retained.",
+    "commands_executed": false
+  }
+]

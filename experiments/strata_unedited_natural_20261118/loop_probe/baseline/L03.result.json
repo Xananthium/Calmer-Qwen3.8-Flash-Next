@@ -1,0 +1,78 @@
+{
+  "case": "L03",
+  "id": "tool_npm",
+  "request_sha256": "928292105b5423d482aada0c16bd6d3d793dff1e4cc83fb12901cf4199fe6494",
+  "started_at": "2026-11-18T23:06:42.540537+00:00",
+  "content": "<tool_call>\n<function=shell>\n<parameter=command>\nnpm run test:unit\n</parameter>\n</function>\n</tool_call>",
+  "reasoning_content": "The system tells me the package.json doesn't have \"test\" script, but instead has \"test:unit\" script. I should run \"npm run test:unit\".\n",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 314,
+    "completion_tokens": 68,
+    "total_tokens": 382,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 314,
+    "prompt_ms": 594.6,
+    "prompt_per_token_ms": 1.894,
+    "prompt_per_second": 528.1,
+    "predicted_n": 68,
+    "predicted_ms": 489.3,
+    "predicted_per_token_ms": 7.196,
+    "predicted_per_second": 139.0,
+    "draft_n": 50,
+    "draft_n_accepted": 37
+  },
+  "live_before": {
+    "state": "idle",
+    "queued": 0,
+    "phase": null,
+    "prompt_tokens": null,
+    "prompt_read": null,
+    "prompt_total": null,
+    "generated": null,
+    "max_tokens": null,
+    "elapsed_s": null,
+    "tok_s": null,
+    "tok_s_mean": null,
+    "prefill_tok_s_mean": null,
+    "tok_s_window_s": null,
+    "parallel": 4,
+    "running": 0,
+    "slots": [
+      {
+        "slot": 0,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 1,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 2,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 3,
+        "state": "idle",
+        "held_tokens": 0
+      }
+    ],
+    "outside_slots": 0,
+    "waiting": 0,
+    "admitting": 0
+  },
+  "http_status": 200,
+  "response_id": "chatcmpl-e0986da99e5e4046bbb69fc4",
+  "first_text_s": 0.6157172989915125,
+  "done_received": true,
+  "elapsed_s": 1.093519028974697,
+  "ended_at": "2026-11-18T23:06:43.634058+00:00"
+}

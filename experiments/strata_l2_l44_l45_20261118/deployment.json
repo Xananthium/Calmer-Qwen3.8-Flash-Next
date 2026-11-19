@@ -1,0 +1,18 @@
+{
+  "state": "live",
+  "started_at": "2026-11-18T22:41:23.914172+00:00",
+  "from_model": "44+45+46",
+  "to_model": "2+44+45",
+  "restart_at": "2026-11-18T22:41:23.937391+00:00",
+  "ready_at": "2026-11-18T22:42:29.616912+00:00",
+  "health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "qwen3.8-27b-hauhau-q4",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  }
+}

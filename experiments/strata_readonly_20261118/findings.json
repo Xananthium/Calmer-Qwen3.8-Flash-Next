@@ -1,0 +1,241 @@
+{
+  "outcome": "Read-only inspection completed while the existing Strata engine stayed loaded.",
+  "user_observation": "Calmer daily use reportedly produced less wait/rechecking, fewer tokens, and better outcomes; use this as the investigation lead.",
+  "previous_release": {
+    "source": "https://github.com/Xananthium/Qwen3.8-Weight-Space-Programming/blob/main/followup_20261106/REPORT.md",
+    "zero_based_layers": [
+      18,
+      49,
+      50,
+      51
+    ],
+    "total_blocks": 64,
+    "residual_width": 5120,
+    "mlp_input_width": 17408
+  },
+  "live_model": {
+    "name": "Qwen3.8-Flash-Next Gyro-M",
+    "architecture": "qwen4exp",
+    "layers": 48,
+    "experts_per_layer": 512,
+    "selected_experts_per_token": 10,
+    "shared_expert": true,
+    "residual_width_per_stream": 2560,
+    "residual_streams": 4,
+    "expert_inner_width": 640,
+    "expert_encoding": "TQ2_T (custom type 144, Hadamard folded)",
+    "api_label": "qwen3.8-27b-hauhau-q4",
+    "api_label_is_stale": true
+  },
+  "scope": {
+    "routers": 48,
+    "shared_down_matrices": 48,
+    "routed_down_matrices_sampled": 192,
+    "sample_expert_ids": [
+      0,
+      127,
+      255,
+      511
+    ],
+    "live_activations_captured": false,
+    "served_test_requests": 0,
+    "health_gets": 2
+  },
+  "candidate_probe_regions": [
+    {
+      "layers": [
+        37,
+        38,
+        39
+      ],
+      "reason": "Rough relative-depth neighborhood of the earlier 49-51 edits; no claimed functional equivalence."
+    },
+    {
+      "layers": [
+        41,
+        44,
+        45,
+        46
+      ],
+      "reason": "Late shared-expert matrices with elevated approximate first singular-value energy share in this scan."
+    },
+    {
+      "layers": [
+        2,
+        13,
+        14,
+        18
+      ],
+      "reason": "Early structural outlier and early comparison controls; prior V2 also included an early layer."
+    }
+  ],
+  "top_shared_spectral_candidates": [
+    {
+      "layer": 2,
+      "approx_first_energy_share": 0.032277838324874616
+    },
+    {
+      "layer": 44,
+      "approx_first_energy_share": 0.028886637070330696
+    },
+    {
+      "layer": 45,
+      "approx_first_energy_share": 0.028004764081633816
+    },
+    {
+      "layer": 46,
+      "approx_first_energy_share": 0.02376225348349559
+    },
+    {
+      "layer": 41,
+      "approx_first_energy_share": 0.02306174079727324
+    },
+    {
+      "layer": 31,
+      "approx_first_energy_share": 0.018928468556411088
+    },
+    {
+      "layer": 33,
+      "approx_first_energy_share": 0.018527360622246553
+    },
+    {
+      "layer": 28,
+      "approx_first_energy_share": 0.018458777381390915
+    }
+  ],
+  "existing_intervention": {
+    "control_vector": "Huihui-Qwen3.8-Flash-Next-refusal-direction-r.gguf",
+    "mode": "project",
+    "direction_mode": "per-layer",
+    "scale": 1.0,
+    "layer_range_inclusive": [
+      4,
+      44
+    ],
+    "state": "Loaded; enabled by default, request can override. No behavior was changed for this scan."
+  },
+  "affected_path": [
+    "request/template and sampling",
+    "four-stream residual and attention",
+    "router selects 10/512 plus gated shared expert",
+    "expert down projection in encoded Hadamard input basis",
+    "route-weighted output and hyperconnection injection",
+    "existing post-FFN control projection",
+    "later blocks and output head"
+  ],
+  "next_capture": {
+    "method": "Replay matched productive-repair and repeated-checking prefixes; retain wait as one user-relevant marker alongside exact repeats, token use, completion, and correctness.",
+    "observations": [
+      "pre/post MoE residual per stream",
+      "shared output and its gate",
+      "selected expert IDs and route weights",
+      "routed expert down inputs/outputs",
+      "before/after existing projection"
+    ],
+    "runtime_limit": "Running HTTP API has no supported layer-activation capture endpoint identified. Source dump flags are startup-time CLI diagnostics; current native multi-GPU batched path needs separate validation/instrumentation. No live attachment, restart, or second GPU model was attempted.",
+    "quantization": "Refit to the exact deployed quant and coordinate system. Old 5120-wide directions and 17408-column coefficients cannot be applied directly to 2560-by-640 expert matrices.",
+    "comparison_controls": [
+      "pin exact artifact and projection state",
+      "same prompts/template/sampling/output caps",
+      "record request order and cache state",
+      "keep a useful self-correction case and a non-loop case",
+      "review final correctness and actual completion, including malformed output"
+    ]
+  },
+  "checks": {
+    "same_model_stat": true,
+    "same_engine_process": true,
+    "source_tensors_scanned": 288,
+    "scanned_nonfinite": 0,
+    "cvec_nonfinite": 0,
+    "model_loaded_before": true,
+    "model_loaded_after": true
+  },
+  "resources": {
+    "elapsed_seconds": 8.290154457092285,
+    "peak_process_rss_mib": 137.16796875,
+    "bytes_read_from_model": 429817792,
+    "gpu_inference_allocations": 0
+  },
+  "local_evidence": [
+    "inspection.json",
+    "tensor_inventory.json",
+    "spectral_hypotheses.npz",
+    "inspect_strata.py"
+  ],
+  "source_locations": {
+    "prior_static_scan": "/home/researcher/model-tools/qwen38-weight-edit-20261104/inspect_weights.py",
+    "strata_dump_options": "/home/researcher/strata-122b/src/src/program/generate.cpp:674",
+    "strata_dump_initialization": "/home/researcher/strata-122b/src/src/program/generate.cpp:9364",
+    "current_projection": "/home/researcher/strata-122b/src/include/strata/kernels/cvec.hpp:1",
+    "http_projection_option": "/home/researcher/strata-122b/src/serve/server.py:1751"
+  },
+  "projection_followup": {
+    "inspection": "Read all 47 direction payloads from the deployed control-vector GGUF; all are byte-identical.",
+    "unique_payloads": 1,
+    "payload_sha256": "5b2d40f8a08b3fbd0b79d616fe42cf012dede6ef14071b0da464632d2b2e7781",
+    "direction_norm": 0.9999999985826582,
+    "active_layer_range_inclusive": [
+      4,
+      44
+    ],
+    "effect_from_source": "Default-on unit-strength projection removes the same residual direction after each covered FFN write, across the four streams. This may be an intentional shared direction, not a demonstrated configuration defect.",
+    "recommended_first_runtime_comparison": "Matched requests with experimental_speed_projection on versus off; source supports per-request selection without a restart. Not executed.",
+    "recommended_weight_candidate": {
+      "first_layer": 45,
+      "next_separate_trials": [
+        46,
+        44
+      ],
+      "tensor": "blk.45.ffn_down_shexp.weight",
+      "reason": "Late shared-expert structural candidate, outside the active projection range. Prioritize a sparse fitted rank-one correction; do not directly suppress the largest singular vector.",
+      "basis_for_direction": "Current-model productive-repair versus redundant-checking activations. No direction or dose has been fitted yet.",
+      "execution": "Use a separately validated high-precision correction before considering quantized materialization; production unchanged."
+    }
+  },
+  "control_vector_bug_audit": {
+    "conclusion": "The 47 identical direction payloads are intentional in the selected upstream Huihui adapter. No duplication/broadcast bug was found in the reviewed Strata loader/application path.",
+    "active_file": {
+      "path": "/home/researcher/models/qwen38-flash-next-iq3s/Huihui-Qwen3.8-Flash-Next-refusal-direction-r.gguf",
+      "bytes": 483520,
+      "sha256": "59f9ae8b4372107ae79044278a4406bdfe8f8861fe599aa5848515f0d072be38",
+      "matches_published_sha256": true,
+      "entries": 47,
+      "unique_direction_payloads": 1,
+      "elements_per_direction": 2560,
+      "tensor_names": "direction.1 through direction.47"
+    },
+    "upstream_sources": [
+      "https://huggingface.co/alesha-pro/Qwen3.8-Flash-Next-abliterated-GSQ-RCO-Strata-GGUF",
+      "https://huggingface.co/alesha-pro/Qwen3.8-Flash-Next-abliterated-GSQ-RCO-Strata-GGUF/blob/main/Huihui-Qwen3.8-Flash-Next-refusal-direction-r.gguf"
+    ],
+    "loader_review": {
+      "path": "/home/researcher/strata-122b/src/src/program/generate.cpp",
+      "lines": "2403-2486",
+      "behavior": "Each tensor goes into its named layer slot. Layer 0 is skipped. Only inclusive configured layers 4..44 receive direction/scale entries. Distinct-layer tensors are not summed together. Project mode normalizes each slot and preserves its norm as strength."
+    },
+    "kernel_review": {
+      "path": "/home/researcher/strata-122b/src/src/kernels/cuda/cvec.cu",
+      "behavior": "Uses dir + layer*n and s[layer]; one block per token and residual stream; computes h - s*(h dot v)*v. At configured unit scale, this removes the component along the unit vector."
+    },
+    "live_evidence": {
+      "engine_version": "0.1.59.1",
+      "metrics_cvec": "project:4-44",
+      "startup_log": "control vector mode = project, dir = per-layer, layers 4..44 (41 steered)",
+      "health_loaded": true
+    },
+    "bundled_alternative": {
+      "path": "/home/researcher/strata-122b/src/data/experimental-speed-projection/Qwen3.8-Flash-Next-experimental-speed-projection.gguf",
+      "sha256": "ef0724c5b79297e481017be85769832bc26eb220c984ecba2b0e1b0c8426312b",
+      "entries": 47,
+      "unique_direction_payloads": 47,
+      "selected_by_live_process": false,
+      "interpretation": "Different adapter from the active Huihui file; the shared per-layer storage convention does not require identical payloads."
+    },
+    "verification_scope": "File hashes, tensor payloads, metadata, running configuration, live metrics and startup logs checked; loader and CUDA application source and existing parity test reviewed. No new GPU parity test or model generation trial run.",
+    "production_changes": false,
+    "remaining_behavior_question": "Whether this intentional adapter affects repetitive checking on the current Gyro quant is not answered by format correctness.",
+    "experiment_authorization": "User reiterated that adventurous experimental trials and candidate failures are acceptable; current priority was investigating the adapter while production remains running.",
+    "prior_calmer_record": "FINDINGS.txt confirms direct dose sweeps including alpha 6 damage and orthogonal-random direction controls; static spectral hypotheses were part of the exploratory workflow."
+  }
+}

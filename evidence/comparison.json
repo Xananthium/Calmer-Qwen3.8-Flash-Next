@@ -1,0 +1,3462 @@
+{
+  "common_case_variants": {
+    "Unedited": {
+      "rows": [
+        {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 53084,
+          "finish_reason": "stop",
+          "wall_s": 556.640336232027,
+          "first_text_s": 0.6895367419929244,
+          "duplicate8_tail": 0.0,
+          "wait_count": 78,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 21315,
+          "finish_reason": "stop",
+          "wall_s": 208.2398622109904,
+          "first_text_s": 0.7305457500042394,
+          "duplicate8_tail": 0.001980198019801982,
+          "wait_count": 35,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 581,
+          "finish_reason": "stop",
+          "wall_s": 4.434298045991454,
+          "first_text_s": 0.5975502540240996,
+          "duplicate8_tail": 0.04861111111111116,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 555,
+          "finish_reason": "stop",
+          "wall_s": 4.209113420045469,
+          "first_text_s": 0.4338635460007936,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        }
+      ],
+      "completion_tokens": 75535,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 4
+      },
+      "natural_completions": 4
+    },
+    "45 only": {
+      "rows": [
+        {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 65855,
+          "finish_reason": "stop",
+          "wall_s": 920.124122779991,
+          "first_text_s": 0.9250677070231177,
+          "duplicate8_tail": 0.0,
+          "wait_count": 79,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 12899,
+          "finish_reason": "stop",
+          "wall_s": 217.2012682170025,
+          "first_text_s": 2.721633924986236,
+          "duplicate8_tail": 0.0,
+          "wait_count": 23,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 492,
+          "finish_reason": "stop",
+          "wall_s": 4.074018045968842,
+          "first_text_s": 0.6119349239743315,
+          "duplicate8_tail": 0.0040322580645161255,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 741,
+          "finish_reason": "stop",
+          "wall_s": 5.4148022449808195,
+          "first_text_s": 0.35494944598758593,
+          "duplicate8_tail": 0.02145922746781115,
+          "wait_count": 2,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        }
+      ],
+      "completion_tokens": 79987,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 4
+      },
+      "natural_completions": 4
+    },
+    "45+46": {
+      "rows": [
+        {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 35760,
+          "finish_reason": "stop",
+          "wall_s": 394.47940888500307,
+          "first_text_s": 0.7633172310306691,
+          "duplicate8_tail": 0.0,
+          "wait_count": 51,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 23380,
+          "finish_reason": "stop",
+          "wall_s": 233.9190636560088,
+          "first_text_s": 0.5087232799851336,
+          "duplicate8_tail": 0.003960396039603964,
+          "wait_count": 34,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 581,
+          "finish_reason": "stop",
+          "wall_s": 4.401250710012391,
+          "first_text_s": 0.6469953070045449,
+          "duplicate8_tail": 0.014388489208633115,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 753,
+          "finish_reason": "stop",
+          "wall_s": 5.500288598006591,
+          "first_text_s": 0.42999930103542283,
+          "duplicate8_tail": 0.006651884700665134,
+          "wait_count": 2,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        }
+      ],
+      "completion_tokens": 60474,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 4
+      },
+      "natural_completions": 4
+    },
+    "44+45": {
+      "rows": [
+        {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "d5339f7670fc1237f5058f90b377d70c32cdc6985119506d344deefaa172c673",
+            "canonical_json_bytes": 74
+          },
+          "completion_tokens": 27789,
+          "finish_reason": "stop",
+          "wall_s": 296.2543839360005,
+          "first_text_s": 0.7495858379988931,
+          "duplicate8_tail": 0.0,
+          "wait_count": 22,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "2f9501ac1b31520f4a0556c11026fa0e3b3dd1fa23d2169abd4443753834d3f4",
+            "canonical_json_bytes": 6
+          },
+          "completion_tokens": 19756,
+          "finish_reason": "stop",
+          "wall_s": 193.22341009095544,
+          "first_text_s": 0.5053475209861062,
+          "duplicate8_tail": 0.0,
+          "wait_count": 31,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 657,
+          "finish_reason": "stop",
+          "wall_s": 4.878557696007192,
+          "first_text_s": 0.6403980039758608,
+          "duplicate8_tail": 0.01851851851851849,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 639,
+          "finish_reason": "stop",
+          "wall_s": 4.603189374960493,
+          "first_text_s": 0.43191449000732973,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        }
+      ],
+      "completion_tokens": 48841,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 4
+      },
+      "natural_completions": 4
+    },
+    "44+45+46": {
+      "rows": [
+        {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "canonical_json_bytes": 4
+          },
+          "status": "interrupted",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "canonical_json_bytes": 4
+          },
+          "completion_tokens": 70721,
+          "finish_reason": null,
+          "wall_s": 914.1337562499684,
+          "first_text_s": 0.7390297320089303,
+          "duplicate8_tail": 0.0,
+          "wait_count": 90,
+          "natural_completion": false,
+          "forced_wrap_marker": false,
+          "token_count_is_lower_bound": true,
+          "token_count_source": "Live engine counter immediately before client cancellation; final API usage unavailable."
+        },
+        {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 18390,
+          "finish_reason": "stop",
+          "wall_s": 179.9476714800112,
+          "first_text_s": 0.5008605250041,
+          "duplicate8_tail": 0.0,
+          "wait_count": 31,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 526,
+          "finish_reason": "stop",
+          "wall_s": 4.441811071999837,
+          "first_text_s": 0.9178498369874433,
+          "duplicate8_tail": 0.03688524590163933,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 570,
+          "finish_reason": "stop",
+          "wall_s": 4.301101449003909,
+          "first_text_s": 0.4815213620313443,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        }
+      ],
+      "completion_tokens": 90207,
+      "completion_tokens_are_lower_bound": true,
+      "counts": {
+        "interrupted": 1,
+        "correct": 3
+      },
+      "natural_completions": 3
+    },
+    "2+44+45": {
+      "rows": [
+        {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 62984,
+          "finish_reason": "stop",
+          "wall_s": 677.4454474190134,
+          "first_text_s": 0.6834432799951173,
+          "duplicate8_tail": 0.0,
+          "wait_count": 77,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 21482,
+          "finish_reason": "stop",
+          "wall_s": 205.94053224800155,
+          "first_text_s": 0.756049661024008,
+          "duplicate8_tail": 0.001980198019801982,
+          "wait_count": 32,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 737,
+          "finish_reason": "stop",
+          "wall_s": 5.551426619000267,
+          "first_text_s": 0.5969296590192243,
+          "duplicate8_tail": 0.0026525198938992522,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 554,
+          "finish_reason": "stop",
+          "wall_s": 3.9367088000290096,
+          "first_text_s": 0.4298208649852313,
+          "duplicate8_tail": 0.0057636887608069065,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        }
+      ],
+      "completion_tokens": 85757,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 4
+      },
+      "natural_completions": 4
+    }
+  },
+  "common_loop_variants": {
+    "Unedited": {
+      "rows": [
+        {
+          "case": "L01",
+          "id": "tool_pytest",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": ".venv/bin/python -m pytest",
+          "predicted": ".venv/bin/python -m pytest -q",
+          "status": "correct",
+          "raw_answer": ".venv/bin/python -m pytest -q",
+          "completion_tokens": 87,
+          "finish_reason": "stop",
+          "wall_s": 1.6938273360137828,
+          "first_text_s": 0.9093110089888796,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            ".venv/bin/python -m pytest -q"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L02",
+          "id": "tool_file",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "/app/src/main.py",
+          "predicted": "cat /app/src/main.py",
+          "status": "correct",
+          "raw_answer": "cat /app/src/main.py",
+          "completion_tokens": 63,
+          "finish_reason": "stop",
+          "wall_s": 1.0077239209786057,
+          "first_text_s": 0.6156529459985904,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cat /app/src/main.py"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L03",
+          "id": "tool_npm",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "npm run test:unit",
+          "predicted": "npm run test:unit",
+          "status": "correct",
+          "raw_answer": "npm run test:unit",
+          "completion_tokens": 68,
+          "finish_reason": "stop",
+          "wall_s": 1.093519028974697,
+          "first_text_s": 0.6157172989915125,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "npm run test:unit"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L04",
+          "id": "tool_git",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "git -C /app/project diff",
+          "predicted": "git diff",
+          "status": "wrong",
+          "raw_answer": "git diff",
+          "completion_tokens": 62,
+          "finish_reason": "stop",
+          "wall_s": 1.0300554310088046,
+          "first_text_s": 0.6257363139884546,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "git diff"
+          ],
+          "repeated_failed_action": true,
+          "repeated_failed_operation": true,
+          "direct_corrective_action": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L05",
+          "id": "primed_gsm8k_train:2079",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 480,
+          "finish_reason": "stop",
+          "wall_s": 3.7789215599768795,
+          "first_text_s": 0.6344017150113359,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L06",
+          "id": "primed_gsm8k_train:2451",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 256,
+          "finish_reason": "stop",
+          "wall_s": 2.451119285018649,
+          "first_text_s": 0.6195556920138188,
+          "duplicate8_tail": 0.0062893081761006275,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0062893081761006275
+        },
+        {
+          "case": "C05",
+          "id": "primed_gsm8k_train:2079:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 478,
+          "finish_reason": "stop",
+          "wall_s": 3.2025937819853425,
+          "first_text_s": 0.3993412379641086,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "C06",
+          "id": "primed_gsm8k_train:2451:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 371,
+          "finish_reason": "stop",
+          "wall_s": 2.615894156973809,
+          "first_text_s": 0.4044225729885511,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        }
+      ],
+      "completion_tokens": 1865,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 7,
+        "wrong": 1
+      },
+      "natural_completions": 8
+    },
+    "45 only": {
+      "rows": [
+        {
+          "case": "L01",
+          "id": "tool_pytest",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": ".venv/bin/python -m pytest",
+          "predicted": "cd /app && ls && .venv/bin/python -m pytest -q",
+          "status": "correct",
+          "raw_answer": "cd /app && ls && .venv/bin/python -m pytest -q",
+          "completion_tokens": 82,
+          "finish_reason": "stop",
+          "wall_s": 1.5891245959792286,
+          "first_text_s": 0.7785941199981607,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cd /app && ls && .venv/bin/python -m pytest -q"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L02",
+          "id": "tool_file",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "/app/src/main.py",
+          "predicted": "cat /app/src/main.py",
+          "status": "correct",
+          "raw_answer": "cat /app/src/main.py",
+          "completion_tokens": 56,
+          "finish_reason": "stop",
+          "wall_s": 0.9340019809897058,
+          "first_text_s": 0.5862660099519417,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cat /app/src/main.py"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L03",
+          "id": "tool_npm",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "npm run test:unit",
+          "predicted": "npm run test:unit",
+          "status": "correct",
+          "raw_answer": "npm run test:unit",
+          "completion_tokens": 59,
+          "finish_reason": "stop",
+          "wall_s": 1.0209885620279238,
+          "first_text_s": 0.5935614079935476,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "npm run test:unit"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L04",
+          "id": "tool_git",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "git -C /app/project diff",
+          "predicted": "git -C /app/project diff",
+          "status": "correct",
+          "raw_answer": "git -C /app/project diff",
+          "completion_tokens": 50,
+          "finish_reason": "stop",
+          "wall_s": 0.8933540980215184,
+          "first_text_s": 0.5975393559783697,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "git -C /app/project diff"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L05",
+          "id": "primed_gsm8k_train:2079",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 635,
+          "finish_reason": "stop",
+          "wall_s": 5.102827285008971,
+          "first_text_s": 0.5648774009896442,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L06",
+          "id": "primed_gsm8k_train:2451",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 399,
+          "finish_reason": "stop",
+          "wall_s": 3.3435615520575084,
+          "first_text_s": 0.5536532110418193,
+          "duplicate8_tail": 0.0074349442379182396,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0074349442379182396
+        },
+        {
+          "case": "C05",
+          "id": "primed_gsm8k_train:2079:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 375,
+          "finish_reason": "stop",
+          "wall_s": 2.610465029021725,
+          "first_text_s": 0.3389533990412019,
+          "duplicate8_tail": 0.008474576271186418,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.008474576271186418
+        },
+        {
+          "case": "C06",
+          "id": "primed_gsm8k_train:2451:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 361,
+          "finish_reason": "stop",
+          "wall_s": 2.592351878003683,
+          "first_text_s": 0.3453070950345136,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        }
+      ],
+      "completion_tokens": 2017,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 8
+      },
+      "natural_completions": 8
+    },
+    "45+46": {
+      "rows": [
+        {
+          "case": "L01",
+          "id": "tool_pytest",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": ".venv/bin/python -m pytest",
+          "predicted": "ls /app",
+          "status": "wrong",
+          "raw_answer": "ls /app",
+          "completion_tokens": 68,
+          "finish_reason": "stop",
+          "wall_s": 1.5440675580175593,
+          "first_text_s": 0.9990677449968643,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "ls /app"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L02",
+          "id": "tool_file",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "/app/src/main.py",
+          "predicted": "cat /app/src/main.py",
+          "status": "correct",
+          "raw_answer": "cat /app/src/main.py",
+          "completion_tokens": 50,
+          "finish_reason": "stop",
+          "wall_s": 0.9623798230313696,
+          "first_text_s": 0.6219192240387201,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cat /app/src/main.py"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L03",
+          "id": "tool_npm",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "npm run test:unit",
+          "predicted": "cat package.json",
+          "status": "wrong",
+          "raw_answer": "cat package.json",
+          "completion_tokens": 160,
+          "finish_reason": "stop",
+          "wall_s": 1.912140897999052,
+          "first_text_s": 0.6290286160074174,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cat package.json"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L04",
+          "id": "tool_git",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "git -C /app/project diff",
+          "predicted": "git -C /app/project diff",
+          "status": "correct",
+          "raw_answer": "git -C /app/project diff",
+          "completion_tokens": 66,
+          "finish_reason": "stop",
+          "wall_s": 1.1327135089668445,
+          "first_text_s": 0.6360775929642841,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "git -C /app/project diff"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L05",
+          "id": "primed_gsm8k_train:2079",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 376,
+          "finish_reason": "stop",
+          "wall_s": 3.2418506660033017,
+          "first_text_s": 0.6389673730009235,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 1,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L06",
+          "id": "primed_gsm8k_train:2451",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 250,
+          "finish_reason": "stop",
+          "wall_s": 2.3966953609487973,
+          "first_text_s": 0.6273362769861706,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "C05",
+          "id": "primed_gsm8k_train:2079:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 350,
+          "finish_reason": "stop",
+          "wall_s": 2.5199628549744375,
+          "first_text_s": 0.4089282469940372,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "C06",
+          "id": "primed_gsm8k_train:2451:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 315,
+          "finish_reason": "stop",
+          "wall_s": 2.3754733810201287,
+          "first_text_s": 0.4106767210178077,
+          "duplicate8_tail": 0.02010050251256279,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.02010050251256279
+        }
+      ],
+      "completion_tokens": 1635,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "wrong": 2,
+        "correct": 6
+      },
+      "natural_completions": 8
+    },
+    "44+45": {
+      "rows": [
+        {
+          "case": "L01",
+          "id": "tool_pytest",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": ".venv/bin/python -m pytest",
+          "predicted": ".venv/bin/python -m pytest -q",
+          "status": "correct",
+          "raw_answer": ".venv/bin/python -m pytest -q",
+          "completion_tokens": 61,
+          "finish_reason": "stop",
+          "wall_s": 1.3651549220085144,
+          "first_text_s": 0.9077060029958375,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            ".venv/bin/python -m pytest -q"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L02",
+          "id": "tool_file",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "/app/src/main.py",
+          "predicted": "cat /app/src/main.py",
+          "status": "correct",
+          "raw_answer": "cat /app/src/main.py",
+          "completion_tokens": 50,
+          "finish_reason": "stop",
+          "wall_s": 0.9363694959902205,
+          "first_text_s": 0.6218593990197405,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cat /app/src/main.py"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L03",
+          "id": "tool_npm",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "npm run test:unit",
+          "predicted": "npm run test:unit",
+          "status": "correct",
+          "raw_answer": "npm run test:unit",
+          "completion_tokens": 59,
+          "finish_reason": "stop",
+          "wall_s": 1.0327333000022918,
+          "first_text_s": 0.6192853900138289,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "npm run test:unit"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L04",
+          "id": "tool_git",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "git -C /app/project diff",
+          "predicted": "git -C /app/project diff",
+          "status": "correct",
+          "raw_answer": "git -C /app/project diff",
+          "completion_tokens": 54,
+          "finish_reason": "stop",
+          "wall_s": 0.9607099360437132,
+          "first_text_s": 0.6300675390521064,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "git -C /app/project diff"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L05",
+          "id": "primed_gsm8k_train:2079",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 412,
+          "finish_reason": "stop",
+          "wall_s": 3.6249674989958294,
+          "first_text_s": 0.6391029719961807,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L06",
+          "id": "primed_gsm8k_train:2451",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 330,
+          "finish_reason": "stop",
+          "wall_s": 2.865433975995984,
+          "first_text_s": 0.6206507619936019,
+          "duplicate8_tail": 0.005154639175257714,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.005154639175257714
+        },
+        {
+          "case": "C05",
+          "id": "primed_gsm8k_train:2079:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 464,
+          "finish_reason": "stop",
+          "wall_s": 3.041130870988127,
+          "first_text_s": 0.40044637699611485,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "C06",
+          "id": "primed_gsm8k_train:2451:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 366,
+          "finish_reason": "stop",
+          "wall_s": 2.601888869947288,
+          "first_text_s": 0.4079708489589393,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        }
+      ],
+      "completion_tokens": 1796,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 8
+      },
+      "natural_completions": 8
+    },
+    "44+45+46": {
+      "rows": [
+        {
+          "case": "L01",
+          "id": "tool_pytest",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": ".venv/bin/python -m pytest",
+          "predicted": ".venv/bin/python -m pytest -q",
+          "status": "correct",
+          "raw_answer": ".venv/bin/python -m pytest -q",
+          "completion_tokens": 70,
+          "finish_reason": "stop",
+          "wall_s": 1.4405187369557098,
+          "first_text_s": 0.9409731409978122,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            ".venv/bin/python -m pytest -q"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L02",
+          "id": "tool_file",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "/app/src/main.py",
+          "predicted": "cat /app/src/main.py",
+          "status": "correct",
+          "raw_answer": "cat /app/src/main.py",
+          "completion_tokens": 62,
+          "finish_reason": "stop",
+          "wall_s": 1.070975904003717,
+          "first_text_s": 0.6219258679775521,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cat /app/src/main.py"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L03",
+          "id": "tool_npm",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "npm run test:unit",
+          "predicted": "npm run test:unit",
+          "status": "correct",
+          "raw_answer": "npm run test:unit",
+          "completion_tokens": 49,
+          "finish_reason": "stop",
+          "wall_s": 0.9778336580493487,
+          "first_text_s": 0.6237563730101101,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "npm run test:unit"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L04",
+          "id": "tool_git",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "git -C /app/project diff",
+          "predicted": "cd /app/project && git status && git diff --stat",
+          "status": "wrong",
+          "raw_answer": "cd /app/project && git status && git diff --stat",
+          "completion_tokens": 51,
+          "finish_reason": "stop",
+          "wall_s": 0.989818945992738,
+          "first_text_s": 0.6360168389510363,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cd /app/project && git status && git diff --stat"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L05",
+          "id": "primed_gsm8k_train:2079",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 375,
+          "finish_reason": "stop",
+          "wall_s": 3.625038004014641,
+          "first_text_s": 0.6391259399824776,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L06",
+          "id": "primed_gsm8k_train:2451",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 264,
+          "finish_reason": "stop",
+          "wall_s": 2.6193267420167103,
+          "first_text_s": 0.6252643819898367,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "C05",
+          "id": "primed_gsm8k_train:2079:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 248,
+          "finish_reason": "stop",
+          "wall_s": 1.9458962649805471,
+          "first_text_s": 0.40610540099442005,
+          "duplicate8_tail": 0.04054054054054057,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.04054054054054057
+        },
+        {
+          "case": "C06",
+          "id": "primed_gsm8k_train:2451:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 361,
+          "finish_reason": "stop",
+          "wall_s": 2.558008188032545,
+          "first_text_s": 0.408279849041719,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        }
+      ],
+      "completion_tokens": 1480,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 7,
+        "wrong": 1
+      },
+      "natural_completions": 8
+    },
+    "2+44+45": {
+      "rows": [
+        {
+          "case": "L01",
+          "id": "tool_pytest",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": ".venv/bin/python -m pytest",
+          "predicted": ".venv/bin/python -m pytest -q",
+          "status": "correct",
+          "raw_answer": ".venv/bin/python -m pytest -q",
+          "completion_tokens": 64,
+          "finish_reason": "stop",
+          "wall_s": 1.3796651440206915,
+          "first_text_s": 0.9096340460237116,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            ".venv/bin/python -m pytest -q"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L02",
+          "id": "tool_file",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "/app/src/main.py",
+          "predicted": "cat /app/src/main.py",
+          "status": "correct",
+          "raw_answer": "cat /app/src/main.py",
+          "completion_tokens": 74,
+          "finish_reason": "stop",
+          "wall_s": 1.0849874169798568,
+          "first_text_s": 0.6242044409736991,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cat /app/src/main.py"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L03",
+          "id": "tool_npm",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "npm run test:unit",
+          "predicted": "npm run test:unit",
+          "status": "correct",
+          "raw_answer": "npm run test:unit",
+          "completion_tokens": 123,
+          "finish_reason": "stop",
+          "wall_s": 1.6778038470074534,
+          "first_text_s": 0.6202899169875309,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "npm run test:unit"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L04",
+          "id": "tool_git",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "git -C /app/project diff",
+          "predicted": "git -C /app/project diff",
+          "status": "correct",
+          "raw_answer": "git -C /app/project diff",
+          "completion_tokens": 54,
+          "finish_reason": "stop",
+          "wall_s": 0.9571687169955112,
+          "first_text_s": 0.6297115169581957,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "git -C /app/project diff"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L05",
+          "id": "primed_gsm8k_train:2079",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 472,
+          "finish_reason": "stop",
+          "wall_s": 3.6731180800125003,
+          "first_text_s": 0.6384025749866851,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L06",
+          "id": "primed_gsm8k_train:2451",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 267,
+          "finish_reason": "stop",
+          "wall_s": 2.596911368018482,
+          "first_text_s": 0.6179772019968368,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "C05",
+          "id": "primed_gsm8k_train:2079:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 227,
+          "finish_reason": "stop",
+          "wall_s": 1.8725533139659092,
+          "first_text_s": 0.39958857698366046,
+          "duplicate8_tail": 0.046511627906976716,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.046511627906976716
+        },
+        {
+          "case": "C06",
+          "id": "primed_gsm8k_train:2451:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 312,
+          "finish_reason": "stop",
+          "wall_s": 2.316274451033678,
+          "first_text_s": 0.401618218049407,
+          "duplicate8_tail": 0.02020202020202022,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.02020202020202022
+        }
+      ],
+      "completion_tokens": 1593,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 8
+      },
+      "natural_completions": 8
+    }
+  },
+  "comparisons_to_unedited": {
+    "Unedited": [
+      {
+        "case": "05",
+        "baseline": {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 53084,
+          "finish_reason": "stop",
+          "wall_s": 556.640336232027,
+          "first_text_s": 0.6895367419929244,
+          "duplicate8_tail": 0.0,
+          "wait_count": 78,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 53084,
+          "finish_reason": "stop",
+          "wall_s": 556.640336232027,
+          "first_text_s": 0.6895367419929244,
+          "duplicate8_tail": 0.0,
+          "wait_count": 78,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": 0.0
+      },
+      {
+        "case": "01",
+        "baseline": {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 21315,
+          "finish_reason": "stop",
+          "wall_s": 208.2398622109904,
+          "first_text_s": 0.7305457500042394,
+          "duplicate8_tail": 0.001980198019801982,
+          "wait_count": 35,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 21315,
+          "finish_reason": "stop",
+          "wall_s": 208.2398622109904,
+          "first_text_s": 0.7305457500042394,
+          "duplicate8_tail": 0.001980198019801982,
+          "wait_count": 35,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": 0.0
+      },
+      {
+        "case": "07",
+        "baseline": {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 581,
+          "finish_reason": "stop",
+          "wall_s": 4.434298045991454,
+          "first_text_s": 0.5975502540240996,
+          "duplicate8_tail": 0.04861111111111116,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 581,
+          "finish_reason": "stop",
+          "wall_s": 4.434298045991454,
+          "first_text_s": 0.5975502540240996,
+          "duplicate8_tail": 0.04861111111111116,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": 0.0
+      },
+      {
+        "case": "08",
+        "baseline": {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 555,
+          "finish_reason": "stop",
+          "wall_s": 4.209113420045469,
+          "first_text_s": 0.4338635460007936,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 555,
+          "finish_reason": "stop",
+          "wall_s": 4.209113420045469,
+          "first_text_s": 0.4338635460007936,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": 0.0
+      }
+    ],
+    "45 only": [
+      {
+        "case": "05",
+        "baseline": {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 53084,
+          "finish_reason": "stop",
+          "wall_s": 556.640336232027,
+          "first_text_s": 0.6895367419929244,
+          "duplicate8_tail": 0.0,
+          "wait_count": 78,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 65855,
+          "finish_reason": "stop",
+          "wall_s": 920.124122779991,
+          "first_text_s": 0.9250677070231177,
+          "duplicate8_tail": 0.0,
+          "wait_count": 79,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": 24.058096601612533
+      },
+      {
+        "case": "01",
+        "baseline": {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 21315,
+          "finish_reason": "stop",
+          "wall_s": 208.2398622109904,
+          "first_text_s": 0.7305457500042394,
+          "duplicate8_tail": 0.001980198019801982,
+          "wait_count": 35,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 12899,
+          "finish_reason": "stop",
+          "wall_s": 217.2012682170025,
+          "first_text_s": 2.721633924986236,
+          "duplicate8_tail": 0.0,
+          "wait_count": 23,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": -39.48393150363594
+      },
+      {
+        "case": "07",
+        "baseline": {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 581,
+          "finish_reason": "stop",
+          "wall_s": 4.434298045991454,
+          "first_text_s": 0.5975502540240996,
+          "duplicate8_tail": 0.04861111111111116,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 492,
+          "finish_reason": "stop",
+          "wall_s": 4.074018045968842,
+          "first_text_s": 0.6119349239743315,
+          "duplicate8_tail": 0.0040322580645161255,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": -15.3184165232358
+      },
+      {
+        "case": "08",
+        "baseline": {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 555,
+          "finish_reason": "stop",
+          "wall_s": 4.209113420045469,
+          "first_text_s": 0.4338635460007936,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 741,
+          "finish_reason": "stop",
+          "wall_s": 5.4148022449808195,
+          "first_text_s": 0.35494944598758593,
+          "duplicate8_tail": 0.02145922746781115,
+          "wait_count": 2,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": 33.5135135135135
+      }
+    ],
+    "45+46": [
+      {
+        "case": "05",
+        "baseline": {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 53084,
+          "finish_reason": "stop",
+          "wall_s": 556.640336232027,
+          "first_text_s": 0.6895367419929244,
+          "duplicate8_tail": 0.0,
+          "wait_count": 78,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 35760,
+          "finish_reason": "stop",
+          "wall_s": 394.47940888500307,
+          "first_text_s": 0.7633172310306691,
+          "duplicate8_tail": 0.0,
+          "wait_count": 51,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": -32.63506894732876
+      },
+      {
+        "case": "01",
+        "baseline": {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 21315,
+          "finish_reason": "stop",
+          "wall_s": 208.2398622109904,
+          "first_text_s": 0.7305457500042394,
+          "duplicate8_tail": 0.001980198019801982,
+          "wait_count": 35,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 23380,
+          "finish_reason": "stop",
+          "wall_s": 233.9190636560088,
+          "first_text_s": 0.5087232799851336,
+          "duplicate8_tail": 0.003960396039603964,
+          "wait_count": 34,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": 9.688013136288998
+      },
+      {
+        "case": "07",
+        "baseline": {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 581,
+          "finish_reason": "stop",
+          "wall_s": 4.434298045991454,
+          "first_text_s": 0.5975502540240996,
+          "duplicate8_tail": 0.04861111111111116,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 581,
+          "finish_reason": "stop",
+          "wall_s": 4.401250710012391,
+          "first_text_s": 0.6469953070045449,
+          "duplicate8_tail": 0.014388489208633115,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": 0.0
+      },
+      {
+        "case": "08",
+        "baseline": {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 555,
+          "finish_reason": "stop",
+          "wall_s": 4.209113420045469,
+          "first_text_s": 0.4338635460007936,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 753,
+          "finish_reason": "stop",
+          "wall_s": 5.500288598006591,
+          "first_text_s": 0.42999930103542283,
+          "duplicate8_tail": 0.006651884700665134,
+          "wait_count": 2,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": 35.67567567567566
+      }
+    ],
+    "44+45": [
+      {
+        "case": "05",
+        "baseline": {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 53084,
+          "finish_reason": "stop",
+          "wall_s": 556.640336232027,
+          "first_text_s": 0.6895367419929244,
+          "duplicate8_tail": 0.0,
+          "wait_count": 78,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "d5339f7670fc1237f5058f90b377d70c32cdc6985119506d344deefaa172c673",
+            "canonical_json_bytes": 74
+          },
+          "completion_tokens": 27789,
+          "finish_reason": "stop",
+          "wall_s": 296.2543839360005,
+          "first_text_s": 0.7495858379988931,
+          "duplicate8_tail": 0.0,
+          "wait_count": 22,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": -47.650892924421676
+      },
+      {
+        "case": "01",
+        "baseline": {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 21315,
+          "finish_reason": "stop",
+          "wall_s": 208.2398622109904,
+          "first_text_s": 0.7305457500042394,
+          "duplicate8_tail": 0.001980198019801982,
+          "wait_count": 35,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "2f9501ac1b31520f4a0556c11026fa0e3b3dd1fa23d2169abd4443753834d3f4",
+            "canonical_json_bytes": 6
+          },
+          "completion_tokens": 19756,
+          "finish_reason": "stop",
+          "wall_s": 193.22341009095544,
+          "first_text_s": 0.5053475209861062,
+          "duplicate8_tail": 0.0,
+          "wait_count": 31,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": -7.314098053014306
+      },
+      {
+        "case": "07",
+        "baseline": {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 581,
+          "finish_reason": "stop",
+          "wall_s": 4.434298045991454,
+          "first_text_s": 0.5975502540240996,
+          "duplicate8_tail": 0.04861111111111116,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 657,
+          "finish_reason": "stop",
+          "wall_s": 4.878557696007192,
+          "first_text_s": 0.6403980039758608,
+          "duplicate8_tail": 0.01851851851851849,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": 13.080895008605854
+      },
+      {
+        "case": "08",
+        "baseline": {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 555,
+          "finish_reason": "stop",
+          "wall_s": 4.209113420045469,
+          "first_text_s": 0.4338635460007936,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 639,
+          "finish_reason": "stop",
+          "wall_s": 4.603189374960493,
+          "first_text_s": 0.43191449000732973,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": 15.135135135135137
+      }
+    ],
+    "44+45+46": [
+      {
+        "case": "05",
+        "baseline": {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 53084,
+          "finish_reason": "stop",
+          "wall_s": 556.640336232027,
+          "first_text_s": 0.6895367419929244,
+          "duplicate8_tail": 0.0,
+          "wait_count": 78,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "canonical_json_bytes": 4
+          },
+          "status": "interrupted",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "canonical_json_bytes": 4
+          },
+          "completion_tokens": 70721,
+          "finish_reason": null,
+          "wall_s": 914.1337562499684,
+          "first_text_s": 0.7390297320089303,
+          "duplicate8_tail": 0.0,
+          "wait_count": 90,
+          "natural_completion": false,
+          "forced_wrap_marker": false,
+          "token_count_is_lower_bound": true,
+          "token_count_source": "Live engine counter immediately before client cancellation; final API usage unavailable."
+        },
+        "natural_pair": false,
+        "both_correct_and_natural": false,
+        "token_change_pct": null
+      },
+      {
+        "case": "01",
+        "baseline": {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 21315,
+          "finish_reason": "stop",
+          "wall_s": 208.2398622109904,
+          "first_text_s": 0.7305457500042394,
+          "duplicate8_tail": 0.001980198019801982,
+          "wait_count": 35,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 18390,
+          "finish_reason": "stop",
+          "wall_s": 179.9476714800112,
+          "first_text_s": 0.5008605250041,
+          "duplicate8_tail": 0.0,
+          "wait_count": 31,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": -13.722730471498945
+      },
+      {
+        "case": "07",
+        "baseline": {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 581,
+          "finish_reason": "stop",
+          "wall_s": 4.434298045991454,
+          "first_text_s": 0.5975502540240996,
+          "duplicate8_tail": 0.04861111111111116,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 526,
+          "finish_reason": "stop",
+          "wall_s": 4.441811071999837,
+          "first_text_s": 0.9178498369874433,
+          "duplicate8_tail": 0.03688524590163933,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": -9.46643717728055
+      },
+      {
+        "case": "08",
+        "baseline": {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 555,
+          "finish_reason": "stop",
+          "wall_s": 4.209113420045469,
+          "first_text_s": 0.4338635460007936,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 570,
+          "finish_reason": "stop",
+          "wall_s": 4.301101449003909,
+          "first_text_s": 0.4815213620313443,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": 2.7027027027026973
+      }
+    ],
+    "2+44+45": [
+      {
+        "case": "05",
+        "baseline": {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 53084,
+          "finish_reason": "stop",
+          "wall_s": 556.640336232027,
+          "first_text_s": 0.6895367419929244,
+          "duplicate8_tail": 0.0,
+          "wait_count": 78,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 62984,
+          "finish_reason": "stop",
+          "wall_s": 677.4454474190134,
+          "first_text_s": 0.6834432799951173,
+          "duplicate8_tail": 0.0,
+          "wait_count": 77,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": 18.649687288071725
+      },
+      {
+        "case": "01",
+        "baseline": {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 21315,
+          "finish_reason": "stop",
+          "wall_s": 208.2398622109904,
+          "first_text_s": 0.7305457500042394,
+          "duplicate8_tail": 0.001980198019801982,
+          "wait_count": 35,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 21482,
+          "finish_reason": "stop",
+          "wall_s": 205.94053224800155,
+          "first_text_s": 0.756049661024008,
+          "duplicate8_tail": 0.001980198019801982,
+          "wait_count": 32,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": 0.7834858081163576
+      },
+      {
+        "case": "07",
+        "baseline": {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 581,
+          "finish_reason": "stop",
+          "wall_s": 4.434298045991454,
+          "first_text_s": 0.5975502540240996,
+          "duplicate8_tail": 0.04861111111111116,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 737,
+          "finish_reason": "stop",
+          "wall_s": 5.551426619000267,
+          "first_text_s": 0.5969296590192243,
+          "duplicate8_tail": 0.0026525198938992522,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": 26.85025817555937
+      },
+      {
+        "case": "08",
+        "baseline": {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 555,
+          "finish_reason": "stop",
+          "wall_s": 4.209113420045469,
+          "first_text_s": 0.4338635460007936,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "variant": {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 554,
+          "finish_reason": "stop",
+          "wall_s": 3.9367088000290096,
+          "first_text_s": 0.4298208649852313,
+          "duplicate8_tail": 0.0057636887608069065,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        "natural_pair": true,
+        "both_correct_and_natural": true,
+        "token_change_pct": -0.18018018018017834
+      }
+    ]
+  },
+  "limitations": [
+    "Small exploratory panel, not a general benchmark.",
+    "Unedited means original GGUF weights. Existing production control vector and all runtime settings are retained.",
+    "Earlier original-weight tests used8192-token requests and server-inserted wrap-ups; they are not this baseline.",
+    "Shared production traffic and speculative decoding permit same-seed variation.",
+    "45-only historical requests used no positive cap, but naturally ended below75000.",
+    "The44+45+46 math result is user-interrupted, with an observed lower-bound token count and no final answer."
+  ],
+  "verification": {
+    "Unedited": {
+      "config_same_except_model_paths": true,
+      "router_identical": true,
+      "request_differences": []
+    },
+    "45 only": {
+      "config_same_except_model_paths": true,
+      "router_identical": true,
+      "request_differences": [
+        {
+          "family": "core",
+          "case": "05",
+          "difference": "Historical max_tokens=-1; natural stop below75000."
+        },
+        {
+          "family": "core",
+          "case": "01",
+          "difference": "Historical max_tokens=-1; natural stop below75000."
+        },
+        {
+          "family": "core",
+          "case": "07",
+          "difference": "Historical max_tokens=-1; natural stop below75000."
+        },
+        {
+          "family": "core",
+          "case": "08",
+          "difference": "Historical max_tokens=-1; natural stop below75000."
+        }
+      ]
+    },
+    "45+46": {
+      "config_same_except_model_paths": true,
+      "router_identical": true,
+      "request_differences": []
+    },
+    "44+45": {
+      "config_same_except_model_paths": true,
+      "router_identical": true,
+      "request_differences": []
+    },
+    "44+45+46": {
+      "config_same_except_model_paths": true,
+      "router_identical": true,
+      "request_differences": []
+    },
+    "2+44+45": {
+      "config_same_except_model_paths": true,
+      "router_identical": true,
+      "request_differences": []
+    }
+  },
+  "earlier_baseline_audit": {
+    "directory": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45_svd1_20261118/baseline",
+    "request_max_tokens": 8192,
+    "forced_wrap_marker_observed_in_cases": [
+      "01",
+      "05"
+    ],
+    "comparable_to_natural_stop_panel": false
+  },
+  "manual_reviews": [
+    {
+      "case": "L04",
+      "panel": "short_loops",
+      "automatic_status": "wrong",
+      "reviewed_status": "wrong",
+      "repeated_failed_operation": true,
+      "actual_command": "git diff",
+      "required_correction": "git -C /app/project diff",
+      "basis": "The response reasoning names the correct working-directory fix, but the emitted command repeats the same failed git diff operation without changing directory.",
+      "commands_executed": false
+    }
+  ],
+  "historical_loop_manual_reviews": [
+    {
+      "case": "L04",
+      "automatic_status": "wrong",
+      "reviewed_corrective_action": true,
+      "command": "cd /app/project && git status && git diff --stat",
+      "basis": "Changes to the correct repository, then inspects Git changes. This corrects the supplied working-directory failure; the literal grader required the git -C spelling. Original automatic score retained.",
+      "commands_executed": false
+    }
+  ],
+  "partial_2_46": {
+    "main_panel": {
+      "arm": "edited",
+      "protocol_sha256": "b3d4a5ea04a462f59640fe82a3a684b159d6c2a3c45a38ece9018d25b6c8c864",
+      "rows": [
+        {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "canonical_json_bytes": 4
+          },
+          "status": "interrupted",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "canonical_json_bytes": 4
+          },
+          "completion_tokens": 71551,
+          "finish_reason": null,
+          "wall_s": 778.3792859920068,
+          "first_text_s": 0.6839056159951724,
+          "duplicate8_tail": 0.0,
+          "wait_count": 116,
+          "natural_completion": false,
+          "forced_wrap_marker": false,
+          "token_count_is_lower_bound": true,
+          "token_count_source": "Live engine counter immediately before client cancellation; final API usage unavailable."
+        }
+      ],
+      "counts": {
+        "interrupted": 1
+      },
+      "complete": false,
+      "stopped_by_user": true,
+      "not_run": [
+        "01",
+        "07",
+        "08"
+      ]
+    },
+    "loop_panel": {
+      "arm": "edited",
+      "protocol_sha256": "0b2ab73b55744bf93a148e120722edc642fc8f036a3666aac27b76ab1ce4cdb8",
+      "rows": [
+        {
+          "case": "L01",
+          "id": "tool_pytest",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": ".venv/bin/python -m pytest",
+          "predicted": ".venv/bin/python -m pytest -q",
+          "status": "correct",
+          "raw_answer": ".venv/bin/python -m pytest -q",
+          "completion_tokens": 62,
+          "finish_reason": "stop",
+          "wall_s": 1.4125574000063352,
+          "first_text_s": 0.976472681039013,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            ".venv/bin/python -m pytest -q"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L02",
+          "id": "tool_file",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "/app/src/main.py",
+          "predicted": "cat /app/src/main.py",
+          "status": "correct",
+          "raw_answer": "cat /app/src/main.py",
+          "completion_tokens": 59,
+          "finish_reason": "stop",
+          "wall_s": 1.0406355389859527,
+          "first_text_s": 0.6169862619717605,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cat /app/src/main.py"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L03",
+          "id": "tool_npm",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "npm run test:unit",
+          "predicted": "npm run test:unit",
+          "status": "correct",
+          "raw_answer": "npm run test:unit",
+          "completion_tokens": 77,
+          "finish_reason": "stop",
+          "wall_s": 1.2937562599545345,
+          "first_text_s": 0.6210191359859891,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "npm run test:unit"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L04",
+          "id": "tool_git",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "git -C /app/project diff",
+          "predicted": "git -C /app/project diff",
+          "status": "correct",
+          "raw_answer": "git -C /app/project diff",
+          "completion_tokens": 50,
+          "finish_reason": "stop",
+          "wall_s": 0.9185349390027113,
+          "first_text_s": 0.6342577019822784,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "git -C /app/project diff"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L05",
+          "id": "primed_gsm8k_train:2079",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 273,
+          "finish_reason": "stop",
+          "wall_s": 2.7447287180111744,
+          "first_text_s": 0.6370346010080539,
+          "duplicate8_tail": 0.012658227848101222,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.012658227848101222
+        },
+        {
+          "case": "L06",
+          "id": "primed_gsm8k_train:2451",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 299,
+          "finish_reason": "stop",
+          "wall_s": 2.8032151120132767,
+          "first_text_s": 0.6275073129800148,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "C05",
+          "id": "primed_gsm8k_train:2079:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 402,
+          "finish_reason": "stop",
+          "wall_s": 2.850682494987268,
+          "first_text_s": 0.4048119959770702,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "C06",
+          "id": "primed_gsm8k_train:2451:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 312,
+          "finish_reason": "stop",
+          "wall_s": 2.3060263859806582,
+          "first_text_s": 0.4093510530074127,
+          "duplicate8_tail": 0.02020202020202022,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.02020202020202022
+        }
+      ],
+      "counts": {
+        "correct": 8
+      },
+      "complete": true,
+      "stopped_by_user": false
+    }
+  }
+}

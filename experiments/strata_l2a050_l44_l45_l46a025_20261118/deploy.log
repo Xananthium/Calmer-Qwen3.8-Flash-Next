@@ -1,0 +1,18 @@
+{
+  "state": "live",
+  "started_at": "2026-11-18T23:24:35.885449+00:00",
+  "from_model": "original unedited weights",
+  "to_model": "44+45 plus layer2 alpha0.50 and layer46 alpha0.25",
+  "restart_at": "2026-11-18T23:24:35.911162+00:00",
+  "ready_at": "2026-11-18T23:25:59.551096+00:00",
+  "health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "qwen3.8-27b-hauhau-q4",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  }
+}

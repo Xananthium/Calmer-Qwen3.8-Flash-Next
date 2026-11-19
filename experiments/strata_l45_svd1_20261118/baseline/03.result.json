@@ -1,0 +1,86 @@
+{
+  "case": "03",
+  "id": "hle:67162253433b031688b08f47",
+  "request_sha256": "2a3efe99d1b356153ae6a29e0f5eea54b57f4012035e9faae8361513ace85f34",
+  "started_at": "2026-11-18T19:06:52.402667+00:00",
+  "content_withheld": {
+    "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+    "sha256": "8113a537cacf67bc2d9bbdf377224eefc1b504eab179cedc8110d4afe9092ae7",
+    "canonical_json_bytes": 985
+  },
+  "reasoning_content_withheld": {
+    "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+    "sha256": "ca5501d12093979f7b34d9de9d46e58f4c6f47da026fa1537917dfcefaa31d4c",
+    "canonical_json_bytes": 3109
+  },
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 1337,
+    "total_tokens": 1566,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 229,
+    "prompt_ms": 497.8,
+    "prompt_per_token_ms": 2.174,
+    "prompt_per_second": 460.0,
+    "predicted_n": 1337,
+    "predicted_ms": 9968.1,
+    "predicted_per_token_ms": 7.456,
+    "predicted_per_second": 134.1,
+    "draft_n": 980,
+    "draft_n_accepted": 722
+  },
+  "live_before": {
+    "state": "idle",
+    "queued": 0,
+    "phase": null,
+    "prompt_tokens": null,
+    "prompt_read": null,
+    "prompt_total": null,
+    "generated": null,
+    "max_tokens": null,
+    "elapsed_s": null,
+    "tok_s": null,
+    "tok_s_mean": null,
+    "prefill_tok_s_mean": null,
+    "tok_s_window_s": null,
+    "parallel": 4,
+    "running": 0,
+    "slots": [
+      {
+        "slot": 0,
+        "state": "idle",
+        "held_tokens": 1399
+      },
+      {
+        "slot": 1,
+        "state": "idle",
+        "held_tokens": 1327
+      },
+      {
+        "slot": 2,
+        "state": "idle",
+        "held_tokens": 75714
+      },
+      {
+        "slot": 3,
+        "state": "idle",
+        "held_tokens": 74640
+      }
+    ],
+    "outside_slots": 0,
+    "waiting": 0,
+    "admitting": 0
+  },
+  "http_status": 200,
+  "response_id": "chatcmpl-90045cd1a7f0433692a8c40c",
+  "first_text_s": 0.516837478033267,
+  "done_received": true,
+  "elapsed_s": 10.472470736014657,
+  "ended_at": "2026-11-18T19:07:02.875139+00:00"
+}

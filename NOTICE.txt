@@ -1,0 +1,29 @@
+Calmer Qwen3.8 Flash Next
+Copyright 2026 Xananthium. Prepared with AI assistance.
+
+Original project code and documentation: Apache License 2.0 (LICENSE).
+This license does not relicense third-party weights, datasets, or software.
+
+Base weights: Qwen/Qwen3.8-Flash-Next, Copyright (c) 2026 Qwen.
+Quantized source: agentionai/Qwen3.8-Flash-Next-Gyro-GGUF, AgentionAI.
+Model-derived tensor payloads (.q8, .bf16, weight-derived .npz, and the HF GGUF)
+retain Qwen Community License 1.0; see licenses/QWEN-COMMUNITY-LICENSE-1.0.txt.
+Full model weights are published on Hugging Face, not in this Git repository.
+
+Runtime: Strata/AgentionAI and its upstream contributors. Historical source
+scripts refer to the compatible custom runtime; compiled runtime binaries are
+not included. The runtime control vector is a separately sourced Huihui adapter
+from alesha-pro/Qwen3.8-Flash-Next-abliterated-GSQ-RCO-Strata-GGUF.
+
+HLE: Humanity's Last Exam, Center for AI Safety, Scale AI, and contributing
+authors. https://huggingface.co/datasets/cais/hle
+Full HLE questions, keys, and traces are withheld under the authors' requested
+public-sharing convention; identities and measurements are retained.
+
+GSM8K: Training Verifiers to Solve Math Word Problems, Cobbe et al., OpenAI.
+https://github.com/openai/grade-school-math
+Included arithmetic examples retain their original MIT license notice in
+licenses/GSM8K-MIT.txt.
+
+Prior Calmer research:
+https://github.com/Xananthium/Qwen3.8-Weight-Space-Programming

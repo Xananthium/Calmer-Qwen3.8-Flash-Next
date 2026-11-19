@@ -1,0 +1,570 @@
+{
+  "created_at": "2026-11-18T23:04:52.204774+00:00",
+  "endpoint": "http://127.0.0.1:8003/v1/chat/completions",
+  "cases": [
+    {
+      "case": "L01",
+      "id": "tool_pytest",
+      "kind": "tool",
+      "subject": "Tool-loop recovery",
+      "gold": ".venv/bin/python -m pytest",
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a coding agent. Choose the next useful action using the shell tool. The shell tool accepts one string parameter named command. Emit one tool call using <tool_call>\n<function=shell>\n<parameter=command>COMMAND</parameter>\n</function>\n</tool_call>. Act on tool results and keep working toward the user request."
+          },
+          {
+            "role": "user",
+            "content": "Run the tests in /app."
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "id": "call_0",
+                "type": "function",
+                "function": {
+                  "name": "shell",
+                  "arguments": {
+                    "command": "pytest -q"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "tool_call_id": "call_0",
+            "content": "Exit 127. pytest: command not found. The project virtualenv exists; use .venv/bin/python -m pytest -q."
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "id": "call_1",
+                "type": "function",
+                "function": {
+                  "name": "shell",
+                  "arguments": {
+                    "command": "pytest -q"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "tool_call_id": "call_1",
+            "content": "Exit 127. pytest: command not found. The project virtualenv exists; use .venv/bin/python -m pytest -q."
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "id": "call_2",
+                "type": "function",
+                "function": {
+                  "name": "shell",
+                  "arguments": {
+                    "command": "pytest -q"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "tool_call_id": "call_2",
+            "content": "Exit 127. pytest: command not found. The project virtualenv exists; use .venv/bin/python -m pytest -q."
+          }
+        ],
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 75000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "reasoning_budget_tokens": 0
+      },
+      "source_prompt_sha256": "0d55c9fbdae8ea8739eba3b3366d27d67659a849725b26d5a554f4a0091c5163",
+      "adaptation": "Original message history; rendered by production template.",
+      "forbidden": "pytest -q",
+      "request_sha256": "babf44db4f84f8eba95018ca9099b53c772f8514904e78fd7d6b1d4e052466d9"
+    },
+    {
+      "case": "L02",
+      "id": "tool_file",
+      "kind": "tool",
+      "subject": "Tool-loop recovery",
+      "gold": "/app/src/main.py",
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a coding agent. Choose the next useful action using the shell tool. The shell tool accepts one string parameter named command. Emit one tool call using <tool_call>\n<function=shell>\n<parameter=command>COMMAND</parameter>\n</function>\n</tool_call>. Act on tool results and keep working toward the user request."
+          },
+          {
+            "role": "user",
+            "content": "Read the application entry point."
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "id": "call_0",
+                "type": "function",
+                "function": {
+                  "name": "shell",
+                  "arguments": {
+                    "command": "cat /app/main.py"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "tool_call_id": "call_0",
+            "content": "Exit 1. /app/main.py does not exist. Directory listing: /app/src/main.py is a readable file."
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "id": "call_1",
+                "type": "function",
+                "function": {
+                  "name": "shell",
+                  "arguments": {
+                    "command": "cat /app/main.py"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "tool_call_id": "call_1",
+            "content": "Exit 1. /app/main.py does not exist. Directory listing: /app/src/main.py is a readable file."
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "id": "call_2",
+                "type": "function",
+                "function": {
+                  "name": "shell",
+                  "arguments": {
+                    "command": "cat /app/main.py"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "tool_call_id": "call_2",
+            "content": "Exit 1. /app/main.py does not exist. Directory listing: /app/src/main.py is a readable file."
+          }
+        ],
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 75000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "reasoning_budget_tokens": 0
+      },
+      "source_prompt_sha256": "4f462d13f1973669265036b3bb1949c37bd7d6c0f05c522f6c17c33e0d9177e7",
+      "adaptation": "Original message history; rendered by production template.",
+      "forbidden": "cat /app/main.py",
+      "request_sha256": "278b5257b38001d00e4f60762d702efeff293d7e9492e4670b61cdc6ac77c02e"
+    },
+    {
+      "case": "L03",
+      "id": "tool_npm",
+      "kind": "tool",
+      "subject": "Tool-loop recovery",
+      "gold": "npm run test:unit",
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a coding agent. Choose the next useful action using the shell tool. The shell tool accepts one string parameter named command. Emit one tool call using <tool_call>\n<function=shell>\n<parameter=command>COMMAND</parameter>\n</function>\n</tool_call>. Act on tool results and keep working toward the user request."
+          },
+          {
+            "role": "user",
+            "content": "Run the package tests."
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "id": "call_0",
+                "type": "function",
+                "function": {
+                  "name": "shell",
+                  "arguments": {
+                    "command": "npm test"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "tool_call_id": "call_0",
+            "content": "Exit 1. Missing script: test. package.json scripts: {\"test:unit\":\"vitest run\"}. Use npm run test:unit."
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "id": "call_1",
+                "type": "function",
+                "function": {
+                  "name": "shell",
+                  "arguments": {
+                    "command": "npm test"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "tool_call_id": "call_1",
+            "content": "Exit 1. Missing script: test. package.json scripts: {\"test:unit\":\"vitest run\"}. Use npm run test:unit."
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "id": "call_2",
+                "type": "function",
+                "function": {
+                  "name": "shell",
+                  "arguments": {
+                    "command": "npm test"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "tool_call_id": "call_2",
+            "content": "Exit 1. Missing script: test. package.json scripts: {\"test:unit\":\"vitest run\"}. Use npm run test:unit."
+          }
+        ],
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 75000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "reasoning_budget_tokens": 0
+      },
+      "source_prompt_sha256": "1d68dfc7913f074dfbbc79eb6d12d6be24605a39b9f176fa5e49dba2e600d303",
+      "adaptation": "Original message history; rendered by production template.",
+      "forbidden": "npm test",
+      "request_sha256": "928292105b5423d482aada0c16bd6d3d793dff1e4cc83fb12901cf4199fe6494"
+    },
+    {
+      "case": "L04",
+      "id": "tool_git",
+      "kind": "tool",
+      "subject": "Tool-loop recovery",
+      "gold": "git -C /app/project diff",
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a coding agent. Choose the next useful action using the shell tool. The shell tool accepts one string parameter named command. Emit one tool call using <tool_call>\n<function=shell>\n<parameter=command>COMMAND</parameter>\n</function>\n</tool_call>. Act on tool results and keep working toward the user request."
+          },
+          {
+            "role": "user",
+            "content": "Inspect changes in the project."
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "id": "call_0",
+                "type": "function",
+                "function": {
+                  "name": "shell",
+                  "arguments": {
+                    "command": "git diff"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "tool_call_id": "call_0",
+            "content": "Exit 128. Not a git repository. Current directory: /tmp. The repository is /app/project; execute git -C /app/project diff."
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "id": "call_1",
+                "type": "function",
+                "function": {
+                  "name": "shell",
+                  "arguments": {
+                    "command": "git diff"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "tool_call_id": "call_1",
+            "content": "Exit 128. Not a git repository. Current directory: /tmp. The repository is /app/project; execute git -C /app/project diff."
+          },
+          {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "id": "call_2",
+                "type": "function",
+                "function": {
+                  "name": "shell",
+                  "arguments": {
+                    "command": "git diff"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "tool_call_id": "call_2",
+            "content": "Exit 128. Not a git repository. Current directory: /tmp. The repository is /app/project; execute git -C /app/project diff."
+          }
+        ],
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 75000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "reasoning_budget_tokens": 0
+      },
+      "source_prompt_sha256": "885eb5fe1e7baa4383948a9feefe7629db95015bf5c354f857825ca5816fbe20",
+      "adaptation": "Original message history; rendered by production template.",
+      "forbidden": "git diff",
+      "request_sha256": "8bd43d0ac2713b29549f31e9e8b5b797b5575a71ff5055a82de0236ab74cfc75"
+    },
+    {
+      "case": "L05",
+      "id": "primed_gsm8k_train:2079",
+      "kind": "gsm8k",
+      "subject": "Repeated-passage recovery",
+      "gold": "22",
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Kristy baked cookies because her friends are coming over to her house. She ate 2 of them and gave her brother 1 cookie. Her first friend arrived and took 3 cookies. The second and third friends to arrive took 5 cookies each. If there are 6 cookies left, how many cookies did Kristy bake?\nPlease reason step by step, and put your final answer within \\boxed{}."
+          },
+          {
+            "role": "assistant",
+            "content": "There were 6 + 5 = 11 cookies left before the third friend took 5.\nWait, I should check that again. The calculation seems right, but perhaps I missed something. Let me go back and verify the same steps before I give the answer.\nWait, I should check that again. The calculation seems right, but perhaps I missed something. Let me go back and verify the same steps before I give the answer.\nWait, I should check that again. The calculation seems right, but perhaps I missed something. Let me go back and verify the same steps before I give the answer.\nWait, I should check that again. The calculation seems right, but perhaps I missed something. Let me go back and verify the same steps before I give the answer.\nWait, I should check that again. The calculation seems right, but perhaps I missed something. Let me go back and verify the same steps before I give the answer.\n"
+          },
+          {
+            "role": "user",
+            "content": "Continue exactly where you left off."
+          }
+        ],
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 75000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "reasoning_budget_tokens": 0
+      },
+      "source_prompt_sha256": "2090748591e41b4c4907b75a8236d47feefbf368023e6652ffeb2509c6680a23",
+      "adaptation": "Original problem and five repeated lines as a visible prior assistant message, followed by Continue exactly where you left off. This is not raw unfinished-reasoning prefill.",
+      "request_sha256": "842ae550df8653e7e4c88517a8ea681cc3253a24a1411aa02b81a1fc889f8697"
+    },
+    {
+      "case": "L06",
+      "id": "primed_gsm8k_train:2451",
+      "kind": "gsm8k",
+      "subject": "Repeated-passage recovery",
+      "gold": "7",
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Sanya can wash 7 bath towels in one wash, which will take 1 hour.  She only has 2 hours in a day to do this task.  If she has 98 bath towels, how many days will she need to wash all of them?\nPlease reason step by step, and put your final answer within \\boxed{}."
+          },
+          {
+            "role": "assistant",
+            "content": "Every day, Sanya can wash 7 x 2 = 14 bath towels.\nWait, I should check that again. The calculation seems right, but perhaps I missed something. Let me go back and verify the same steps before I give the answer.\nWait, I should check that again. The calculation seems right, but perhaps I missed something. Let me go back and verify the same steps before I give the answer.\nWait, I should check that again. The calculation seems right, but perhaps I missed something. Let me go back and verify the same steps before I give the answer.\nWait, I should check that again. The calculation seems right, but perhaps I missed something. Let me go back and verify the same steps before I give the answer.\nWait, I should check that again. The calculation seems right, but perhaps I missed something. Let me go back and verify the same steps before I give the answer.\n"
+          },
+          {
+            "role": "user",
+            "content": "Continue exactly where you left off."
+          }
+        ],
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 75000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "reasoning_budget_tokens": 0
+      },
+      "source_prompt_sha256": "9f59ca464ecea69679c95740e82d76a6fd0d7a3668ba417cb04b7a75fdcda16e",
+      "adaptation": "Original problem and five repeated lines as a visible prior assistant message, followed by Continue exactly where you left off. This is not raw unfinished-reasoning prefill.",
+      "request_sha256": "1f942186d8d9b0519dd48fe035bc77148905851dea45465c55e275cf546a6191"
+    },
+    {
+      "case": "C05",
+      "id": "primed_gsm8k_train:2079:clean",
+      "kind": "gsm8k",
+      "subject": "Matched clean arithmetic",
+      "gold": "22",
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Kristy baked cookies because her friends are coming over to her house. She ate 2 of them and gave her brother 1 cookie. Her first friend arrived and took 3 cookies. The second and third friends to arrive took 5 cookies each. If there are 6 cookies left, how many cookies did Kristy bake?\nPlease reason step by step, and put your final answer within \\boxed{}."
+          }
+        ],
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 75000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "reasoning_budget_tokens": 0
+      },
+      "request_sha256": "4d0afeb28e3cb002def157de8056fe134fce3b71daf729feeab43aebfd251df6"
+    },
+    {
+      "case": "C06",
+      "id": "primed_gsm8k_train:2451:clean",
+      "kind": "gsm8k",
+      "subject": "Matched clean arithmetic",
+      "gold": "7",
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Sanya can wash 7 bath towels in one wash, which will take 1 hour.  She only has 2 hours in a day to do this task.  If she has 98 bath towels, how many days will she need to wash all of them?\nPlease reason step by step, and put your final answer within \\boxed{}."
+          }
+        ],
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 75000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "reasoning_budget_tokens": 0
+      },
+      "request_sha256": "bbba5ff6a2c09d2a5d9eef65e33972f9dbcbd1a94b34e6cf3492a327893063ad"
+    }
+  ],
+  "source_file": "/home/researcher/model-tools/qwen38-weight-edit-20261104/staged_loop_confirmation_api/loop_retention6.generate.json",
+  "source_sha256": "7c86c5afec604080c21ccbc20ff1b705bf4e592e25975b7b9d4cc7f6a81dc4d4",
+  "selection": "Same four core prompts/seeds, math first; same eight short loop/control prompts. Requests unchanged from the layer2+44+45 experiment.",
+  "output_limit": 75000,
+  "concurrent_evaluation_requests": 1,
+  "scoring": "One next action or final arithmetic answer. Generated commands are text only and are never executed. Natural stop and correct corrective command/answer required; length stop is unfinished.",
+  "limitations": [
+    "Small exploratory panel, not a general benchmark.",
+    "Unedited means original GGUF weights. Existing production control vector and all runtime settings are retained.",
+    "Earlier original-weight tests used8192-token requests and server-inserted wrap-ups; they are not this baseline.",
+    "Shared production traffic and speculative decoding permit same-seed variation."
+  ],
+  "reused_protocol_source": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l45plus_nearby_natural_20261118/loop_protocol.json",
+  "objective": "Establish the missing original-weight baseline under the same natural-stop production settings.",
+  "baseline_model": "/home/researcher/models/qwen38-flash-next-gyro-m/Qwen3.8-Flash-Next-Gyro-M-TQ2_0.gguf",
+  "edited_model": null
+}

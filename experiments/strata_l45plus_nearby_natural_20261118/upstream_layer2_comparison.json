@@ -1,0 +1,38 @@
+{
+  "at": "2026-11-18T21:44:28.769641+00:00",
+  "upstream_repo": "Qwen/Qwen3.8-Flash-Next",
+  "revision": "812d96e10a0dd82b69d749e68693698cf6c36daa",
+  "shard": "model-00059-of-00131.safetensors",
+  "source_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/resolve/812d96e10a0dd82b69d749e68693698cf6c36daa/model-00059-of-00131.safetensors",
+  "tensor": "model.language_model.layers.2.mlp.shared_expert.down_proj.weight",
+  "metadata": {
+    "dtype": "BF16",
+    "shape": [
+      2560,
+      640
+    ],
+    "data_offsets": [
+      1680343040,
+      1683619840
+    ]
+  },
+  "tensor_sha256": "8eb662e8f10fee59ce3295701885c14bd0e9a2441fd16fa849e23badc8c4c229",
+  "bytes_downloaded": 3278992,
+  "source_top4_energy_shares": [
+    0.03227934217835787,
+    0.016772063786796944,
+    0.0160748859336866,
+    0.01185724167466418
+  ],
+  "production_top4_energy_shares": [
+    0.03227800870247749,
+    0.016766666369167016,
+    0.01607432274435032,
+    0.01186114486685236
+  ],
+  "production_relative_error": 0.0067719170606233186,
+  "top_direction_absolute_cosine": 0.9999987362783221,
+  "original_top_direction_energy_in_production": 0.03227793098646398,
+  "source_matrix_nonfinite": 0,
+  "scope": "One tensor from the pinned official higher-precision release; only bounded ranges downloaded. Production unchanged."
+}

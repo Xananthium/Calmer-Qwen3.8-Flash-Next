@@ -1,0 +1,86 @@
+{
+  "case": "03",
+  "id": "hle:67162253433b031688b08f47",
+  "request_sha256": "2a3efe99d1b356153ae6a29e0f5eea54b57f4012035e9faae8361513ace85f34",
+  "started_at": "2026-11-18T19:27:49.420898+00:00",
+  "content_withheld": {
+    "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+    "sha256": "28d15fd5a19e794570accfba5a6f8a61710853f3b74f308608b71a42727b5728",
+    "canonical_json_bytes": 1124
+  },
+  "reasoning_content_withheld": {
+    "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+    "sha256": "6122263badb93a7fbc203bb2e4563387d771e593cde8c7bda758783350e2e123",
+    "canonical_json_bytes": 5483
+  },
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 2150,
+    "total_tokens": 2379,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 229,
+    "prompt_ms": 555.4,
+    "prompt_per_token_ms": 2.425,
+    "prompt_per_second": 412.3,
+    "predicted_n": 2150,
+    "predicted_ms": 17822.1,
+    "predicted_per_token_ms": 8.289,
+    "predicted_per_second": 120.6,
+    "draft_n": 1487,
+    "draft_n_accepted": 1019
+  },
+  "live_before": {
+    "state": "idle",
+    "queued": 0,
+    "phase": null,
+    "prompt_tokens": null,
+    "prompt_read": null,
+    "prompt_total": null,
+    "generated": null,
+    "max_tokens": null,
+    "elapsed_s": null,
+    "tok_s": null,
+    "tok_s_mean": null,
+    "prefill_tok_s_mean": null,
+    "tok_s_window_s": null,
+    "parallel": 4,
+    "running": 0,
+    "slots": [
+      {
+        "slot": 0,
+        "state": "idle",
+        "held_tokens": 2191
+      },
+      {
+        "slot": 1,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 2,
+        "state": "idle",
+        "held_tokens": 19659
+      },
+      {
+        "slot": 3,
+        "state": "idle",
+        "held_tokens": 0
+      }
+    ],
+    "outside_slots": 0,
+    "waiting": 0,
+    "admitting": 0
+  },
+  "http_status": 200,
+  "response_id": "chatcmpl-528889d4515d4921bbe605ec",
+  "first_text_s": 0.5743496419745497,
+  "done_received": true,
+  "elapsed_s": 18.383943070017267,
+  "ended_at": "2026-11-18T19:28:07.804841+00:00"
+}

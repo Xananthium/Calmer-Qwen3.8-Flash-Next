@@ -1,0 +1,2073 @@
+{
+  "at": "2026-11-18T22:35:11.460112+00:00",
+  "baseline": "44+45",
+  "edited": "44+45+46",
+  "request_payloads_identical": true,
+  "forced_endings_disabled": true,
+  "test_output_ceiling": 75000,
+  "context_window": 262144,
+  "groups": {
+    "long_cases": {
+      "n": 2,
+      "baseline_counts": {
+        "correct": 2
+      },
+      "edited_counts": {
+        "correct": 1,
+        "interrupted": 1
+      },
+      "baseline_tokens": 47545,
+      "edited_tokens": 89111,
+      "token_change_pct": null,
+      "edited_tokens_are_lower_bound": true,
+      "baseline_natural_completions": 2,
+      "edited_natural_completions": 1,
+      "baseline_waits": 53,
+      "edited_waits": 121
+    },
+    "arithmetic_controls": {
+      "n": 2,
+      "baseline_counts": {
+        "correct": 2
+      },
+      "edited_counts": {
+        "correct": 2
+      },
+      "baseline_tokens": 1296,
+      "edited_tokens": 1096,
+      "token_change_pct": -15.432098765432102,
+      "edited_tokens_are_lower_bound": false,
+      "baseline_natural_completions": 2,
+      "edited_natural_completions": 2,
+      "baseline_waits": 1,
+      "edited_waits": 1
+    },
+    "all": {
+      "n": 4,
+      "baseline_counts": {
+        "correct": 4
+      },
+      "edited_counts": {
+        "correct": 3,
+        "interrupted": 1
+      },
+      "baseline_tokens": 48841,
+      "edited_tokens": 90207,
+      "token_change_pct": null,
+      "edited_tokens_are_lower_bound": true,
+      "baseline_natural_completions": 4,
+      "edited_natural_completions": 3,
+      "baseline_waits": 54,
+      "edited_waits": 122
+    }
+  },
+  "rows": [
+    {
+      "case": "01",
+      "subject": "Economics",
+      "baseline": {
+        "case": "01",
+        "id": "hle:673722c82bfc8ab579ed111f",
+        "subject": "Economics",
+        "seed": 20261118,
+        "gold_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+          "canonical_json_bytes": 3
+        },
+        "predicted_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+          "canonical_json_bytes": 3
+        },
+        "status": "correct",
+        "raw_answer_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "2f9501ac1b31520f4a0556c11026fa0e3b3dd1fa23d2169abd4443753834d3f4",
+          "canonical_json_bytes": 6
+        },
+        "completion_tokens": 19756,
+        "finish_reason": "stop",
+        "wall_s": 193.22341009095544,
+        "first_text_s": 0.5053475209861062,
+        "duplicate8_tail": 0.0,
+        "wait_count": 31,
+        "natural_completion": true,
+        "forced_wrap_marker": false
+      },
+      "edited": {
+        "case": "01",
+        "id": "hle:673722c82bfc8ab579ed111f",
+        "subject": "Economics",
+        "seed": 20261118,
+        "gold_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+          "canonical_json_bytes": 3
+        },
+        "predicted_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+          "canonical_json_bytes": 3
+        },
+        "status": "correct",
+        "raw_answer_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+          "canonical_json_bytes": 3
+        },
+        "completion_tokens": 18390,
+        "finish_reason": "stop",
+        "wall_s": 179.9476714800112,
+        "first_text_s": 0.5008605250041,
+        "duplicate8_tail": 0.0,
+        "wait_count": 31,
+        "natural_completion": true,
+        "forced_wrap_marker": false
+      },
+      "token_delta": -1366,
+      "token_change_pct": -6.914355132617944,
+      "token_delta_is_lower_bound": false,
+      "retained_natural_correct": true
+    },
+    {
+      "case": "05",
+      "subject": "Mathematics",
+      "baseline": {
+        "case": "05",
+        "id": "hle:6739e06f5a81384176dd28cd",
+        "subject": "Mathematics",
+        "seed": 20261118,
+        "gold_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+          "canonical_json_bytes": 3
+        },
+        "predicted_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+          "canonical_json_bytes": 3
+        },
+        "status": "correct",
+        "raw_answer_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "d5339f7670fc1237f5058f90b377d70c32cdc6985119506d344deefaa172c673",
+          "canonical_json_bytes": 74
+        },
+        "completion_tokens": 27789,
+        "finish_reason": "stop",
+        "wall_s": 296.2543839360005,
+        "first_text_s": 0.7495858379988931,
+        "duplicate8_tail": 0.0,
+        "wait_count": 22,
+        "natural_completion": true,
+        "forced_wrap_marker": false
+      },
+      "edited": {
+        "case": "05",
+        "id": "hle:6739e06f5a81384176dd28cd",
+        "subject": "Mathematics",
+        "seed": 20261118,
+        "gold_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+          "canonical_json_bytes": 3
+        },
+        "predicted_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "canonical_json_bytes": 4
+        },
+        "status": "interrupted",
+        "raw_answer_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "canonical_json_bytes": 4
+        },
+        "completion_tokens": 70721,
+        "finish_reason": null,
+        "wall_s": 914.1337562499684,
+        "first_text_s": 0.7390297320089303,
+        "duplicate8_tail": 0.0,
+        "wait_count": 90,
+        "natural_completion": false,
+        "forced_wrap_marker": false,
+        "token_count_is_lower_bound": true,
+        "token_count_source": "Live engine counter immediately before client cancellation; final API usage unavailable."
+      },
+      "token_delta": 42932,
+      "token_change_pct": null,
+      "token_delta_is_lower_bound": true,
+      "retained_natural_correct": false
+    },
+    {
+      "case": "07",
+      "subject": "Arithmetic",
+      "baseline": {
+        "case": "07",
+        "id": "gsm8k_test:936",
+        "subject": "Arithmetic",
+        "seed": 20261118,
+        "gold": "250",
+        "predicted": "250",
+        "status": "correct",
+        "raw_answer": "250",
+        "completion_tokens": 657,
+        "finish_reason": "stop",
+        "wall_s": 4.878557696007192,
+        "first_text_s": 0.6403980039758608,
+        "duplicate8_tail": 0.01851851851851849,
+        "wait_count": 0,
+        "natural_completion": true,
+        "forced_wrap_marker": false
+      },
+      "edited": {
+        "case": "07",
+        "id": "gsm8k_test:936",
+        "subject": "Arithmetic",
+        "seed": 20261118,
+        "gold": "250",
+        "predicted": "250",
+        "status": "correct",
+        "raw_answer": "250",
+        "completion_tokens": 526,
+        "finish_reason": "stop",
+        "wall_s": 4.441811071999837,
+        "first_text_s": 0.9178498369874433,
+        "duplicate8_tail": 0.03688524590163933,
+        "wait_count": 0,
+        "natural_completion": true,
+        "forced_wrap_marker": false
+      },
+      "token_delta": -131,
+      "token_change_pct": -19.939117199391177,
+      "token_delta_is_lower_bound": false,
+      "retained_natural_correct": true
+    },
+    {
+      "case": "08",
+      "subject": "Arithmetic",
+      "baseline": {
+        "case": "08",
+        "id": "gsm8k_test:236",
+        "subject": "Arithmetic",
+        "seed": 20261118,
+        "gold": "31",
+        "predicted": "31",
+        "status": "correct",
+        "raw_answer": "31",
+        "completion_tokens": 639,
+        "finish_reason": "stop",
+        "wall_s": 4.603189374960493,
+        "first_text_s": 0.43191449000732973,
+        "duplicate8_tail": 0.0,
+        "wait_count": 1,
+        "natural_completion": true,
+        "forced_wrap_marker": false
+      },
+      "edited": {
+        "case": "08",
+        "id": "gsm8k_test:236",
+        "subject": "Arithmetic",
+        "seed": 20261118,
+        "gold": "31",
+        "predicted": "31",
+        "status": "correct",
+        "raw_answer": "31",
+        "completion_tokens": 570,
+        "finish_reason": "stop",
+        "wall_s": 4.301101449003909,
+        "first_text_s": 0.4815213620313443,
+        "duplicate8_tail": 0.0,
+        "wait_count": 1,
+        "natural_completion": true,
+        "forced_wrap_marker": false
+      },
+      "token_delta": -69,
+      "token_change_pct": -10.7981220657277,
+      "token_delta_is_lower_bound": false,
+      "retained_natural_correct": true
+    }
+  ],
+  "loop_probe": {
+    "groups": {
+      "Matched clean arithmetic": {
+        "n": 2,
+        "baseline_counts": {
+          "correct": 2
+        },
+        "edited_counts": {
+          "correct": 2
+        },
+        "baseline_tokens": 830,
+        "edited_tokens": 609,
+        "token_change_pct": -26.626506024096386,
+        "edited_tokens_are_lower_bound": false,
+        "baseline_natural_completions": 2,
+        "edited_natural_completions": 2,
+        "baseline_waits": 0,
+        "edited_waits": 0
+      },
+      "Repeated-passage recovery": {
+        "n": 2,
+        "baseline_counts": {
+          "correct": 2
+        },
+        "edited_counts": {
+          "correct": 2
+        },
+        "baseline_tokens": 742,
+        "edited_tokens": 639,
+        "token_change_pct": -13.881401617250678,
+        "edited_tokens_are_lower_bound": false,
+        "baseline_natural_completions": 2,
+        "edited_natural_completions": 2,
+        "baseline_waits": 0,
+        "edited_waits": 2
+      },
+      "Tool-loop recovery": {
+        "n": 4,
+        "baseline_counts": {
+          "correct": 4
+        },
+        "edited_counts": {
+          "correct": 3,
+          "wrong": 1
+        },
+        "baseline_tokens": 224,
+        "edited_tokens": 232,
+        "token_change_pct": 3.571428571428581,
+        "edited_tokens_are_lower_bound": false,
+        "baseline_natural_completions": 4,
+        "edited_natural_completions": 4,
+        "baseline_waits": 0,
+        "edited_waits": 0
+      }
+    },
+    "rows": [
+      {
+        "case": "L01",
+        "subject": "Tool-loop recovery",
+        "baseline": {
+          "case": "L01",
+          "id": "tool_pytest",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": ".venv/bin/python -m pytest",
+          "predicted": ".venv/bin/python -m pytest -q",
+          "status": "correct",
+          "raw_answer": ".venv/bin/python -m pytest -q",
+          "completion_tokens": 61,
+          "finish_reason": "stop",
+          "wall_s": 1.3651549220085144,
+          "first_text_s": 0.9077060029958375,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            ".venv/bin/python -m pytest -q"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        "edited": {
+          "case": "L01",
+          "id": "tool_pytest",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": ".venv/bin/python -m pytest",
+          "predicted": ".venv/bin/python -m pytest -q",
+          "status": "correct",
+          "raw_answer": ".venv/bin/python -m pytest -q",
+          "completion_tokens": 70,
+          "finish_reason": "stop",
+          "wall_s": 1.4405187369557098,
+          "first_text_s": 0.9409731409978122,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            ".venv/bin/python -m pytest -q"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        "token_delta": 9,
+        "token_change_pct": 14.754098360655732,
+        "token_delta_is_lower_bound": false,
+        "retained_natural_correct": true
+      },
+      {
+        "case": "L02",
+        "subject": "Tool-loop recovery",
+        "baseline": {
+          "case": "L02",
+          "id": "tool_file",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "/app/src/main.py",
+          "predicted": "cat /app/src/main.py",
+          "status": "correct",
+          "raw_answer": "cat /app/src/main.py",
+          "completion_tokens": 50,
+          "finish_reason": "stop",
+          "wall_s": 0.9363694959902205,
+          "first_text_s": 0.6218593990197405,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cat /app/src/main.py"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        "edited": {
+          "case": "L02",
+          "id": "tool_file",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "/app/src/main.py",
+          "predicted": "cat /app/src/main.py",
+          "status": "correct",
+          "raw_answer": "cat /app/src/main.py",
+          "completion_tokens": 62,
+          "finish_reason": "stop",
+          "wall_s": 1.070975904003717,
+          "first_text_s": 0.6219258679775521,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cat /app/src/main.py"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        "token_delta": 12,
+        "token_change_pct": 24.0,
+        "token_delta_is_lower_bound": false,
+        "retained_natural_correct": true
+      },
+      {
+        "case": "L03",
+        "subject": "Tool-loop recovery",
+        "baseline": {
+          "case": "L03",
+          "id": "tool_npm",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "npm run test:unit",
+          "predicted": "npm run test:unit",
+          "status": "correct",
+          "raw_answer": "npm run test:unit",
+          "completion_tokens": 59,
+          "finish_reason": "stop",
+          "wall_s": 1.0327333000022918,
+          "first_text_s": 0.6192853900138289,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "npm run test:unit"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        "edited": {
+          "case": "L03",
+          "id": "tool_npm",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "npm run test:unit",
+          "predicted": "npm run test:unit",
+          "status": "correct",
+          "raw_answer": "npm run test:unit",
+          "completion_tokens": 49,
+          "finish_reason": "stop",
+          "wall_s": 0.9778336580493487,
+          "first_text_s": 0.6237563730101101,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "npm run test:unit"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        "token_delta": -10,
+        "token_change_pct": -16.94915254237288,
+        "token_delta_is_lower_bound": false,
+        "retained_natural_correct": true
+      },
+      {
+        "case": "L04",
+        "subject": "Tool-loop recovery",
+        "baseline": {
+          "case": "L04",
+          "id": "tool_git",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "git -C /app/project diff",
+          "predicted": "git -C /app/project diff",
+          "status": "correct",
+          "raw_answer": "git -C /app/project diff",
+          "completion_tokens": 54,
+          "finish_reason": "stop",
+          "wall_s": 0.9607099360437132,
+          "first_text_s": 0.6300675390521064,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "git -C /app/project diff"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        "edited": {
+          "case": "L04",
+          "id": "tool_git",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "git -C /app/project diff",
+          "predicted": "cd /app/project && git status && git diff --stat",
+          "status": "wrong",
+          "raw_answer": "cd /app/project && git status && git diff --stat",
+          "completion_tokens": 51,
+          "finish_reason": "stop",
+          "wall_s": 0.989818945992738,
+          "first_text_s": 0.6360168389510363,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cd /app/project && git status && git diff --stat"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        "token_delta": -3,
+        "token_change_pct": -5.555555555555558,
+        "token_delta_is_lower_bound": false,
+        "retained_natural_correct": false
+      },
+      {
+        "case": "L05",
+        "subject": "Repeated-passage recovery",
+        "baseline": {
+          "case": "L05",
+          "id": "primed_gsm8k_train:2079",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 412,
+          "finish_reason": "stop",
+          "wall_s": 3.6249674989958294,
+          "first_text_s": 0.6391029719961807,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        "edited": {
+          "case": "L05",
+          "id": "primed_gsm8k_train:2079",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 375,
+          "finish_reason": "stop",
+          "wall_s": 3.625038004014641,
+          "first_text_s": 0.6391259399824776,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        "token_delta": -37,
+        "token_change_pct": -8.98058252427184,
+        "token_delta_is_lower_bound": false,
+        "retained_natural_correct": true
+      },
+      {
+        "case": "L06",
+        "subject": "Repeated-passage recovery",
+        "baseline": {
+          "case": "L06",
+          "id": "primed_gsm8k_train:2451",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 330,
+          "finish_reason": "stop",
+          "wall_s": 2.865433975995984,
+          "first_text_s": 0.6206507619936019,
+          "duplicate8_tail": 0.005154639175257714,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.005154639175257714
+        },
+        "edited": {
+          "case": "L06",
+          "id": "primed_gsm8k_train:2451",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 264,
+          "finish_reason": "stop",
+          "wall_s": 2.6193267420167103,
+          "first_text_s": 0.6252643819898367,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        "token_delta": -66,
+        "token_change_pct": -19.999999999999996,
+        "token_delta_is_lower_bound": false,
+        "retained_natural_correct": true
+      },
+      {
+        "case": "C05",
+        "subject": "Matched clean arithmetic",
+        "baseline": {
+          "case": "C05",
+          "id": "primed_gsm8k_train:2079:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 464,
+          "finish_reason": "stop",
+          "wall_s": 3.041130870988127,
+          "first_text_s": 0.40044637699611485,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        "edited": {
+          "case": "C05",
+          "id": "primed_gsm8k_train:2079:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 248,
+          "finish_reason": "stop",
+          "wall_s": 1.9458962649805471,
+          "first_text_s": 0.40610540099442005,
+          "duplicate8_tail": 0.04054054054054057,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.04054054054054057
+        },
+        "token_delta": -216,
+        "token_change_pct": -46.55172413793104,
+        "token_delta_is_lower_bound": false,
+        "retained_natural_correct": true
+      },
+      {
+        "case": "C06",
+        "subject": "Matched clean arithmetic",
+        "baseline": {
+          "case": "C06",
+          "id": "primed_gsm8k_train:2451:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 366,
+          "finish_reason": "stop",
+          "wall_s": 2.601888869947288,
+          "first_text_s": 0.4079708489589393,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        "edited": {
+          "case": "C06",
+          "id": "primed_gsm8k_train:2451:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 361,
+          "finish_reason": "stop",
+          "wall_s": 2.558008188032545,
+          "first_text_s": 0.408279849041719,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        "token_delta": -5,
+        "token_change_pct": -1.3661202185792365,
+        "token_delta_is_lower_bound": false,
+        "retained_natural_correct": true
+      }
+    ],
+    "manual_reviews": [
+      {
+        "case": "L04",
+        "automatic_status": "wrong",
+        "reviewed_corrective_action": true,
+        "command": "cd /app/project && git status && git diff --stat",
+        "basis": "Changes to the correct repository, then inspects Git changes. This corrects the supplied working-directory failure; the literal grader required the git -C spelling. Original automatic score retained.",
+        "commands_executed": false
+      }
+    ]
+  },
+  "common_case_variants": {
+    "45 only": {
+      "rows": [
+        {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 12899,
+          "finish_reason": "stop",
+          "wall_s": 217.2012682170025,
+          "first_text_s": 2.721633924986236,
+          "duplicate8_tail": 0.0,
+          "wait_count": 23,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 65855,
+          "finish_reason": "stop",
+          "wall_s": 920.124122779991,
+          "first_text_s": 0.9250677070231177,
+          "duplicate8_tail": 0.0,
+          "wait_count": 79,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 492,
+          "finish_reason": "stop",
+          "wall_s": 4.074018045968842,
+          "first_text_s": 0.6119349239743315,
+          "duplicate8_tail": 0.0040322580645161255,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 741,
+          "finish_reason": "stop",
+          "wall_s": 5.4148022449808195,
+          "first_text_s": 0.35494944598758593,
+          "duplicate8_tail": 0.02145922746781115,
+          "wait_count": 2,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        }
+      ],
+      "completion_tokens": 79987,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 4
+      },
+      "natural_completions": 4
+    },
+    "45+46": {
+      "rows": [
+        {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 23380,
+          "finish_reason": "stop",
+          "wall_s": 233.9190636560088,
+          "first_text_s": 0.5087232799851336,
+          "duplicate8_tail": 0.003960396039603964,
+          "wait_count": 34,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 35760,
+          "finish_reason": "stop",
+          "wall_s": 394.47940888500307,
+          "first_text_s": 0.7633172310306691,
+          "duplicate8_tail": 0.0,
+          "wait_count": 51,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 581,
+          "finish_reason": "stop",
+          "wall_s": 4.401250710012391,
+          "first_text_s": 0.6469953070045449,
+          "duplicate8_tail": 0.014388489208633115,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 753,
+          "finish_reason": "stop",
+          "wall_s": 5.500288598006591,
+          "first_text_s": 0.42999930103542283,
+          "duplicate8_tail": 0.006651884700665134,
+          "wait_count": 2,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        }
+      ],
+      "completion_tokens": 60474,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 4
+      },
+      "natural_completions": 4
+    },
+    "44+45": {
+      "rows": [
+        {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "2f9501ac1b31520f4a0556c11026fa0e3b3dd1fa23d2169abd4443753834d3f4",
+            "canonical_json_bytes": 6
+          },
+          "completion_tokens": 19756,
+          "finish_reason": "stop",
+          "wall_s": 193.22341009095544,
+          "first_text_s": 0.5053475209861062,
+          "duplicate8_tail": 0.0,
+          "wait_count": 31,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "d5339f7670fc1237f5058f90b377d70c32cdc6985119506d344deefaa172c673",
+            "canonical_json_bytes": 74
+          },
+          "completion_tokens": 27789,
+          "finish_reason": "stop",
+          "wall_s": 296.2543839360005,
+          "first_text_s": 0.7495858379988931,
+          "duplicate8_tail": 0.0,
+          "wait_count": 22,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 657,
+          "finish_reason": "stop",
+          "wall_s": 4.878557696007192,
+          "first_text_s": 0.6403980039758608,
+          "duplicate8_tail": 0.01851851851851849,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 639,
+          "finish_reason": "stop",
+          "wall_s": 4.603189374960493,
+          "first_text_s": 0.43191449000732973,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        }
+      ],
+      "completion_tokens": 48841,
+      "completion_tokens_are_lower_bound": false,
+      "counts": {
+        "correct": 4
+      },
+      "natural_completions": 4
+    },
+    "44+45+46": {
+      "rows": [
+        {
+          "case": "01",
+          "id": "hle:673722c82bfc8ab579ed111f",
+          "subject": "Economics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "status": "correct",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+            "canonical_json_bytes": 3
+          },
+          "completion_tokens": 18390,
+          "finish_reason": "stop",
+          "wall_s": 179.9476714800112,
+          "first_text_s": 0.5008605250041,
+          "duplicate8_tail": 0.0,
+          "wait_count": 31,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "05",
+          "id": "hle:6739e06f5a81384176dd28cd",
+          "subject": "Mathematics",
+          "seed": 20261118,
+          "gold_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+            "canonical_json_bytes": 3
+          },
+          "predicted_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "canonical_json_bytes": 4
+          },
+          "status": "interrupted",
+          "raw_answer_withheld": {
+            "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+            "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "canonical_json_bytes": 4
+          },
+          "completion_tokens": 70721,
+          "finish_reason": null,
+          "wall_s": 914.1337562499684,
+          "first_text_s": 0.7390297320089303,
+          "duplicate8_tail": 0.0,
+          "wait_count": 90,
+          "natural_completion": false,
+          "forced_wrap_marker": false,
+          "token_count_is_lower_bound": true,
+          "token_count_source": "Live engine counter immediately before client cancellation; final API usage unavailable."
+        },
+        {
+          "case": "07",
+          "id": "gsm8k_test:936",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "250",
+          "predicted": "250",
+          "status": "correct",
+          "raw_answer": "250",
+          "completion_tokens": 526,
+          "finish_reason": "stop",
+          "wall_s": 4.441811071999837,
+          "first_text_s": 0.9178498369874433,
+          "duplicate8_tail": 0.03688524590163933,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        },
+        {
+          "case": "08",
+          "id": "gsm8k_test:236",
+          "subject": "Arithmetic",
+          "seed": 20261118,
+          "gold": "31",
+          "predicted": "31",
+          "status": "correct",
+          "raw_answer": "31",
+          "completion_tokens": 570,
+          "finish_reason": "stop",
+          "wall_s": 4.301101449003909,
+          "first_text_s": 0.4815213620313443,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false
+        }
+      ],
+      "completion_tokens": 90207,
+      "completion_tokens_are_lower_bound": true,
+      "counts": {
+        "correct": 3,
+        "interrupted": 1
+      },
+      "natural_completions": 3
+    }
+  },
+  "common_loop_variants": {
+    "45 only": {
+      "rows": [
+        {
+          "case": "L01",
+          "id": "tool_pytest",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": ".venv/bin/python -m pytest",
+          "predicted": "cd /app && ls && .venv/bin/python -m pytest -q",
+          "status": "correct",
+          "raw_answer": "cd /app && ls && .venv/bin/python -m pytest -q",
+          "completion_tokens": 82,
+          "finish_reason": "stop",
+          "wall_s": 1.5891245959792286,
+          "first_text_s": 0.7785941199981607,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cd /app && ls && .venv/bin/python -m pytest -q"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L02",
+          "id": "tool_file",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "/app/src/main.py",
+          "predicted": "cat /app/src/main.py",
+          "status": "correct",
+          "raw_answer": "cat /app/src/main.py",
+          "completion_tokens": 56,
+          "finish_reason": "stop",
+          "wall_s": 0.9340019809897058,
+          "first_text_s": 0.5862660099519417,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cat /app/src/main.py"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L03",
+          "id": "tool_npm",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "npm run test:unit",
+          "predicted": "npm run test:unit",
+          "status": "correct",
+          "raw_answer": "npm run test:unit",
+          "completion_tokens": 59,
+          "finish_reason": "stop",
+          "wall_s": 1.0209885620279238,
+          "first_text_s": 0.5935614079935476,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "npm run test:unit"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L04",
+          "id": "tool_git",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "git -C /app/project diff",
+          "predicted": "git -C /app/project diff",
+          "status": "correct",
+          "raw_answer": "git -C /app/project diff",
+          "completion_tokens": 50,
+          "finish_reason": "stop",
+          "wall_s": 0.8933540980215184,
+          "first_text_s": 0.5975393559783697,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "git -C /app/project diff"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L05",
+          "id": "primed_gsm8k_train:2079",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 635,
+          "finish_reason": "stop",
+          "wall_s": 5.102827285008971,
+          "first_text_s": 0.5648774009896442,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L06",
+          "id": "primed_gsm8k_train:2451",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 399,
+          "finish_reason": "stop",
+          "wall_s": 3.3435615520575084,
+          "first_text_s": 0.5536532110418193,
+          "duplicate8_tail": 0.0074349442379182396,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0074349442379182396
+        },
+        {
+          "case": "C05",
+          "id": "primed_gsm8k_train:2079:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 375,
+          "finish_reason": "stop",
+          "wall_s": 2.610465029021725,
+          "first_text_s": 0.3389533990412019,
+          "duplicate8_tail": 0.008474576271186418,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.008474576271186418
+        },
+        {
+          "case": "C06",
+          "id": "primed_gsm8k_train:2451:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 361,
+          "finish_reason": "stop",
+          "wall_s": 2.592351878003683,
+          "first_text_s": 0.3453070950345136,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        }
+      ],
+      "completion_tokens": 2017,
+      "counts": {
+        "correct": 8
+      },
+      "natural_completions": 8
+    },
+    "45+46": {
+      "rows": [
+        {
+          "case": "L01",
+          "id": "tool_pytest",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": ".venv/bin/python -m pytest",
+          "predicted": "ls /app",
+          "status": "wrong",
+          "raw_answer": "ls /app",
+          "completion_tokens": 68,
+          "finish_reason": "stop",
+          "wall_s": 1.5440675580175593,
+          "first_text_s": 0.9990677449968643,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "ls /app"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L02",
+          "id": "tool_file",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "/app/src/main.py",
+          "predicted": "cat /app/src/main.py",
+          "status": "correct",
+          "raw_answer": "cat /app/src/main.py",
+          "completion_tokens": 50,
+          "finish_reason": "stop",
+          "wall_s": 0.9623798230313696,
+          "first_text_s": 0.6219192240387201,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cat /app/src/main.py"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L03",
+          "id": "tool_npm",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "npm run test:unit",
+          "predicted": "cat package.json",
+          "status": "wrong",
+          "raw_answer": "cat package.json",
+          "completion_tokens": 160,
+          "finish_reason": "stop",
+          "wall_s": 1.912140897999052,
+          "first_text_s": 0.6290286160074174,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cat package.json"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L04",
+          "id": "tool_git",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "git -C /app/project diff",
+          "predicted": "git -C /app/project diff",
+          "status": "correct",
+          "raw_answer": "git -C /app/project diff",
+          "completion_tokens": 66,
+          "finish_reason": "stop",
+          "wall_s": 1.1327135089668445,
+          "first_text_s": 0.6360775929642841,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "git -C /app/project diff"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L05",
+          "id": "primed_gsm8k_train:2079",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 376,
+          "finish_reason": "stop",
+          "wall_s": 3.2418506660033017,
+          "first_text_s": 0.6389673730009235,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 1,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L06",
+          "id": "primed_gsm8k_train:2451",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 250,
+          "finish_reason": "stop",
+          "wall_s": 2.3966953609487973,
+          "first_text_s": 0.6273362769861706,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "C05",
+          "id": "primed_gsm8k_train:2079:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 350,
+          "finish_reason": "stop",
+          "wall_s": 2.5199628549744375,
+          "first_text_s": 0.4089282469940372,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "C06",
+          "id": "primed_gsm8k_train:2451:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 315,
+          "finish_reason": "stop",
+          "wall_s": 2.3754733810201287,
+          "first_text_s": 0.4106767210178077,
+          "duplicate8_tail": 0.02010050251256279,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.02010050251256279
+        }
+      ],
+      "completion_tokens": 1635,
+      "counts": {
+        "wrong": 2,
+        "correct": 6
+      },
+      "natural_completions": 8
+    },
+    "44+45": {
+      "rows": [
+        {
+          "case": "L01",
+          "id": "tool_pytest",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": ".venv/bin/python -m pytest",
+          "predicted": ".venv/bin/python -m pytest -q",
+          "status": "correct",
+          "raw_answer": ".venv/bin/python -m pytest -q",
+          "completion_tokens": 61,
+          "finish_reason": "stop",
+          "wall_s": 1.3651549220085144,
+          "first_text_s": 0.9077060029958375,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            ".venv/bin/python -m pytest -q"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L02",
+          "id": "tool_file",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "/app/src/main.py",
+          "predicted": "cat /app/src/main.py",
+          "status": "correct",
+          "raw_answer": "cat /app/src/main.py",
+          "completion_tokens": 50,
+          "finish_reason": "stop",
+          "wall_s": 0.9363694959902205,
+          "first_text_s": 0.6218593990197405,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cat /app/src/main.py"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L03",
+          "id": "tool_npm",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "npm run test:unit",
+          "predicted": "npm run test:unit",
+          "status": "correct",
+          "raw_answer": "npm run test:unit",
+          "completion_tokens": 59,
+          "finish_reason": "stop",
+          "wall_s": 1.0327333000022918,
+          "first_text_s": 0.6192853900138289,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "npm run test:unit"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L04",
+          "id": "tool_git",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "git -C /app/project diff",
+          "predicted": "git -C /app/project diff",
+          "status": "correct",
+          "raw_answer": "git -C /app/project diff",
+          "completion_tokens": 54,
+          "finish_reason": "stop",
+          "wall_s": 0.9607099360437132,
+          "first_text_s": 0.6300675390521064,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "git -C /app/project diff"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L05",
+          "id": "primed_gsm8k_train:2079",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 412,
+          "finish_reason": "stop",
+          "wall_s": 3.6249674989958294,
+          "first_text_s": 0.6391029719961807,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L06",
+          "id": "primed_gsm8k_train:2451",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 330,
+          "finish_reason": "stop",
+          "wall_s": 2.865433975995984,
+          "first_text_s": 0.6206507619936019,
+          "duplicate8_tail": 0.005154639175257714,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.005154639175257714
+        },
+        {
+          "case": "C05",
+          "id": "primed_gsm8k_train:2079:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 464,
+          "finish_reason": "stop",
+          "wall_s": 3.041130870988127,
+          "first_text_s": 0.40044637699611485,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "C06",
+          "id": "primed_gsm8k_train:2451:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 366,
+          "finish_reason": "stop",
+          "wall_s": 2.601888869947288,
+          "first_text_s": 0.4079708489589393,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        }
+      ],
+      "completion_tokens": 1796,
+      "counts": {
+        "correct": 8
+      },
+      "natural_completions": 8
+    },
+    "44+45+46": {
+      "rows": [
+        {
+          "case": "L01",
+          "id": "tool_pytest",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": ".venv/bin/python -m pytest",
+          "predicted": ".venv/bin/python -m pytest -q",
+          "status": "correct",
+          "raw_answer": ".venv/bin/python -m pytest -q",
+          "completion_tokens": 70,
+          "finish_reason": "stop",
+          "wall_s": 1.4405187369557098,
+          "first_text_s": 0.9409731409978122,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            ".venv/bin/python -m pytest -q"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L02",
+          "id": "tool_file",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "/app/src/main.py",
+          "predicted": "cat /app/src/main.py",
+          "status": "correct",
+          "raw_answer": "cat /app/src/main.py",
+          "completion_tokens": 62,
+          "finish_reason": "stop",
+          "wall_s": 1.070975904003717,
+          "first_text_s": 0.6219258679775521,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cat /app/src/main.py"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L03",
+          "id": "tool_npm",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "npm run test:unit",
+          "predicted": "npm run test:unit",
+          "status": "correct",
+          "raw_answer": "npm run test:unit",
+          "completion_tokens": 49,
+          "finish_reason": "stop",
+          "wall_s": 0.9778336580493487,
+          "first_text_s": 0.6237563730101101,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "npm run test:unit"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": true,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L04",
+          "id": "tool_git",
+          "subject": "Tool-loop recovery",
+          "seed": 20261118,
+          "gold": "git -C /app/project diff",
+          "predicted": "cd /app/project && git status && git diff --stat",
+          "status": "wrong",
+          "raw_answer": "cd /app/project && git status && git diff --stat",
+          "completion_tokens": 51,
+          "finish_reason": "stop",
+          "wall_s": 0.989818945992738,
+          "first_text_s": 0.6360168389510363,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "tool_commands": [
+            "cd /app/project && git status && git diff --stat"
+          ],
+          "repeated_failed_action": false,
+          "repeated_failed_operation": false,
+          "direct_corrective_action": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L05",
+          "id": "primed_gsm8k_train:2079",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 375,
+          "finish_reason": "stop",
+          "wall_s": 3.625038004014641,
+          "first_text_s": 0.6391259399824776,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "L06",
+          "id": "primed_gsm8k_train:2451",
+          "subject": "Repeated-passage recovery",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 264,
+          "finish_reason": "stop",
+          "wall_s": 2.6193267420167103,
+          "first_text_s": 0.6252643819898367,
+          "duplicate8_tail": 0.0,
+          "wait_count": 1,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        },
+        {
+          "case": "C05",
+          "id": "primed_gsm8k_train:2079:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "22",
+          "predicted": "22",
+          "status": "correct",
+          "raw_answer": "22",
+          "completion_tokens": 248,
+          "finish_reason": "stop",
+          "wall_s": 1.9458962649805471,
+          "first_text_s": 0.40610540099442005,
+          "duplicate8_tail": 0.04054054054054057,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.04054054054054057
+        },
+        {
+          "case": "C06",
+          "id": "primed_gsm8k_train:2451:clean",
+          "subject": "Matched clean arithmetic",
+          "seed": 20261118,
+          "gold": "7",
+          "predicted": "7",
+          "status": "correct",
+          "raw_answer": "7",
+          "completion_tokens": 361,
+          "finish_reason": "stop",
+          "wall_s": 2.558008188032545,
+          "first_text_s": 0.408279849041719,
+          "duplicate8_tail": 0.0,
+          "wait_count": 0,
+          "natural_completion": true,
+          "forced_wrap_marker": false,
+          "repeated_seed_line_count": 0,
+          "duplicate8_full": 0.0
+        }
+      ],
+      "completion_tokens": 1480,
+      "counts": {
+        "correct": 7,
+        "wrong": 1
+      },
+      "natural_completions": 8
+    }
+  },
+  "health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "qwen3.8-27b-hauhau-q4",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  },
+  "interruptions": [
+    {
+      "at": "2026-11-18T22:34:07.696795+00:00",
+      "case": "05",
+      "reason": "User requested immediate cancellation: out of acceptable bounds; continue other tests.",
+      "live_at_cancellation": {
+        "state": "generating",
+        "queued": 0,
+        "phase": "thinking",
+        "prompt_tokens": 322,
+        "prompt_read": null,
+        "prompt_total": null,
+        "generated": 70721,
+        "max_tokens": 75000,
+        "elapsed_s": 914.1,
+        "tok_s": 73.8,
+        "tok_s_mean": 77.4,
+        "prefill_tok_s_mean": 135.8,
+        "tok_s_window_s": 2.0,
+        "parallel": 4,
+        "running": 1,
+        "slots": [
+          {
+            "slot": 0,
+            "state": "decoding",
+            "prompt_tokens": 24947,
+            "prompt_read": null,
+            "generated": 70721,
+            "elapsed_s": 618.5,
+            "tok_s": 114.3
+          },
+          {
+            "slot": 1,
+            "state": "idle",
+            "held_tokens": 0
+          },
+          {
+            "slot": 2,
+            "state": "idle",
+            "held_tokens": 84938
+          },
+          {
+            "slot": 3,
+            "state": "idle",
+            "held_tokens": 0
+          }
+        ],
+        "outside_slots": 0,
+        "waiting": 0,
+        "admitting": 0
+      },
+      "cancelled_client_pids": [
+        893770,
+        894092
+      ],
+      "service_restarted": false
+    }
+  ],
+  "limitations": [
+    "Small exploratory comparison, not a general benchmark.",
+    "Current layer44+45 is the immediate baseline; all requests in this pair use 75000 tokens and the same production sampler.",
+    "Prior variants were stopped by user; compare only common completed cases.",
+    "Shared traffic and speculative decoding permit same-seed variation.",
+    "45-only historical requests used max_tokens=-1 and naturally ended below75000; other arms used75000. This four-case table is not the full earlier panel.",
+    "User-interrupted requests have no final answer or final API usage; their token counts are observed lower bounds, never successful shortening."
+  ]
+}

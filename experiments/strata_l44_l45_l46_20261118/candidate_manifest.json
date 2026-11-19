@@ -1,0 +1,45 @@
+{
+  "candidate": "l44-d45-alpha1-plus-l45-svd1-plus-l46-svd1",
+  "source": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l44-l45/Qwen3.8-Flash-Next-Gyro-M-Calmer-L44-L45-TQ2_0.gguf",
+  "target": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l44-l45-l46/Qwen3.8-Flash-Next-Gyro-M-Calmer-L44-L45-L46-TQ2_0.gguf",
+  "parent_manifest": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l44_l45_samedirection_20261118/candidate_manifest.json",
+  "added_tensor": "blk.46.ffn_down_shexp.weight",
+  "offset": 90729182784,
+  "tensor_bytes": 1740800,
+  "original_tensor_sha256": "4a0375c3811d552220aa2b55c3c5c5f741c96738fe0259be646404918d034749",
+  "edited_tensor_sha256": "37ba76de3ed83e7bdfc3a08b4f5b5f216d963ff8d1a61ac4690cf539f523a80b",
+  "layer44_retained_sha256": "2b334b07c863def21e915ae55d2c14e8f888fc8743ef10a85f7b53b2347f30ec",
+  "layer45_retained_sha256": "8974663dc1cda1ebbb63266bc82afc622f63ac3ab38d24a718dcea36539b0c38",
+  "applied_layers": [
+    44,
+    45,
+    46
+  ],
+  "candidate_config": "/home/researcher/strata-122b/fn-iq3s/cfg-g4x-l44l45l46-natural.json",
+  "materialization": "Patch only layer46 in the stopped experimental working file, then rename it. Original layer46 bytes retained for undo.",
+  "rollback": {
+    "tensor": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l44_l45_l46_20261118/layer46_original.q8",
+    "sha256": "4a0375c3811d552220aa2b55c3c5c5f741c96738fe0259be646404918d034749",
+    "offset": 90729182784,
+    "restore_path": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l44-l45/Qwen3.8-Flash-Next-Gyro-M-Calmer-L44-L45-TQ2_0.gguf",
+    "restore_config": "/home/researcher/strata-122b/fn-iq3s/cfg-g4x-l44l45-natural.json"
+  },
+  "status": "preserved_results_working_file_moved",
+  "full_file_reread": false,
+  "test_output_ceiling": 75000,
+  "targeted_integrity_verified": true,
+  "layer44_and_45_retained": true,
+  "comparison": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l44_l45_l46_20261118/comparison.json",
+  "final_health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "qwen3.8-27b-hauhau-q4",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  },
+  "working_file_moved_to": "/home/researcher/models/qwen38-flash-next-gyro-m-calmer-l2-l44-l45/Qwen3.8-Flash-Next-Gyro-M-Calmer-L2-L44-L45-TQ2_0.gguf",
+  "current_working_manifest": "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l2_l44_l45_20261118/candidate_manifest.json"
+}

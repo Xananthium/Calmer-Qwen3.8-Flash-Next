@@ -1,0 +1,107 @@
+{
+  "arm": "baseline",
+  "protocol_sha256": "01f3544fc0ed0326a63c0a03e810f6a29943b3ae9035de468fd60774b1695e1d",
+  "rows": [
+    {
+      "case": "05",
+      "id": "hle:6739e06f5a81384176dd28cd",
+      "subject": "Mathematics",
+      "seed": 20261118,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "status": "correct",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "completion_tokens": 53084,
+      "finish_reason": "stop",
+      "wall_s": 556.640336232027,
+      "first_text_s": 0.6895367419929244,
+      "duplicate8_tail": 0.0,
+      "wait_count": 78,
+      "natural_completion": true,
+      "forced_wrap_marker": false
+    },
+    {
+      "case": "01",
+      "id": "hle:673722c82bfc8ab579ed111f",
+      "subject": "Economics",
+      "seed": 20261118,
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "predicted_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "status": "correct",
+      "raw_answer_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "completion_tokens": 21315,
+      "finish_reason": "stop",
+      "wall_s": 208.2398622109904,
+      "first_text_s": 0.7305457500042394,
+      "duplicate8_tail": 0.001980198019801982,
+      "wait_count": 35,
+      "natural_completion": true,
+      "forced_wrap_marker": false
+    },
+    {
+      "case": "07",
+      "id": "gsm8k_test:936",
+      "subject": "Arithmetic",
+      "seed": 20261118,
+      "gold": "250",
+      "predicted": "250",
+      "status": "correct",
+      "raw_answer": "250",
+      "completion_tokens": 581,
+      "finish_reason": "stop",
+      "wall_s": 4.434298045991454,
+      "first_text_s": 0.5975502540240996,
+      "duplicate8_tail": 0.04861111111111116,
+      "wait_count": 1,
+      "natural_completion": true,
+      "forced_wrap_marker": false
+    },
+    {
+      "case": "08",
+      "id": "gsm8k_test:236",
+      "subject": "Arithmetic",
+      "seed": 20261118,
+      "gold": "31",
+      "predicted": "31",
+      "status": "correct",
+      "raw_answer": "31",
+      "completion_tokens": 555,
+      "finish_reason": "stop",
+      "wall_s": 4.209113420045469,
+      "first_text_s": 0.4338635460007936,
+      "duplicate8_tail": 0.0,
+      "wait_count": 1,
+      "natural_completion": true,
+      "forced_wrap_marker": false
+    }
+  ],
+  "counts": {
+    "correct": 4
+  },
+  "complete": true,
+  "stopped_by_user": false
+}

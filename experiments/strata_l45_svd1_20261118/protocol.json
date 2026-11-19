@@ -1,0 +1,396 @@
+{
+  "created_at": "2026-11-18T19:04:54.817082+00:00",
+  "endpoint": "http://127.0.0.1:8003/v1/chat/completions",
+  "objective": "Paired baseline versus layer-45 shared-expert rank-one deflation in the same production Strata backend",
+  "selection": "Fixed before any current-model results: development indices 0,1,3; reserve indices 4,6,7; development arithmetic indices 4,5; second-seed repeats for economics and mathematics.",
+  "source_files": {
+    "/home/researcher/model-tools/qwen38-weight-edit-20261104/staged_confirmation_api_16k/development7.generate.json": "28c47e4f1297f2bcae3a6cddbb460fd093a684dedf10ca913f6502110de14baa",
+    "/home/researcher/model-tools/qwen38-weight-edit-20261104/staged_confirmation_api_16k/hle_reserve8.generate.json": "52c432dba0069e9d9bebce037b7eaaed19ef47093fda8d3556280fb8fc7ab79a"
+  },
+  "cases": [
+    {
+      "case": "01",
+      "id": "hle:673722c82bfc8ab579ed111f",
+      "kind": "hle_mcq",
+      "subject": "Economics",
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "choices_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "62106b9c5cb2462dccbbbb12fd717208d0e28639a9ed13b25409ca783ea02621",
+        "canonical_json_bytes": 21
+      },
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "05793f233d755275a2b3cfe3dffa8a85cedc7c2307151f969942f5f33392c13d",
+          "canonical_json_bytes": 494
+        },
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 8192,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "request_sha256": "93094ee5b11c86e30a1f09331af3ece496e1ad5e7a2814a242ec0e6462684064"
+    },
+    {
+      "case": "02",
+      "id": "hle:66ef3de8b8a1ba6e0ba23498",
+      "kind": "hle_mcq",
+      "subject": "Biology",
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "c2e8c0cc2e73b9bd1ba9ef1979e73169b471e25b0e9909efe98fde462c0bf55f",
+        "canonical_json_bytes": 3
+      },
+      "choices_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "62106b9c5cb2462dccbbbb12fd717208d0e28639a9ed13b25409ca783ea02621",
+        "canonical_json_bytes": 21
+      },
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "7c45806961dbfc88a0b917cd1eac4260cb7f9b0759a6b52254b6bcb59c0f0a04",
+          "canonical_json_bytes": 2190
+        },
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 8192,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "request_sha256": "26cf77bd16a661325f2d209ddb47ceca24f78c9e23d540611c12bc44ef3d32c1"
+    },
+    {
+      "case": "03",
+      "id": "hle:67162253433b031688b08f47",
+      "kind": "hle_mcq",
+      "subject": "Trivia",
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "aa61870c76b8f6f57889888fbf24c006487753f3139494f7790353cf5a998492",
+        "canonical_json_bytes": 3
+      },
+      "choices_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "9e4fd993e9c7e7876d0f446b216f0dada0369767f294571cf45dc4e8b9100f18",
+        "canonical_json_bytes": 65
+      },
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "30b87802d7bca5ee0846d04c9d14746006ee5d9a82443dd94eae0eba29a96eff",
+          "canonical_json_bytes": 756
+        },
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 8192,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "request_sha256": "2a3efe99d1b356153ae6a29e0f5eea54b57f4012035e9faae8361513ace85f34"
+    },
+    {
+      "case": "04",
+      "id": "hle:672e1ba8e62456d8519fb95b",
+      "kind": "hle_mcq",
+      "subject": "Computer Science",
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "choices_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "62106b9c5cb2462dccbbbb12fd717208d0e28639a9ed13b25409ca783ea02621",
+        "canonical_json_bytes": 21
+      },
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "a500dae8d52e097cf8e7762522f9ec2b9508ecfc2bcf8c4f0866fd67b1a9006d",
+          "canonical_json_bytes": 4152
+        },
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 8192,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "request_sha256": "3bfc7825399638fb7b086d5350cfcc270677e9a59388d23d745f3f7263c67fe7"
+    },
+    {
+      "case": "05",
+      "id": "hle:6739e06f5a81384176dd28cd",
+      "kind": "hle_mcq",
+      "subject": "Mathematics",
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "choices_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "62106b9c5cb2462dccbbbb12fd717208d0e28639a9ed13b25409ca783ea02621",
+        "canonical_json_bytes": 21
+      },
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "817faeaf2c1ec3f1400374d41f0256863fa704c612487c0969d76897ca83d2b8",
+          "canonical_json_bytes": 955
+        },
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 8192,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "request_sha256": "03fd233baf1a4cca6d211d5b706804201c394635c9d38faa772179c1c6043c47"
+    },
+    {
+      "case": "06",
+      "id": "hle:672de1afed6de72b75b8c7e6",
+      "kind": "hle_mcq",
+      "subject": "Physics",
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "choices_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "4a0bcc85ad6db29b0c726a5833a1f4f51c0af49c2f6bec562b89ee53fa29c21c",
+        "canonical_json_bytes": 41
+      },
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "e96660ed4c5953a954f34529330f30c3a195669d57ec42a805f3d4628c72b946",
+          "canonical_json_bytes": 839
+        },
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 8192,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "request_sha256": "5d97b88273c6adfa6d7bb9b99e7709544c266d28d8d77fcf947e6c687923949b"
+    },
+    {
+      "case": "07",
+      "id": "gsm8k_test:936",
+      "kind": "gsm8k",
+      "subject": "Arithmetic",
+      "gold": "250",
+      "choices": null,
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages": [
+          {
+            "role": "user",
+            "content": "A hotel in the Philippines charges 1000 pesos for a 12-hour stay or 1600 pesos for a 24-hour stay. After 12 hours, visitors have the option to add 70 pesos for every additional hour. Cameron arrives at 5 pm at the hotel and wants to leave at 10 am the next morning. He decides to go with the option of adding on 70 pesos for every hour after the 12-hour mark instead of paying for 24 hours. How much money would Cameron save?\nPlease reason step by step, and put your final answer within \\boxed{}."
+          }
+        ],
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 8192,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "request_sha256": "91a1031b47df1a13aa3d79206a06e6978e6c61b7790d40d6d203809309986ab4"
+    },
+    {
+      "case": "08",
+      "id": "gsm8k_test:236",
+      "kind": "gsm8k",
+      "subject": "Arithmetic",
+      "gold": "31",
+      "choices": null,
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Ram uses a lot of pens. He discovered that he can save money by mixing the ink from five empty pens to make one full pen. If he buys 25 pens and then uses them to make new pens when the ink runs low, how many total pens does he get to have?\nPlease reason step by step, and put your final answer within \\boxed{}."
+          }
+        ],
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261118,
+        "reasoning_effort": "medium",
+        "max_tokens": 8192,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "request_sha256": "c1ee1b11210aad28617fbd95ebe05f0383c1a772c1c06705bb3b311939a2ec30"
+    },
+    {
+      "case": "09",
+      "id": "hle:673722c82bfc8ab579ed111f",
+      "kind": "hle_mcq",
+      "subject": "Economics",
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "955cca1ceba45052d85984d3a2565f4ce25b7488602c60a165598bf80b26e472",
+        "canonical_json_bytes": 3
+      },
+      "choices_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "62106b9c5cb2462dccbbbb12fd717208d0e28639a9ed13b25409ca783ea02621",
+        "canonical_json_bytes": 21
+      },
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "05793f233d755275a2b3cfe3dffa8a85cedc7c2307151f969942f5f33392c13d",
+          "canonical_json_bytes": 494
+        },
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261119,
+        "reasoning_effort": "medium",
+        "max_tokens": 8192,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "request_sha256": "fd881003a7800bbd80180e626bdd32505dec5e65e89e78f0fcf6a9c0fe20587d"
+    },
+    {
+      "case": "10",
+      "id": "hle:6739e06f5a81384176dd28cd",
+      "kind": "hle_mcq",
+      "subject": "Mathematics",
+      "gold_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+        "canonical_json_bytes": 3
+      },
+      "choices_withheld": {
+        "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+        "sha256": "62106b9c5cb2462dccbbbb12fd717208d0e28639a9ed13b25409ca783ea02621",
+        "canonical_json_bytes": 21
+      },
+      "request": {
+        "model": "qwen3.8-27b-hauhau-q4",
+        "messages_withheld": {
+          "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+          "sha256": "817faeaf2c1ec3f1400374d41f0256863fa704c612487c0969d76897ca83d2b8",
+          "canonical_json_bytes": 955
+        },
+        "temperature": 1.3,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "seed": 20261119,
+        "reasoning_effort": "medium",
+        "max_tokens": 8192,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "request_sha256": "5e1b731876b23ab4ca08928425676175825c615143a41788a1c582d4c2193100"
+    }
+  ],
+  "concurrent_evaluation_requests": 1,
+  "metrics": [
+    "official-key correctness",
+    "cutoffs",
+    "unparsed answers",
+    "completion tokens",
+    "duplicate tail 8-grams",
+    "wait count (descriptive only)",
+    "wall time and server timings"
+  ],
+  "limitations": [
+    "Small exploratory diagnostic, not a full HLE benchmark.",
+    "Shared live production load and cache can affect timing and stochastic replay.",
+    "Repeated seeds assess only limited sampling variation.",
+    "Publicly emitted reasoning and final answers are saved; reference keys are never sent to the model."
+  ],
+  "runtime": "Current temperature 1.3, top_p .95, top_k 20, medium reasoning router, MTP, control vector and all engine settings preserved.",
+  "continuation_policy": "No hidden retries or continuation. Length stops remain cutoffs; any later extension is a separately documented matched run."
+}

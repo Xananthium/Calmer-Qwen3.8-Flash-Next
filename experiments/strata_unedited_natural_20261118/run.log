@@ -1,0 +1,6 @@
+{"stage": "experiment_unedited.py", "args": ["loops"], "state": "starting"}
+{"stage": "experiment_unedited.py", "args": ["loops"], "state": "complete"}
+{"stage": "experiment_unedited.py", "args": ["baseline"], "state": "starting"}
+{"stage": "experiment_unedited.py", "args": ["baseline"], "state": "complete"}
+{"stage": "compare_unedited.py", "args": [], "state": "starting"}
+{"stage": "compare_unedited.py", "args": [], "state": "complete"}

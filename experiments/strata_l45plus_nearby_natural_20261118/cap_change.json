@@ -1,0 +1,12 @@
+{
+  "time": "2026-11-18T21:23:42.224397+00:00",
+  "user_requested_ceiling": 75000,
+  "completed_cases_preserved": [
+    "01",
+    "05",
+    "07",
+    "08",
+    "09"
+  ],
+  "reason": "Stop the client between experiment phases so remaining requests use the newly requested ceiling. In-flight raw streams are retained as interrupted setup attempts, not scored as successes."
+}

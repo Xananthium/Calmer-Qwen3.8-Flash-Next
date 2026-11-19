@@ -1,0 +1,9 @@
+{
+  "huggingface_url": "https://huggingface.co/Xananthium/Calmer-Qwen3.8-Flash-Next",
+  "huggingface_commit": "ce06ca7a68b87a4d70c9dc66eb05aff5fc286ca0",
+  "model_sha256": "60f5dd9fb65eb9997de6b3879a23482615d8a51689f091de0f4b8e9a749dfe16",
+  "model_bytes": 91965774272,
+  "github_url": "https://github.com/Xananthium/Calmer-Qwen3.8-Flash-Next",
+  "created_at": "2026-11-19T00:03:13.760401+00:00",
+  "inference_tests_run_during_publication": false
+}

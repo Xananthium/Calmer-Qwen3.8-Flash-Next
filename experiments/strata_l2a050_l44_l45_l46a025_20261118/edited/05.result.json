@@ -1,0 +1,93 @@
+{
+  "case": "05",
+  "id": "hle:6739e06f5a81384176dd28cd",
+  "request_sha256": "8dd6e2a298f36be23fd4ce78655ce85acbd8965bc977e285b9a914e4d4d44ea1",
+  "content_withheld": {
+    "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+    "sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "canonical_json_bytes": 2
+  },
+  "reasoning_content_withheld": {
+    "withheld": "HLE content; see evidence/RECONSTRUCTION.md",
+    "sha256": "ece5cd7a6928ec75cf0ce55eae14005a4353a063092ae50a537e215cadd8dfee",
+    "canonical_json_bytes": 257260
+  },
+  "finish_reason": null,
+  "usage": {},
+  "timings": {},
+  "done_received": false,
+  "error": "Administratively cancelled at user request.",
+  "interruption": {
+    "at": "2026-11-18T23:39:25.820440+00:00",
+    "case": "05",
+    "reason": "User stopped experiments for tonight and requested restoring44+45; further experiments deferred until next week.",
+    "live_at_cancellation": {
+      "state": "generating",
+      "queued": 0,
+      "phase": "thinking",
+      "prompt_tokens": 322,
+      "prompt_read": null,
+      "prompt_total": null,
+      "generated": 71551,
+      "max_tokens": 75000,
+      "elapsed_s": 778.4,
+      "tok_s": 89.5,
+      "tok_s_mean": 92.0,
+      "prefill_tok_s_mean": 491.2,
+      "tok_s_window_s": 2.0,
+      "parallel": 4,
+      "running": 1,
+      "slots": [
+        {
+          "slot": 0,
+          "state": "idle",
+          "held_tokens": 0
+        },
+        {
+          "slot": 1,
+          "state": "idle",
+          "held_tokens": 0
+        },
+        {
+          "slot": 2,
+          "state": "idle",
+          "held_tokens": 0
+        },
+        {
+          "slot": 3,
+          "state": "idle",
+          "held_tokens": 0
+        }
+      ],
+      "outside_slots": 1,
+      "waiting": 0,
+      "admitting": 0
+    },
+    "cancelled_client_processes": [
+      [
+        941925,
+        [
+          "python3",
+          "-u",
+          "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l2a050_l44_l45_l46a025_20261118/run_partial_2_46.py"
+        ]
+      ],
+      [
+        942196,
+        [
+          "/usr/bin/python3",
+          "-u",
+          "/home/researcher/model-tools/qwen38-weight-edit-20261104/strata_l2a050_l44_l45_l46a025_20261118/experiment_partial_2_46.py",
+          "edited"
+        ]
+      ]
+    ],
+    "service_restarted": false
+  },
+  "ended_at": "2026-11-18T23:39:25.820440+00:00",
+  "reconstructed_from_raw_events": true,
+  "started_at": "2026-11-18T23:26:27.431200+00:00",
+  "elapsed_s": 778.3792859920068,
+  "response_id": "chatcmpl-237c6bd1cca3484db4c2f4e4",
+  "first_text_s": 0.6839056159951724
+}
